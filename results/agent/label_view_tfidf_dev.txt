@@ -1,0 +1,169 @@
+===== q01 (truc_tiep) | status: answered =====
+CÂU HỎI: Ai lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938?
+ĐÁP ÁN ĐÚNG: Ngô Quyền
+GOLD: tran_bach_dang_938 trang 1 | người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền
+MODEL TRẢ LỜI: Ngô Quyền là người lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938 [tran_bach_dang_938-p1-b1].
+CITATIONS: ['tran_bach_dang_938-p1-b1']
+  [tran_bach_dang_938-p1-b1] tran_bach_dang_938 trang 1 | Trận sông Bạch Đằng (chữ Hán: 白藤江之戰, Hán-Việt: Bạch Đằng giang chi Chiến) năm 938 là một trận đánh giữa quân dân Tĩnh Hải quân (vào thời đó, Việt Nam chưa có quốc hiệu chính thức) do Ngô Quyền lãnh đạ
+SEARCH: Ngô Quyền lãnh đạo quân dân đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938
+SUBMIT: Ngô Quyền là người lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938 [tran_bach_dang_938-p1-b1]. | cites=['tran_bach_dang_938-p1-b1']
+
+===== q02 (truc_tiep) | status: answered =====
+CÂU HỎI: Vua nào ban Chiếu dời đô năm 1010 và dời kinh đô từ Hoa Lư về đâu?
+ĐÁP ÁN ĐÚNG: Lý Thái Tổ (Lý Công Uẩn), dời về Đại La (Hà Nội)
+GOLD: nha_ly trang 3 | tháng 7 âm lịch năm 1010, Lý Thái Tổ tiến hành dời đô từ Hoa Lư (Ninh Bình) về Đại La (Hà Nội)
+MODEL TRẢ LỜI: Vua Lý Thái Tổ (Lý Công Uẩn) ban Chiếu dời đô năm 1010, dời kinh đô từ Hoa Lư về thành Đại La (sau này đổi tên thành Thăng Long) [nha_ly-p4-b1].
+CITATIONS: ['nha_ly-p4-b1']
+  [nha_ly-p4-b1] nha_ly trang 4 | Việc tìm đất, nghị bàn đến việc chuẩn bị để dời đô diễn ra tương đối khẩn trương. Từ Hoa Lư về thành Đại La có thể đi theo đường bộ hoặc theo đường thủy. Sử cũ không ghi chép chi tiết nhà Lý dời đô bằ
+SEARCH: ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về
+SUBMIT: Vua Lý Thái Tổ (Lý Công Uẩn) ban Chiếu dời đô năm 1010, dời kinh đô từ Hoa Lư về thành Đại La (sau này đổi tên thành Thăng Long) [nha_ly-p4-b1]. | cites=['nha_ly-p4-b1']
+
+===== q03 (truc_tiep) | status: answered =====
+CÂU HỎI: Khi lên ngôi Hoàng đế năm 968, Đinh Bộ Lĩnh đặt quốc hiệu nước ta là gì?
+ĐÁP ÁN ĐÚNG: Đại Cồ Việt
+GOLD: dinh_bo_linh trang 7 | Năm Mậu Thìn 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, tự xưng là Đại Thắng Minh Hoàng đế, đặt quốc hiệu là Đại Cồ Việt
+MODEL TRẢ LỜI: Khi lên ngôi Hoàng đế năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt [dinh_bo_linh-p7-b2].
+CITATIONS: ['dinh_bo_linh-p7-b2']
+  [dinh_bo_linh-p7-b2] dinh_bo_linh trang 7 | Chỉ trong vài năm, Đinh Bộ Lĩnh lần lượt đánh thắng 11 sứ quân khác, được xưng tụng là Vạn Thắng Vương. Chiến tranh kết thúc năm 968. Đinh Bộ Lĩnh lên ngôi hoàng đế. Thắng lợi của Đinh Bộ Lĩnh là thắn
+SEARCH: Đinh Bộ Lĩnh lên ngôi Hoàng đế năm 968 quốc hiệu đặt là
+SUBMIT: Khi lên ngôi Hoàng đế năm 968, Đinh Bộ Lĩnh đặt quốc hiệu là Đại Cồ Việt [dinh_bo_linh-p7-b2]. | cites=['dinh_bo_linh-p7-b2']
+
+===== q04 (truc_tiep) | status: answered =====
+CÂU HỎI: Tờ tiền giấy đầu tiên của Việt Nam do ai phát hành và có tên gọi là gì?
+ĐÁP ÁN ĐÚNG: Hồ Quý Ly phát hành, gọi là Thông bảo hội sao
+GOLD: ho_quy_ly trang 13 | Từ năm 1396, trước khi lên ngôi, Hồ Quý Ly đã cho phát thứ tiền giấy gọi là Thông bảo hội sao
+MODEL TRẢ LỜI: Tờ tiền giấy đầu tiên của Việt Nam được Hồ Quý Ly phát hành và có tên gọi là Thông bảo hội sao [ho_quy_ly-p13-b2].
+CITATIONS: ['ho_quy_ly-p13-b2']
+  [ho_quy_ly-p13-b2] ho_quy_ly trang 13 | Từ năm 1396, trước khi lên ngôi, Hồ Quý Ly đã cho phát thứ tiền giấy gọi là Thông bảo hội sao. In xong, ra lệnh cho dân cả nước đến đổi 1 quan tiền đồng lấy 1 quan 2 tiền giấy. Cấm tiêu riêng, chứa ri
+SEARCH: tờ tiền giấy đầu tiên của Việt Nam phát hành ai tên gọi
+SUBMIT: Tờ tiền giấy đầu tiên của Việt Nam được Hồ Quý Ly phát hành và có tên gọi là Thông bảo hội sao [ho_quy_ly-p13-b2]. | cites=['ho_quy_ly-p13-b2']
+
+===== q05 (truc_tiep) | status: abstain =====
+CÂU HỎI: Văn Miếu ở kinh thành Thăng Long được vua nào cho xây dựng và vào năm nào?
+ĐÁP ÁN ĐÚNG: Lý Thánh Tông, năm 1070
+GOLD: nha_ly trang 20 | Năm 1070, Lý Thánh Tông cho xây dựng nhà Văn Miếu ở kinh thành Thăng Long
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: Văn Miếu Thăng Long vua xây dựng năm
+SEARCH: Văn Miếu Thăng Long xây dựng năm vua nào
+SEARCH: Văn Miếu Thăng Long xây dựng năm vua nào
+
+===== q06 (truc_tiep) | status: abstain =====
+CÂU HỎI: Trước khi khởi nghĩa năm 40, Trưng Trắc và Trưng Nhị làm Hội thề ở đâu?
+ĐÁP ÁN ĐÚNG: Ở bãi đá Tràng Sa, cửa sông Hát (Mê Linh thời đó)
+GOLD: khoi_nghia_hai_ba_trung trang 3 | Trưng Trắc và Trưng Nhị tập hợp các tướng lĩnh cùng nhau làm Hội thề ở bãi đá Tràng Sa, cửa sông Hát
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: Trưng Trắc Trưng Nhị hội thề trước khởi nghĩa năm 40 địa điểm
+SEARCH: Hội thề Trưng Trắc Trưng Nhị trước khởi nghĩa địa điểm
+SEARCH: Trưng Trắc Trưng Nhị hội thề trước khởi nghĩa địa điểm
+
+===== q07 (dieu_kien) | status: answered =====
+CÂU HỎI: Theo truyền thuyết, ai đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc?
+ĐÁP ÁN ĐÚNG: Triệu Đà
+GOLD: an_duong_vuong trang 4 | Triệu Đà đã sử dụng cuộc hôn nhân giữa con trai là Trọng Thủy và công chúa Mỵ Châu để thu thập bí mật quân sự của Âu Lạc
+MODEL TRẢ LỜI: Theo truyền thuyết, Triệu Đà đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc [an_duong_vuong-p4-b2].
+CITATIONS: ['an_duong_vuong-p4-b2']
+  [an_duong_vuong-p4-b2] an_duong_vuong trang 4 | Các sử liệu Việt Nam và Trung Quốc đời sau, cũng như truyền thuyết dân gian, kể rằng Triệu Đà đã sử dụng cuộc hôn nhân giữa con trai là Trọng Thủy và công chúa Mỵ Châu để thu thập bí mật quân sự của Â
+SEARCH: Trọng Thủy Mỵ Châu hôn nhân thu thập bí mật quân sự Âu Lạc truyền thuyết
+SUBMIT: Theo truyền thuyết, Triệu Đà đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc [an_duong_vuong-p4-b2]. | cites=['an_duong_vuong-p4-b2']
+
+===== q08 (dien_dat_lai) | status: answered =====
+CÂU HỎI: Cách truyền ngôi đặc biệt của nhà Trần được mô tả thế nào và vì sao được đánh giá là tích cực?
+ĐÁP ÁN ĐÚNG: Hoàng đế sớm nhường ngôi cho Thái tử rồi lui về làm Thái thượng hoàng, vẫn cùng vua mới điều hành chính sự; giúp tránh tranh giành ngôi như thời Lý
+GOLD: nha_tran trang 1 | các Hoàng đế sẽ sớm nhường ngôi cho Thái tử mà lui về làm Thái thượng hoàng
+MODEL TRẢ LỜI: Nhà Trần áp dụng cách truyền ngôi đặc biệt: các Hoàng đế sẽ sớm nhường ngôi cho Thái tử, người này trở thành Thái thượng hoàng nhưng vẫn cùng vị Hoàng đế mới điều hành chính sự. Cách này được đánh giá là tích cực vì ngôi Hoàng đế sớm có người chủ, tránh tranh giành ngôi vua như thời nhà Lý, đồng thờ
+CITATIONS: ['nha_tran-p1-b1']
+  [nha_tran-p1-b1] nha_tran trang 1 | Nhà Trần (chữ Nôm: 茹陳, chữ Hán: 陳朝, Hán Việt: Trần triều) là một triều đại quân chủ cai trị nước Đại Việt từ năm 1226 đến năm 1400. Đây là triều đại được lưu danh với những chiến công hiển hách trong 
+SEARCH: truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực
+SUBMIT: Nhà Trần áp dụng cách truyền ngôi đặc biệt: các Hoàng đế sẽ sớm nhường ngôi cho Thái tử, người này trở thành Thái thượng hoàng nhưng vẫn cùng vị Hoàng đế mới đi | cites=['nha_tran-p1-b1']
+
+===== q09 (dien_dat_lai) | status: answered =====
+CÂU HỎI: Khẩu hiệu của phong trào Duy Tân mà Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp vận động ở Quảng Nam là gì?
+ĐÁP ÁN ĐÚNG: Khai dân trí, chấn dân khí, hậu dân sinh
+GOLD: phan_chau_trinh trang 5 | Khẩu hiệu của phong trào lúc bấy giờ là: Khai dân trí, chấn dân khí, hậu dân sinh
+MODEL TRẢ LỜI: Khẩu hiệu của phong trào Duy Tân do Phan Châu Trinh, Huỳnh Thúc Kháng và Trần Quý Cáp vận động ở Quảng Nam là: “Khai dân trí, chấn dân khí, hậu dân sinh” [phan_chau_trinh-p5-b1].
+CITATIONS: ['phan_chau_trinh-p5-b1']
+  [phan_chau_trinh-p5-b1] phan_chau_trinh trang 5 | Sau đó, với phương châm "tự lực khai hóa" và tư tưởng dân quyền, Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp đi khắp tỉnh Quảng Nam và các tỉnh lân cận để vận động cuộc duy tân. Khẩu hiệu của 
+SEARCH: khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Trần Quý Cáp Quảng Nam
+SUBMIT: Khẩu hiệu của phong trào Duy Tân do Phan Châu Trinh, Huỳnh Thúc Kháng và Trần Quý Cáp vận động ở Quảng Nam là: “Khai dân trí, chấn dân khí, hậu dân sinh” [phan_ | cites=['phan_chau_trinh-p5-b1']
+
+===== q10 (truc_tiep) | status: answered =====
+CÂU HỎI: Ngày 2 tháng 9 năm 1945 ai đọc bản Tuyên ngôn Độc lập và đọc ở đâu?
+ĐÁP ÁN ĐÚNG: Hồ Chí Minh đọc trên Quảng trường Ba Đình tại Hà Nội
+GOLD: ho_chi_minh trang 14 | Hồ Chí Minh đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945 trên Quảng trường Ba Đình tại Hà Nội
+MODEL TRẢ LỜI: Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập vào ngày 2 / 9 / 1945 tại Quảng trường Ba Đình, Hà Nội [cach_mang_thang_tam-p10-b1].
+CITATIONS: ['cach_mang_thang_tam-p10-b1']
+  [cach_mang_thang_tam-p10-b1] cach_mang_thang_tam trang 10 | Ngày 2 tháng 9 năm 1945, tại quảng trường Ba Đình (Hà Nội). Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập và tuyên bố sự khai sinh của một nước Việt Nam mới: Việt Nam Dân chủ Cộng hòa. Bản tuyên ngô
+SEARCH: 2 tháng 9 1945 ai đọc bản Tuyên ngôn Độc lập đọc ở đâu
+SUBMIT: Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập vào ngày 2 / 9 / 1945 tại Quảng trường Ba Đình, Hà Nội [cach_mang_thang_tam-p10-b1]. | cites=['cach_mang_thang_tam-p10-b1']
+
+===== q11 (filter) | status: answered =====
+CÂU HỎI: Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: kết cục của Sở chỉ huy do tướng Đờ Cát đứng đầu trong chiến dịch Điện Biên Phủ?
+ĐÁP ÁN ĐÚNG: Quân khu trung tâm đầu hàng và tướng Đờ Cát bị bắt làm tù binh
+GOLD: chien_dich_dien_bien_phu trang 55 | Toàn bộ quân địch tại khu trung tâm đã đầu hàng. Đã bắt được tướng Đờ Cát
+MODEL TRẢ LỜI: Sở chỉ huy do tướng Đờ Cát đứng đầu trong chiến dịch Điện Biên Phủ đã bị lực lượng Việt Minh tấn công mạnh, phá hủy và chiếm đóng, đồng thời tướng Đờ Cát không thoát được mà bị bắt [chien_dich_dien_bien_phu-p54-b2].
+CITATIONS: ['chien_dich_dien_bien_phu-p54-b2']
+  [chien_dich_dien_bien_phu-p54-b2] chien_dich_dien_bien_phu trang 54 | Đúng 3 giờ chiều, các đại đoàn được lệnh: "Không cần đợi trời tối, lập tức mở cuộc tổng công kích vào Mường Thanh. Đơn vị phía đông đánh thẳng vào khu vực trung tâm, đơn vị phía tây giáp công sang, cù
+SEARCH: Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục
+SEARCH: Đờ Cát Sở chỉ huy Điện Biên Phủ
+SUBMIT: Sở chỉ huy do tướng Đờ Cát đứng đầu trong chiến dịch Điện Biên Phủ đã bị lực lượng Việt Minh tấn công mạnh, phá hủy và chiếm đóng, đồng thời tướng Đờ Cát không  | cites=['chien_dich_dien_bien_phu-p54-b2']
+
+===== q12 (truc_tiep) | status: answered =====
+CÂU HỎI: Đại hội nào của Đảng năm 1986 chính thức khởi xướng công cuộc Đổi Mới?
+ĐÁP ÁN ĐÚNG: Đại hội VI
+GOLD: doi_moi_1986 trang 2 | Đại hội VI (1986): chính thức khởi xướng công cuộc đổi mới
+MODEL TRẢ LỜI: Đổi Mới được khởi xướng chính thức tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986 [doi_moi_1986-p1-b1].
+CITATIONS: ['doi_moi_1986-p1-b1']
+  [doi_moi_1986-p1-b1] doi_moi_1986 trang 1 | Đổi Mới là chương trình cải cách toàn diện được khởi xướng tại Việt Nam từ cuối thập niên 1980, đặc biệt trong các lĩnh vực kinh tế, chính trị, văn hóa và giáo dục. Chính sách này chính thức được thôn
+SEARCH: Đại hội Đảng năm 1986 khởi xướng công cuộc Đổi Mới
+SUBMIT: Đổi Mới được khởi xướng chính thức tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986 [doi_moi_1986-p1-b1]. | cites=['doi_moi_1986-p1-b1']
+
+===== q13 (dien_dat_lai) | status: abstain =====
+CÂU HỎI: Quốc hiệu Đại Việt ra đời khi nào và dưới thời vị vua nào của nhà Lý?
+ĐÁP ÁN ĐÚNG: Năm 1054, vua Lý Thánh Tông đổi từ Đại Cồ Việt thành Đại Việt
+GOLD: nha_ly trang 1 | Vào năm 1054, Lý Thánh Tông đã đổi quốc hiệu từ Đại Cồ Việt (大瞿越) thành Đại Việt (大越)
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: quốc hiệu Đại Việt ra đời khi nào dưới thời vua nhà Lý
+SEARCH: quốc hiệu Đại Việt ra đời năm 1009 Lý Thái Tổ
+SEARCH: quốc hiệu Đại Việt ra đời năm 1009 Lý Thái Tổ
+
+===== q14 (filter) | status: answered =====
+CÂU HỎI: Chỉ xét tài liệu thuộc thời kỳ 1428–1857: nhà Hồ đổi quốc hiệu Đại Việt thành gì?
+ĐÁP ÁN ĐÚNG: Đại Ngu
+GOLD: nha_ho trang 1 | Quốc hiệu Đại Việt khi này đã được đổi thành Đại Ngu
+MODEL TRẢ LỜI: Nhà Hồ đổi quốc hiệu Đại Việt thành Đại Ngu [nha_ho-p1-b1].
+CITATIONS: ['nha_ho-p1-b1']
+  [nha_ho-p1-b1] nha_ho trang 1 | Nhà Hồ (chữ Nôm: 茹胡, chữ Hán: 胡朝, Hán Việt: Hồ triều) là một triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Hồ Quý Ly lên ngôi năm 1400 sau khi giành được quyền lực từ tay nhà Trần và chấm dứt
+SEARCH: nhà Hồ đổi quốc hiệu Đại Việt thành Đại Ngu tài liệu 1428 1857
+SUBMIT: Nhà Hồ đổi quốc hiệu Đại Việt thành Đại Ngu [nha_ho-p1-b1]. | cites=['nha_ho-p1-b1']
+
+===== q15 (dien_dat_lai) | status: abstain =====
+CÂU HỎI: Sau Hiệp định Genève 1954, sông nào và vĩ tuyến nào được dùng làm giới tuyến quân sự tạm thời ở Việt Nam?
+ĐÁP ÁN ĐÚNG: Sông Bến Hải, vĩ tuyến 17
+GOLD: hiep_dinh_geneve trang 24 | sông Bến Hải, vĩ tuyến 17, được dùng làm giới tuyến quân sự tạm thời chia Việt Nam làm hai vùng tập kết quân sự tạm thời
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: Hiệp định Genève 1954 giới tuyến quân sự tạm thời sông và vĩ tuyến
+SEARCH: Hiệp định Genève 1954 giới tuyến quân sự tạm thời sông Bến Hải vĩ tuyến 17
+SEARCH: Hiệp định Genève 1954 giới tuyến quân sự tạm thời sông Bến Hải
+
+===== q21 (thieu_bang_chung) | status: abstain =====
+CÂU HỎI: Việt Nam chính thức gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN) vào năm nào?
+KỲ VỌNG: từ chối (Chuỗi 'ASEAN' không xuất hiện trong toàn bộ 38 bài của corpus; bài Đổi Mới 1986 chỉ nhắc Việt Nam gia nhập WTO năm 2007,)
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: Việt Nam gia nhập ASEAN năm nào
+SEARCH: Việt Nam gia nhập ASEAN năm nào
+SEARCH: Việt Nam gia nhập ASEAN năm nào
+
+===== q22 (thieu_bang_chung) | status: abstain =====
+CÂU HỎI: Chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc bùng phát năm 1979 kéo dài bao nhiêu ngày?
+KỲ VỌNG: từ chối (Corpus không có bài về chiến tranh biên giới phía Bắc 1979: địa danh 'Vị Xuyên' không xuất hiện; chuỗi '1979' chỉ xuất h)
+MODEL TRẢ LỜI: Không đủ bằng chứng để trả lời.
+CITATIONS: []
+SEARCH: chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc bùng phát năm 1979 kéo dài bao nhiêu ngày
+SEARCH: chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc 1979 kéo dài bao nhiêu ngày
+SEARCH: chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc 1979 kéo dài bao nhiêu ngày
+

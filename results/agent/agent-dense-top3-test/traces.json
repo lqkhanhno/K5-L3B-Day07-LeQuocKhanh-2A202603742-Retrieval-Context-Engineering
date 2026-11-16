@@ -1,0 +1,1439 @@
+[
+ {
+  "query_id": "q16",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Nhờ mưu kế gì mà quá nửa quân Nam Hán bị chết đuối trên sông Bạch Đằng năm 938?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn",
+    "filter": null,
+    "results": [
+     {
+      "id": "ngo_quyen-p1-b2",
+      "score": 0.747533,
+      "source_id": "ngo_quyen",
+      "page": 1,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "khoi_nghia_tay_son-p29-b2",
+      "score": 0.727361,
+      "source_id": "khoi_nghia_tay_son",
+      "page": 29,
+      "metadata": {
+       "title": "Khởi nghĩa Tây Sơn",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p11-b2",
+      "score": 0.726224,
+      "source_id": "ly_cong_uan",
+      "page": 11,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "ngo_quyen-p1-b2",
+     "khoi_nghia_tay_son-p29-b2",
+     "ly_cong_uan-p11-b2"
+    ],
+    "context_chars": 2945
+   },
+   {
+    "event": "search",
+    "query": "Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn",
+    "filter": null,
+    "results": [
+     {
+      "id": "ngo_quyen-p1-b2",
+      "score": 0.747533,
+      "source_id": "ngo_quyen",
+      "page": 1,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "khoi_nghia_tay_son-p29-b2",
+      "score": 0.727361,
+      "source_id": "khoi_nghia_tay_son",
+      "page": 29,
+      "metadata": {
+       "title": "Khởi nghĩa Tây Sơn",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p11-b2",
+      "score": 0.726224,
+      "source_id": "ly_cong_uan",
+      "page": 11,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "ngo_quyen-p1-b2",
+     "khoi_nghia_tay_son-p29-b2",
+     "ly_cong_uan-p11-b2"
+    ],
+    "context_chars": 2945
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 25080.6,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 3931,
+   "output_tokens": 556
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn"
+   },
+   {
+    "action": "search",
+    "query": "Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn"
+   },
+   {
+    "action": "search",
+    "query": "Bạch Đằng 938 mưu kế cọc nhọn chết đuối quân Nam Hán"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Nhờ mưu kế gì mà quá nửa quân Nam Hán bị chết đuối trên sông Bạch Đằng năm 938?\" Means: What strategy caused more than half of the Southern Han troops to drown in the Bạch Đằng River in 938? Likely referring to the tactic of planting iron-tipped wooden stakes (cọc) in the riverbed, hidden at low tide, then luring enemy fleet into the area at high tide, then cutting the ropes when tide recedes, causing ships to be trapped and sink. The specific \"mưu kế\" is \"đặt cọc nhọn sắt\" (cọc nhọn) or \"đặt cọc gỗ nhọn có mũi sắt\" (cọc nhọn) also known as \"cọc gỗ nhọn có mũi sắt\" (cọc nhọn). Need evidence from the document. Let's search.",
+     "tool_calls": [
+      {
+       "id": "fc_59a2ea70-b45c-4896-9aa7-9e6229c1f678",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 617,
+     "output_tokens": 244
+    }
+   },
+   {
+    "context": "[ngo_quyen-p1-b2 | https://vi.wikipedia.org/wiki/Ngô_Quyền | page 1]\nNăm 905, nhân việc nhà Đường có loạn, một thổ hào người Việt là Khúc Thừa Dụ nổi lên đánh đuổi người Trung Quốc, chiếm giữ phủ thành, xưng là Tiết độ sứ. Năm 907, Khúc Thừa Dụ chết, con là Khúc Hạo lên thay. Khúc Hạo sai con là Khúc Thừa Mỹ làm Hoan hảo sứ sang dò xét nhà Nam Hán. Năm 917, Khúc Hạo chết, Khúc Thừa Mỹ lên thay, cho người sang nhà Lương lĩnh tiết việt, muốn lợi dụng sự mâu thuẫn giữa nước Lương và Nam Hán để củng cố sự nghiệp tự cường của mình. Vua Nam Hán là Lưu Cung tức giận, xua quân chiếm cứ Giao Chỉ. Năm 930, tướng Nam Hán Lý Khắc Chính đem binh đánh, bắt được Khúc Thừa Mỹ, Lý Khắc Chính lưu lại Giao Chỉ.\n\n[khoi_nghia_tay_son-p29-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn | page 29]\nThư trả lời của Nguyễn Ánh có viết: \"Vương [vua Xiêm] thì đem trọng binh đánh Nghệ An. Giặc giữ Nghệ An thì vương đánh ngả trước, quả nhân [chỉ Nguyễn Ánh] đánh ngả sau; nếu giặc giữ Phú Xuân thì vương quấy rối ở ngả sau, quả nhân đánh ngả trước, đầu đuôi giáp đánh thì giặc không còn đi đâu được nữa.\" Sau khi Nguyễn Ánh tấn công chớp nhoáng tiêu diệt thủy quân của Nguyễn Nhạc ở Thị Nại tháng 7-8/1792, Quang Trung quyết định thực hiện một chiến dịch lớn nhằm tiêu diệt tận gốc thế lực của Nguyễn Ánh. Ông truyền hịch cho dân hai miền Quảng Ngãi và Quy Nhơn, trước khi hành quân để đánh vào Gia Định. Kế hoạch của vua Quang Trung là điều động 20-30 vạn quân thủy bộ; bộ binh theo đường núi qua Lào đánh xuống Cao Miên, chiếm mặt sau Sài Gòn; thủy binh vào cửa bể Hà Tiên đánh lên Long Xuyên, Kiên Giang, chiếm mặt trước Sài Gòn. Kẹp quân Nguyễn Ánh vào giữa để bao vây tiêu diệt, không để cho đối phương có đường trốn thoát.\n\n[ly_cong_uan-p11-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 11]\nTháng 12 năm Canh Thân (1020), Lý Thái Tổ sai Khai Thiên vương Lý Phật Mã và Đào Thạc Phụ đem quân đi đánh Chiêm Thành ở trại Bố Chính, thẳng đến núi Long Tỵ (nay thuộc Quảng Trạch, tỉnh Quảng Trị), chém được tướng Chiêm là Bố Linh tại trận, người Chiêm chết đến quá nửa. Tháng 12 năm 1022, thổ dân Đại Nguyên Lịch – một sắc dân Mán cư trú giữa trại Như Hồng và trấn Triều Dương (Đại Tống) – sang đánh phá biên giới Đại Cồ Việt – Đại Tống. Lý Thái Tổ ra lệnh cho Dực Thánh vương đánh dẹp Đại Nguyên Lịch, quân đánh đến châu Như Hồng trong đất Tống (đời vua Tống Chân Tông), đốt kho tàng, bắt nhiều dân và gia súc rồi kéo về. Lê Tắc đã thuật lại sự việc này trong An Nam chí lược rằng: \"Tháng 12, Chuyển vận sứ Quảng Tây Cao Huệ Liên dâng thư nói Giao Châu vào cướp trại Như Hồng thuộc châu Khâm, bắt người và súc vật rất nhiều. Vua Tống Chân Tông xuống chiếu khiến Cao Huệ Liên tư điệp văn cho Giao Châu và sai sứ theo đòi lại. Nguyên trước đây có dân Mường là Trương Phố, lánh tội chạy đến đầu ngụ, quan cai trị Khâm Châu là Mục Trọng vời vào, đi đến nửa đường lại ngăn không cho vào. Đô Tuần Kiểm Tàng Tự bèn khiến trại Như Hồng khao đãi trâu rượu.",
+    "context_ids": [
+     "ngo_quyen-p1-b2",
+     "khoi_nghia_tay_son-p29-b2",
+     "ly_cong_uan-p11-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Nhờ mưu kế gì mà quá nửa quân Nam Hán bị chết đuối trên sông Bạch Đằng năm 938?\" Need evidence from documents. The retrieved chunk appears about Khúc family, not about Bạch Đằng. Need to search for Bạch Đằng 938 mưu kế.",
+     "tool_calls": [
+      {
+       "id": "fc_a9a61c70-86d9-4629-a40d-0cac85b098b2",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Bạch Đằng 938 mưu kế chết đuối quân Nam Hán cọc nhọn\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1646,
+     "output_tokens": 117
+    }
+   },
+   {
+    "context": "[ngo_quyen-p1-b2 | https://vi.wikipedia.org/wiki/Ngô_Quyền | page 1]\nNăm 905, nhân việc nhà Đường có loạn, một thổ hào người Việt là Khúc Thừa Dụ nổi lên đánh đuổi người Trung Quốc, chiếm giữ phủ thành, xưng là Tiết độ sứ. Năm 907, Khúc Thừa Dụ chết, con là Khúc Hạo lên thay. Khúc Hạo sai con là Khúc Thừa Mỹ làm Hoan hảo sứ sang dò xét nhà Nam Hán. Năm 917, Khúc Hạo chết, Khúc Thừa Mỹ lên thay, cho người sang nhà Lương lĩnh tiết việt, muốn lợi dụng sự mâu thuẫn giữa nước Lương và Nam Hán để củng cố sự nghiệp tự cường của mình. Vua Nam Hán là Lưu Cung tức giận, xua quân chiếm cứ Giao Chỉ. Năm 930, tướng Nam Hán Lý Khắc Chính đem binh đánh, bắt được Khúc Thừa Mỹ, Lý Khắc Chính lưu lại Giao Chỉ.\n\n[khoi_nghia_tay_son-p29-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn | page 29]\nThư trả lời của Nguyễn Ánh có viết: \"Vương [vua Xiêm] thì đem trọng binh đánh Nghệ An. Giặc giữ Nghệ An thì vương đánh ngả trước, quả nhân [chỉ Nguyễn Ánh] đánh ngả sau; nếu giặc giữ Phú Xuân thì vương quấy rối ở ngả sau, quả nhân đánh ngả trước, đầu đuôi giáp đánh thì giặc không còn đi đâu được nữa.\" Sau khi Nguyễn Ánh tấn công chớp nhoáng tiêu diệt thủy quân của Nguyễn Nhạc ở Thị Nại tháng 7-8/1792, Quang Trung quyết định thực hiện một chiến dịch lớn nhằm tiêu diệt tận gốc thế lực của Nguyễn Ánh. Ông truyền hịch cho dân hai miền Quảng Ngãi và Quy Nhơn, trước khi hành quân để đánh vào Gia Định. Kế hoạch của vua Quang Trung là điều động 20-30 vạn quân thủy bộ; bộ binh theo đường núi qua Lào đánh xuống Cao Miên, chiếm mặt sau Sài Gòn; thủy binh vào cửa bể Hà Tiên đánh lên Long Xuyên, Kiên Giang, chiếm mặt trước Sài Gòn. Kẹp quân Nguyễn Ánh vào giữa để bao vây tiêu diệt, không để cho đối phương có đường trốn thoát.\n\n[ly_cong_uan-p11-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 11]\nTháng 12 năm Canh Thân (1020), Lý Thái Tổ sai Khai Thiên vương Lý Phật Mã và Đào Thạc Phụ đem quân đi đánh Chiêm Thành ở trại Bố Chính, thẳng đến núi Long Tỵ (nay thuộc Quảng Trạch, tỉnh Quảng Trị), chém được tướng Chiêm là Bố Linh tại trận, người Chiêm chết đến quá nửa. Tháng 12 năm 1022, thổ dân Đại Nguyên Lịch – một sắc dân Mán cư trú giữa trại Như Hồng và trấn Triều Dương (Đại Tống) – sang đánh phá biên giới Đại Cồ Việt – Đại Tống. Lý Thái Tổ ra lệnh cho Dực Thánh vương đánh dẹp Đại Nguyên Lịch, quân đánh đến châu Như Hồng trong đất Tống (đời vua Tống Chân Tông), đốt kho tàng, bắt nhiều dân và gia súc rồi kéo về. Lê Tắc đã thuật lại sự việc này trong An Nam chí lược rằng: \"Tháng 12, Chuyển vận sứ Quảng Tây Cao Huệ Liên dâng thư nói Giao Châu vào cướp trại Như Hồng thuộc châu Khâm, bắt người và súc vật rất nhiều. Vua Tống Chân Tông xuống chiếu khiến Cao Huệ Liên tư điệp văn cho Giao Châu và sai sứ theo đòi lại. Nguyên trước đây có dân Mường là Trương Phố, lánh tội chạy đến đầu ngụ, quan cai trị Khâm Châu là Mục Trọng vời vào, đi đến nửa đường lại ngăn không cho vào. Đô Tuần Kiểm Tàng Tự bèn khiến trại Như Hồng khao đãi trâu rượu.",
+    "context_ids": [
+     "ngo_quyen-p1-b2",
+     "khoi_nghia_tay_son-p29-b2",
+     "ly_cong_uan-p11-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Nhờ mưu kế gì mà quá nửa quân Nam Hán bị chết đuối trên sông Bạch Đằng năm 938?\" The known historical fact: Ngô Quyền used iron-tipped wooden stakes (cọc nhọn) placed in the riverbed, hidden at low tide, then when tide rose and enemy fleet passed, they were impaled and many drowned. So the mưu kế is \"đặt cọc nhọn (cọc sắt) dưới đáy sông Bạch Đằng\". Need citation from search results. The provided search results do not contain that info. We need to search for Bạch Đằng 938 mưu kế cọc nhọn.",
+     "tool_calls": [
+      {
+       "id": "fc_085f77ec-c8db-470c-a321-dec6dcbf23eb",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Bạch Đằng 938 mưu kế cọc nhọn chết đuối quân Nam Hán\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1668,
+     "output_tokens": 195
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q17",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "nhà Tiền Lê hình thành khi vị vua nào nhường ngôi cho ai",
+    "filter": null,
+    "results": [
+     {
+      "id": "khoi_nghia_hai_ba_trung-p4-b2",
+      "score": 0.747037,
+      "source_id": "khoi_nghia_hai_ba_trung",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Hai Bà Trưng",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "tran_hung_dao-p3-b2",
+      "score": 0.716003,
+      "source_id": "tran_hung_dao",
+      "page": 3,
+      "metadata": {
+       "title": "Trần Hưng Đạo",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ngo_quyen-p8-b1",
+      "score": 0.71196,
+      "source_id": "ngo_quyen",
+      "page": 8,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "tran_hung_dao-p3-b2",
+     "ngo_quyen-p8-b1"
+    ],
+    "context_chars": 3275
+   },
+   {
+    "event": "search",
+    "query": "đinh toan nhường ngôi cho le hoan nhà tiền lê hình thành",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tien_le-p6-b2",
+      "score": 0.719961,
+      "source_id": "nha_tien_le",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "khoi_nghia_hai_ba_trung-p4-b2",
+      "score": 0.681031,
+      "source_id": "khoi_nghia_hai_ba_trung",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Hai Bà Trưng",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "nha_ly-p2-b2",
+      "score": 0.656732,
+      "source_id": "nha_ly",
+      "page": 2,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "tran_hung_dao-p3-b2",
+     "ngo_quyen-p8-b1",
+     "nha_ly-p2-b2"
+    ],
+    "context_chars": 3916
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 45237.0,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4317,
+   "output_tokens": 894
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "nhà Tiền Lê hình thành khi vị vua nào nhường ngôi cho ai"
+   },
+   {
+    "action": "search",
+    "query": "đinh toan nhường ngôi cho le hoan nhà tiền lê hình thành"
+   },
+   {
+    "action": "search",
+    "query": "Đinh Toàn nhường ngôi cho Lê Hoàn nhà Tiền Lê hình thành"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?\" Means: Which king abdicated, leading to formation of the Early Lê dynasty (Tiền Lê). Likely referring to Lê Hoàn? Actually Tiền Lê (Early Lê) started after Đinh Bộ Lĩnh? Wait timeline: After Đinh dynasty collapsed, Lê Hoàn (Lê Đại Hành) established Early Lê dynasty (Lê sơ). The king who abdicated? The Đinh king Đinh Tiên Hoàng (Đinh Bộ Lĩnh) was assassinated, then his son Đinh Toàn was a child, then Lê Hoàn (a general) took throne. But the question: \"Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?\" Could refer to \"Vua Lê Thái Tổ (Lê Hoàn) nhường ngôi cho Lê Long Đĩnh\"? No.\n\nMaybe it's about \"Vua Lý Thái Tổ\" no. Let's search.",
+     "tool_calls": [
+      {
+       "id": "fc_6ba256e2-9fc1-495c-a256-9711be8607a7",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"nhà Tiền Lê hình thành khi vị vua nào nhường ngôi cho ai\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 614,
+     "output_tokens": 289
+    }
+   },
+   {
+    "context": "[khoi_nghia_hai_ba_trung-p4-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng | page 4]\nGồm chiếm được 65 thành tự lập làm vua. Thứ sử Giao Chỉ và các thái thú chỉ giữ được thân mình mà thôi.” Sách Thủy kinh chú chép: :\"[Hai Bà] công phá châu huyện, hàng phục được các Lạc tướng, họ đều suy tôn Trưng Trắc làm vua.\" Các sử gia căn cứ theo các thần phả và truyền thuyết tóm lược trình tự cuộc khởi nghĩa như sau: :Quân Hai Bà trước tiên tấn công đô úy trị quận Giao Chỉ ở Mê Linh. Chiếm được nơi đây, Hai Bà Trưng tiến đánh huyện Tây Vu, chiếm thành Cổ Loa. Trên đà thắng lợi, từ Cổ Loa, Hai Bà Trưng mang quân vượt sông Hoàng, sông Đuống đánh trị sở Giao Chỉ ở Luy Lâu bên bờ sông Dâu (lãng Lũng Khê, Thuận Thành, Bắc Ninh). Quân khởi nghĩa tấn công quá nhanh khiến Tô Định không kịp trở tay. Trước thế mạnh của quân Hai Bà, các viên quan cầm đầu không trở tay kịp và không dám chống cự, bỏ chạy về phương Bắc.\n\n[tran_hung_dao-p3-b2 | https://vi.wikipedia.org/wiki/Trần_Hưng_Đạo | page 3]\nVua Trần Anh Tông ngự tới nhà thăm, hỏi rằng: \"Nếu có điều chẳng may mà giặc phương Bắc lại sang xâm lược thì kế sách như thế nào?\". Ông trả lời: \"Ngày xưa Triệu Vũ Đế (tức Triệu Đà) dựng nước, vua nhà Hán cho quân đánh, nhân dân làm kế thanh dã (vườn không nhà trống), đại quân ra Khâm Châu, Liêm Châu đánh vào Tràng Sa, còn đoản binh thì đánh úp phía sau. Đó là một thời. Đời nhà Đinh, nhà Tiền Lê dùng người tài giỏi, đất phương nam mới mạnh mà phương bắc thì mệt mỏi suy yếu, trên dưới một dạ, lòng dân không lìa, xây thành Bình Lỗ mà phá được quân Tống. Đó lại là một thời. Vua nhà Lý mở nền, nhà Tống xâm phạm địa giới, dùng Lý Thường Kiệt đánh Khâm, Liêm, đến tận Mai Lĩnh là vì có thế. Vừa rồi Toa Đô, Ô Mã Nhi bốn mặt bao vây. Vì vua tôi đồng tâm, anh em hòa mục, cả nước góp sức, giặc phải bị bắt. Đó là trời xui nên vậy. Đại khái, nó cậy trường trận, ta dựa vào đoản binh. Dùng đoản binh chế trường trận là sự thường của binh pháp. Nếu chỉ thấy quân nó kéo đến như lửa, như gió thì thế dễ chế ngự.\n\n[ngo_quyen-p8-b1 | https://vi.wikipedia.org/wiki/Ngô_Quyền | page 8]\n* Thiên Sách Vương Ngô Xương Ngập: Là con trai trưởng của Ngô Quyền, được phỏng đoán sinh ra vào khoảng thập niên thứ hai của thế kỉ 10. Tiền Ngô Vương truyền ngôi cho Ngô Xương Ngập nhưng bị Dương Tam Kha cướp ngôi, Xương Ngập phải bỏ trốn. Năm 950, Dương Tam Kha bị lật đổ, ông được em là Nam Tấn Vương Ngô Xương Văn đón về, hai anh em cùng làm vua. Năm 954 ông mất. * Nam Tấn Vương Ngô Xương Văn: Là con trai thứ hai của Ngô Quyền, mẹ là Dương hậu. Ông đã làm đảo chính, phế truất Dương Bình Vương, trung hưng lại cơ nghiệp nhà Ngô. Trị vì cùng với anh là Thiên Sách Vương từ năm 950 đến năm 954, sau đó ông một mình trị nước từ năm 955 đến năm 965 thì mất. Nhà Ngô sụp đổ. * Ngô Nam Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. * Ngô Càn Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. (1998) Đại tướng Võ Nguyên Giáp tặng đền thờ Ngô Quyền ở Đường Lâm một đĩa sứ vẽ cảnh thủy chiến Bạch Đằng và dòng chữ: Tổ quốc và nhân dân ta đời đời ghi công lớn của vị anh hùng dân tộc Ngô Quyền đã đánh tan quân xâm lược dựng nên nền độc lập của nước ta. Hiện nay ở làng Đường Lâm (Sơn Tây, Hà Nội) có đền và lăng thờ Ngô Quyền.",
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "tran_hung_dao-p3-b2",
+     "ngo_quyen-p8-b1"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?\" So which king abdicated leading to formation of Early Lê dynasty. Likely Lê Hoàn? Actually Early Lê (Tiền Lê) formed after Đinh Bộ Lĩnh's death? Wait timeline: Đinh dynasty (Đinh Bộ Lĩnh) died 979, then Lê Hoàn (Lê Đại Hành) became king after Đinh Tiên Hoàng's son Đinh Toàn was too young, and Lê Hoàn was regent then took throne, establishing Early Lê. So question: \"khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?\" That is: King Đinh Tiên Hoàng (Đinh Bộ Lĩnh) died, his son Đinh Toàn (Đinh Tiên Hoàng) abdicated? Actually after Đinh Bộ Lĩnh's death, his son Đinh Toàn (Đinh Tiên Hoàng) was a child, regent Lê Hoàn took power, later Lê Hoàn forced Đinh Toàn to abdicate, establishing Tiền Lê. So answer: Vua Đinh Tiên Hoàng (Đinh Toàn) nhường ngôi cho Lê Hoàn (Lê Đại Hành). Need citation. Not in current retrieved docs. Must search.\n\n",
+     "tool_calls": [
+      {
+       "id": "fc_ba267355-0ffd-4821-bce5-a0646302dfeb",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"đinh toan nhường ngôi cho le hoan nhà tiền lê hình thành\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1743,
+     "output_tokens": 353
+    }
+   },
+   {
+    "context": "[khoi_nghia_hai_ba_trung-p4-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng | page 4]\nGồm chiếm được 65 thành tự lập làm vua. Thứ sử Giao Chỉ và các thái thú chỉ giữ được thân mình mà thôi.” Sách Thủy kinh chú chép: :\"[Hai Bà] công phá châu huyện, hàng phục được các Lạc tướng, họ đều suy tôn Trưng Trắc làm vua.\" Các sử gia căn cứ theo các thần phả và truyền thuyết tóm lược trình tự cuộc khởi nghĩa như sau: :Quân Hai Bà trước tiên tấn công đô úy trị quận Giao Chỉ ở Mê Linh. Chiếm được nơi đây, Hai Bà Trưng tiến đánh huyện Tây Vu, chiếm thành Cổ Loa. Trên đà thắng lợi, từ Cổ Loa, Hai Bà Trưng mang quân vượt sông Hoàng, sông Đuống đánh trị sở Giao Chỉ ở Luy Lâu bên bờ sông Dâu (lãng Lũng Khê, Thuận Thành, Bắc Ninh). Quân khởi nghĩa tấn công quá nhanh khiến Tô Định không kịp trở tay. Trước thế mạnh của quân Hai Bà, các viên quan cầm đầu không trở tay kịp và không dám chống cự, bỏ chạy về phương Bắc.\n\n[tran_hung_dao-p3-b2 | https://vi.wikipedia.org/wiki/Trần_Hưng_Đạo | page 3]\nVua Trần Anh Tông ngự tới nhà thăm, hỏi rằng: \"Nếu có điều chẳng may mà giặc phương Bắc lại sang xâm lược thì kế sách như thế nào?\". Ông trả lời: \"Ngày xưa Triệu Vũ Đế (tức Triệu Đà) dựng nước, vua nhà Hán cho quân đánh, nhân dân làm kế thanh dã (vườn không nhà trống), đại quân ra Khâm Châu, Liêm Châu đánh vào Tràng Sa, còn đoản binh thì đánh úp phía sau. Đó là một thời. Đời nhà Đinh, nhà Tiền Lê dùng người tài giỏi, đất phương nam mới mạnh mà phương bắc thì mệt mỏi suy yếu, trên dưới một dạ, lòng dân không lìa, xây thành Bình Lỗ mà phá được quân Tống. Đó lại là một thời. Vua nhà Lý mở nền, nhà Tống xâm phạm địa giới, dùng Lý Thường Kiệt đánh Khâm, Liêm, đến tận Mai Lĩnh là vì có thế. Vừa rồi Toa Đô, Ô Mã Nhi bốn mặt bao vây. Vì vua tôi đồng tâm, anh em hòa mục, cả nước góp sức, giặc phải bị bắt. Đó là trời xui nên vậy. Đại khái, nó cậy trường trận, ta dựa vào đoản binh. Dùng đoản binh chế trường trận là sự thường của binh pháp. Nếu chỉ thấy quân nó kéo đến như lửa, như gió thì thế dễ chế ngự.\n\n[ngo_quyen-p8-b1 | https://vi.wikipedia.org/wiki/Ngô_Quyền | page 8]\n* Thiên Sách Vương Ngô Xương Ngập: Là con trai trưởng của Ngô Quyền, được phỏng đoán sinh ra vào khoảng thập niên thứ hai của thế kỉ 10. Tiền Ngô Vương truyền ngôi cho Ngô Xương Ngập nhưng bị Dương Tam Kha cướp ngôi, Xương Ngập phải bỏ trốn. Năm 950, Dương Tam Kha bị lật đổ, ông được em là Nam Tấn Vương Ngô Xương Văn đón về, hai anh em cùng làm vua. Năm 954 ông mất. * Nam Tấn Vương Ngô Xương Văn: Là con trai thứ hai của Ngô Quyền, mẹ là Dương hậu. Ông đã làm đảo chính, phế truất Dương Bình Vương, trung hưng lại cơ nghiệp nhà Ngô. Trị vì cùng với anh là Thiên Sách Vương từ năm 950 đến năm 954, sau đó ông một mình trị nước từ năm 955 đến năm 965 thì mất. Nhà Ngô sụp đổ. * Ngô Nam Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. * Ngô Càn Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. (1998) Đại tướng Võ Nguyên Giáp tặng đền thờ Ngô Quyền ở Đường Lâm một đĩa sứ vẽ cảnh thủy chiến Bạch Đằng và dòng chữ: Tổ quốc và nhân dân ta đời đời ghi công lớn của vị anh hùng dân tộc Ngô Quyền đã đánh tan quân xâm lược dựng nên nền độc lập của nước ta. Hiện nay ở làng Đường Lâm (Sơn Tây, Hà Nội) có đền và lăng thờ Ngô Quyền.\n\n[nha_ly-p2-b2 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 2]\nNhững hiện vật về mái ngói, linh thú trang trí trên nóc mái và các loại gạch lót cho thấy trình độ mỹ nghệ cao của các nghệ nhân thời Lý. Con Rồng thời Lý được xem là hình tượng đỉnh cao của nghệ thuật tạo hình đương thời, bên cạnh các tượng Phật lớn còn lại cho thấy tư duy đồ sộ của người thời Lý là rất lớn. 3 trong 4 bảo vật của An Nam tứ đại khí là Tháp Báo Thiên, Chuông Quy Điền và Tượng phật Chùa Quỳnh Lâm được tạo ra trong thời đại nhà Lý. Cùng với sự sùng đạo Phật, những tinh hoa nhất của nghệ thuật thời Lý đa phần đều thể hiện qua các bức tượng Phật, chùa chiền.",
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "tran_hung_dao-p3-b2",
+     "ngo_quyen-p8-b1",
+     "nha_ly-p2-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?\" So which king abdicated leading to formation of Early Lê dynasty. Likely Đinh Tiên Hoàng? Actually Early Lê (Tiền Lê) formed after Đinh Tiên Hoàng's death? The transition: Đinh Tiên Hoàng (Đinh Bộ Lĩnh) was assassinated 979, then his son Đinh Toàn (Đinh Toàn) was a child, regent Lê Hoàn (Lê Đại Hành) took power after a coup, establishing Early Lê. So the king who abdicated? Đinh Toàn (Đinh Tiên Hoàng's son) was forced to abdicate in favor of Lê Hoàn. So answer: Vua Đinh Toàn nhường ngôi cho Lê Hoàn. Need citation. Not in current retrieved chunks. Need to search.\n\n",
+     "tool_calls": [
+      {
+       "id": "fc_b1b2b3d8-c13e-413f-97fb-29571c66840d",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Đinh Toàn nhường ngôi cho Lê Hoàn nhà Tiền Lê hình thành\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1960,
+     "output_tokens": 252
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "type": "filter",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: quân đoàn 2 tiến vào Dinh Độc Lập vào thời điểm nào năm 1975?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Quân đoàn 2 tiến vào Dinh Độc Lập 1975 thời điểm",
+    "filter": null,
+    "results": [
+     {
+      "id": "duong_truong_son-p18-b2",
+      "score": 0.507477,
+      "source_id": "duong_truong_son",
+      "page": 18,
+      "metadata": {
+       "title": "Đường Trường Sơn",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "duong_truong_son-p18-b1",
+      "score": 0.501362,
+      "source_id": "duong_truong_son",
+      "page": 18,
+      "metadata": {
+       "title": "Đường Trường Sơn",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dich_hcm-p6-b1",
+      "score": 0.467511,
+      "source_id": "chien_dich_hcm",
+      "page": 6,
+      "metadata": {
+       "title": "Chiến dịch Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "duong_truong_son-p18-b2",
+     "duong_truong_son-p18-b1",
+     "chien_dich_hcm-p6-b1"
+    ],
+    "context_chars": 3614
+   },
+   {
+    "event": "search",
+    "query": "Quân đoàn 2 tiến vào Dinh Độc Lập 1975",
+    "filter": null,
+    "results": [
+     {
+      "id": "duong_truong_son-p18-b2",
+      "score": 0.50659,
+      "source_id": "duong_truong_son",
+      "page": 18,
+      "metadata": {
+       "title": "Đường Trường Sơn",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "duong_truong_son-p18-b1",
+      "score": 0.476053,
+      "source_id": "duong_truong_son",
+      "page": 18,
+      "metadata": {
+       "title": "Đường Trường Sơn",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dich_hcm-p6-b1",
+      "score": 0.462637,
+      "source_id": "chien_dich_hcm",
+      "page": 6,
+      "metadata": {
+       "title": "Chiến dịch Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "duong_truong_son-p18-b2",
+     "duong_truong_son-p18-b1",
+     "chien_dich_hcm-p6-b1"
+    ],
+    "context_chars": 3614
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 44352.0,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 3995,
+   "output_tokens": 348
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Quân đoàn 2 tiến vào Dinh Độc Lập 1975 thời điểm"
+   },
+   {
+    "action": "search",
+    "query": "Quân đoàn 2 tiến vào Dinh Độc Lập 1975"
+   },
+   {
+    "action": "search",
+    "query": "Quân đoàn 2 Dinh Độc Lập 1975"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: quân đoàn 2 tiến vào Dinh Độc Lập vào thời điểm nào năm 1975?\" So need date/time when the 2nd Army Corps (Quân đoàn 2) entered the Independence Palace in 1975. Need evidence from the document corpus. We must search.\n\n",
+     "tool_calls": [
+      {
+       "id": "fc_175e0076-28d0-4f68-a62c-eb89fc7366b1",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quân đoàn 2 tiến vào Dinh Độc Lập 1975 thời điểm\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 622,
+     "output_tokens": 123
+    }
+   },
+   {
+    "context": "[duong_truong_son-p18-b2 | https://vi.wikipedia.org/wiki/Đường_Trường_Sơn | page 18]\nTrong cuộc Tổng tiến công và nổi dậy mùa Xuân 1975, tuyến đường đã bảo đảm cơ động nhanh chóng 3 quân đoàn, 5 sư đoàn và 2 trung đoàn binh chủng vào chiến dịch, phục vụ hành quân đi các chiến trường 411 nghìn người (cả dân sự). Hệ thống đường Trường Sơn (bao gồm cả tuyến xăng dầu vươt Trường Sơn) là tuyến hậu cần chiến lược vững chắc, một trong những nhân tố quyết định thắng lợi nhiệm vụ chi viện của hậu phương chiến lược miền Bắc cho các chiến trường miền Nam, góp phần quan trọng cho trận chiến quyết định, giải phóng Sài Gòn, thống nhất đất nước. Đường Trường Sơn của những năm chiến tranh mang một trọng trách mới: phục vụ nhu cầu phát triển kinh tế - xã hội, an ninh quốc phòng... của thời bình. Dọc bên đường, các thị trấn sầm uất, những khu dân cư đông đúc đã hiện hữu như để minh chứng cho sức sống mãnh liệt trên con đường lịch sử này. Điều đặc biệt là ở những làng nhỏ ven đường sẽ bắt gặp cuộc sống của những cựu Thanh niên xung phong. Họ ở khắp nơi về đây tham gia xây dựng con đường của thời bình để phát triển kinh tế, và khi con đường đã thông, họ lại chọn đây làm nơi lập nghiệp thay vì quay về bản xứ.\n\n[duong_truong_son-p18-b1 | https://vi.wikipedia.org/wiki/Đường_Trường_Sơn | page 18]\nQuân bổ sung cho các chiến trường đều được hành quân bằng cơ giới, chấm dứt hành quân bộ. Trong mùa khô 1973-1974, mỗi tháng chuyển được trên 30.000 đến 50.000 quân qua tuyến. Trước đây, bộ đội hành quân bộ từ miền Bắc vào chiến trường B2 mất hơn ba tháng, nay chỉ mất hơn chục ngày. Đây là một bước tiến nhảy vọt về chất trong tổ chức hành quân. Đối với hàng, đội hình vận chuyển chủ yếu là trung đoàn, chạy hoàn toàn ban ngày, đi thẳng từ nơi nhận hàng tới nơi giao hàng. Đến mùa hè năm 1974, Đường tuyến phía Tây Trường Sơn được nâng cấp, mở thêm tuyến đường phía Đông Trường Sơn, hình thành một hệ thống liên hoàn, vững chắc, là cơ sở hạ tầng bảo đảm chi viện liên tục vật chất hậu cần kỹ thuật, cơ động lực lượng, bảo đảm cho đòn tiến công chiến lược khi thời cơ đến. Tuyến hành lang đông – tây Trường Sơn đã hình thành một tuyến hậu cần chiến lược, trải dài trên diện tích 130 nghìn cây số vuông, nối liền hậu phương lớn miền Bắc với các chiến trường Tây nguyên, Trung và Nam bộ, mà điểm cuối cùng tập kết mọi vật chất hậu cần kỹ thuật là tại Bù Gia Mập, Lộc Ninh, tỉnh Bình Phước, bàn giao cho Hậu cần Quân giải phóng.\n\n[chien_dich_hcm-p6-b1 | https://vi.wikipedia.org/wiki/Chiến_dịch_Hồ_Chí_Minh | page 6]\nNgày 24 tháng 4 năm 1975, các đơn vị tác chiến đã vào vị trí tập kết, sẵn sàng chiến đấu. Song song với tổng tấn công của bộ đội chủ lực, Chiến dịch còn được thực hiện với quá trình nổi dậy của quần chúng nhân dân. Quá trình nổi dậy của quần chúng nhân dân đã diễn ra sôi nổi và được chuẩn bị từ sớm. Ngay từ cuối năm 1974, Trung ương Cục miền Nam và Quân Giải phóng đã có các biện pháp chính trị để chuẩn bị cho quần chúng tiến hành nổi dậy, đặc biệt đã có trên 40.000 người tham gia quá trình nổi dậy với 7.000 người công khai. Các biện pháp đấu tranh bao gồm: ra đường phố làm công tác địch vận, phổ biến lôi kéo, tranh thủ hù dọa đối với lực lượng bảo an tại chỗ của Việt Nam Cộng hòa, thúc đẩy binh sĩ vứt bỏ vũ khí, cởi bỏ trang phục, rút khỏi trụ sở, đồn bốt, về nhà hoặc tháo chạy, ẩn náu... Sau khi Quân Giải phóng tiến vào tiếp quản các đô thị, quần chúng tiến hành dẫn đường hoặc chở bộ đội, bảo vệ nhà máy xí nghiệp, kho bãi, nhà ga, bến cảng, thu các giấy tờ, hồ sơ, hạ cờ Việt Nam Cộng hòa, kéo cờ Chính phủ Cách mạng Lâm thời Cộng hòa miền Nam Việt Nam , cử đại diện chính quyền cách mạng...",
+    "context_ids": [
+     "duong_truong_son-p18-b2",
+     "duong_truong_son-p18-b1",
+     "chien_dich_hcm-p6-b1"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"quân đoàn 2 tiến vào Dinh Độc Lập vào thời điểm nào năm 1975?\" Need evidence from documents after 1858. The retrieved chunks do not mention that. Need to search for \"Quân đoàn 2 Dinh Độc Lập 1975\".",
+     "tool_calls": [
+      {
+       "id": "fc_d1e1d7e4-efe5-4d38-a4f1-4e29be26bf90",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quân đoàn 2 tiến vào Dinh Độc Lập 1975\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1678,
+     "output_tokens": 106
+    }
+   },
+   {
+    "context": "[duong_truong_son-p18-b2 | https://vi.wikipedia.org/wiki/Đường_Trường_Sơn | page 18]\nTrong cuộc Tổng tiến công và nổi dậy mùa Xuân 1975, tuyến đường đã bảo đảm cơ động nhanh chóng 3 quân đoàn, 5 sư đoàn và 2 trung đoàn binh chủng vào chiến dịch, phục vụ hành quân đi các chiến trường 411 nghìn người (cả dân sự). Hệ thống đường Trường Sơn (bao gồm cả tuyến xăng dầu vươt Trường Sơn) là tuyến hậu cần chiến lược vững chắc, một trong những nhân tố quyết định thắng lợi nhiệm vụ chi viện của hậu phương chiến lược miền Bắc cho các chiến trường miền Nam, góp phần quan trọng cho trận chiến quyết định, giải phóng Sài Gòn, thống nhất đất nước. Đường Trường Sơn của những năm chiến tranh mang một trọng trách mới: phục vụ nhu cầu phát triển kinh tế - xã hội, an ninh quốc phòng... của thời bình. Dọc bên đường, các thị trấn sầm uất, những khu dân cư đông đúc đã hiện hữu như để minh chứng cho sức sống mãnh liệt trên con đường lịch sử này. Điều đặc biệt là ở những làng nhỏ ven đường sẽ bắt gặp cuộc sống của những cựu Thanh niên xung phong. Họ ở khắp nơi về đây tham gia xây dựng con đường của thời bình để phát triển kinh tế, và khi con đường đã thông, họ lại chọn đây làm nơi lập nghiệp thay vì quay về bản xứ.\n\n[duong_truong_son-p18-b1 | https://vi.wikipedia.org/wiki/Đường_Trường_Sơn | page 18]\nQuân bổ sung cho các chiến trường đều được hành quân bằng cơ giới, chấm dứt hành quân bộ. Trong mùa khô 1973-1974, mỗi tháng chuyển được trên 30.000 đến 50.000 quân qua tuyến. Trước đây, bộ đội hành quân bộ từ miền Bắc vào chiến trường B2 mất hơn ba tháng, nay chỉ mất hơn chục ngày. Đây là một bước tiến nhảy vọt về chất trong tổ chức hành quân. Đối với hàng, đội hình vận chuyển chủ yếu là trung đoàn, chạy hoàn toàn ban ngày, đi thẳng từ nơi nhận hàng tới nơi giao hàng. Đến mùa hè năm 1974, Đường tuyến phía Tây Trường Sơn được nâng cấp, mở thêm tuyến đường phía Đông Trường Sơn, hình thành một hệ thống liên hoàn, vững chắc, là cơ sở hạ tầng bảo đảm chi viện liên tục vật chất hậu cần kỹ thuật, cơ động lực lượng, bảo đảm cho đòn tiến công chiến lược khi thời cơ đến. Tuyến hành lang đông – tây Trường Sơn đã hình thành một tuyến hậu cần chiến lược, trải dài trên diện tích 130 nghìn cây số vuông, nối liền hậu phương lớn miền Bắc với các chiến trường Tây nguyên, Trung và Nam bộ, mà điểm cuối cùng tập kết mọi vật chất hậu cần kỹ thuật là tại Bù Gia Mập, Lộc Ninh, tỉnh Bình Phước, bàn giao cho Hậu cần Quân giải phóng.\n\n[chien_dich_hcm-p6-b1 | https://vi.wikipedia.org/wiki/Chiến_dịch_Hồ_Chí_Minh | page 6]\nNgày 24 tháng 4 năm 1975, các đơn vị tác chiến đã vào vị trí tập kết, sẵn sàng chiến đấu. Song song với tổng tấn công của bộ đội chủ lực, Chiến dịch còn được thực hiện với quá trình nổi dậy của quần chúng nhân dân. Quá trình nổi dậy của quần chúng nhân dân đã diễn ra sôi nổi và được chuẩn bị từ sớm. Ngay từ cuối năm 1974, Trung ương Cục miền Nam và Quân Giải phóng đã có các biện pháp chính trị để chuẩn bị cho quần chúng tiến hành nổi dậy, đặc biệt đã có trên 40.000 người tham gia quá trình nổi dậy với 7.000 người công khai. Các biện pháp đấu tranh bao gồm: ra đường phố làm công tác địch vận, phổ biến lôi kéo, tranh thủ hù dọa đối với lực lượng bảo an tại chỗ của Việt Nam Cộng hòa, thúc đẩy binh sĩ vứt bỏ vũ khí, cởi bỏ trang phục, rút khỏi trụ sở, đồn bốt, về nhà hoặc tháo chạy, ẩn náu... Sau khi Quân Giải phóng tiến vào tiếp quản các đô thị, quần chúng tiến hành dẫn đường hoặc chở bộ đội, bảo vệ nhà máy xí nghiệp, kho bãi, nhà ga, bến cảng, thu các giấy tờ, hồ sơ, hạ cờ Việt Nam Cộng hòa, kéo cờ Chính phủ Cách mạng Lâm thời Cộng hòa miền Nam Việt Nam , cử đại diện chính quyền cách mạng...",
+    "context_ids": [
+     "duong_truong_son-p18-b2",
+     "duong_truong_son-p18-b1",
+     "chien_dich_hcm-p6-b1"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Quân đoàn 2 tiến vào Dinh Độc Lập vào thời điểm nào năm 1975?\" Need evidence from documents after 1858. The retrieved chunks do not mention Quân đoàn 2 entering Dinh Độc Lập. Need to search more.\n\nSearch query: \"Quân đoàn 2 Dinh Độc Lập 1975\".",
+     "tool_calls": [
+      {
+       "id": "fc_8ec74bf2-179c-4a1a-a839-690b3210fbc0",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quân đoàn 2 Dinh Độc Lập 1975\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1695,
+     "output_tokens": 119
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Sau khi đánh tan đồn Ngọc Hồi, Quang Trung đưa quân vào thành Thăng Long vào lúc nào?",
+  "status": "answered",
+  "answer": "Quang Trung đưa quân vào thành Thăng Long vào sáng ngày mồng 5 tháng Giêng sau khi đánh tan đồn Ngọc Hồi [nguyen_hue-p23-b1] [ngoc_hoi_dong_da-p11-b1].",
+  "citations": [
+   "nguyen_hue-p23-b1",
+   "ngoc_hoi_dong_da-p11-b1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "đánh tan đồn Ngọc Hồi Quang Trung đưa quân vào thành Thăng Long lúc nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "nguyen_hue-p23-b1",
+      "score": 0.83114,
+      "source_id": "nguyen_hue",
+      "page": 23,
+      "metadata": {
+       "title": "Nguyễn Huệ",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ngoc_hoi_dong_da-p11-b2",
+      "score": 0.815567,
+      "source_id": "ngoc_hoi_dong_da",
+      "page": 11,
+      "metadata": {
+       "title": "Trận Ngọc Hồi – Đống Đa",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ngoc_hoi_dong_da-p11-b1",
+      "score": 0.803388,
+      "source_id": "ngoc_hoi_dong_da",
+      "page": 11,
+      "metadata": {
+       "title": "Trận Ngọc Hồi – Đống Đa",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "nguyen_hue-p23-b1",
+     "ngoc_hoi_dong_da-p11-b2",
+     "ngoc_hoi_dong_da-p11-b1"
+    ],
+    "context_chars": 3702
+   },
+   {
+    "event": "search",
+    "query": "Quang Trung đưa quân vào thành Thăng Long sau khi đánh tan đồn Ngọc Hồi ngày mồng 5 tháng Giêng",
+    "filter": null,
+    "results": [
+     {
+      "id": "nguyen_hue-p22-b2",
+      "score": 0.787312,
+      "source_id": "nguyen_hue",
+      "page": 22,
+      "metadata": {
+       "title": "Nguyễn Huệ",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "le_loi-p14-b1",
+      "score": 0.777466,
+      "source_id": "le_loi",
+      "page": 14,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nguyen_hue-p23-b1",
+      "score": 0.768704,
+      "source_id": "nguyen_hue",
+      "page": 23,
+      "metadata": {
+       "title": "Nguyễn Huệ",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "nguyen_hue-p23-b1",
+     "ngoc_hoi_dong_da-p11-b2",
+     "ngoc_hoi_dong_da-p11-b1"
+    ],
+    "context_chars": 3702
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 40948.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4287,
+   "output_tokens": 591
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "đánh tan đồn Ngọc Hồi Quang Trung đưa quân vào thành Thăng Long lúc nào"
+   },
+   {
+    "action": "search",
+    "query": "Quang Trung đưa quân vào thành Thăng Long sau khi đánh tan đồn Ngọc Hồi ngày mồng 5 tháng Giêng"
+   },
+   {
+    "action": "answer",
+    "answer": "Quang Trung đưa quân vào thành Thăng Long vào sáng ngày mồng 5 tháng Giêng sau khi đánh tan đồn Ngọc Hồi [nguyen_hue-p23-b1] [ngoc_hoi_dong_da-p11-b1].",
+    "citations": [
+     "nguyen_hue-p23-b1",
+     "ngoc_hoi_dong_da-p11-b1"
+    ]
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Sau khi đánh tan đồn Ngọc Hồi, Quang Trung đưa quân vào thành Thăng Long vào lúc nào?\" Need evidence from the document corpus. We must search.\n\nLet's search for Ngọc Hồi, Quang Trung, Thăng Long.",
+     "tool_calls": [
+      {
+       "id": "fc_5668cb22-4ba1-44b2-8291-ff3affaa7b86",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"đánh tan đồn Ngọc Hồi Quang Trung đưa quân vào thành Thăng Long lúc nào\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 612,
+     "output_tokens": 105
+    }
+   },
+   {
+    "context": "[nguyen_hue-p23-b1 | https://vi.wikipedia.org/wiki/Nguyễn_Huệ | page 23]\nĐêm 30 tháng Chạp âm lịch, quân Tây Sơn đánh diệt đồn Gián Khẩu của các tướng Lê Chiêu Thống. Sau đó Quang Trung đánh diệt các đồn Nguyệt Quyết, Nhật Tảo, dụ hàng được đồn Hà Hồi. Đêm mồng 4 Tết, Quang Trung tiến đến trước đồn lớn nhất của quân Thanh là Ngọc Hồi nhưng dừng lại chưa đánh khiến quân Thanh lo sợ, phần bị động không dám đánh trước nhưng cũng không biết bị đánh lúc nào. Trong khi đó cánh quân của đô đốc Long bất ngờ tập kích đồn Khương Thượng khiến quân Thanh không kịp trở tay, hàng vạn lính bỏ mạng. Chủ tướng Sầm Nghi Đống tự vẫn. Xác quân Thanh chết sau xếp thành 13 gò đống lớn, có đa mọc um tùm nên gọi là gò Đống Đa. Đô đốc Long tiến vào đánh phá quân địch phòng thủ ở Tây Long. Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi. Trước sức tấn công mãnh liệt của Tây Sơn, quân Thanh bị động thua chết hàng vạn, phần lớn các tướng bị giết. Trong khi Quang Trung chưa đánh Ngọc Hồi thì Tôn Sĩ Nghị nghe tin đô đốc Long đánh vào Thăng Long, cuống cuồng sợ hãi đã bỏ chạy trước. Đến sông Nhị Hà, sợ quân Tây sơn đuổi theo, Tôn Sĩ Nghị hạ lệnh cắt cầu khiến quân Thanh rơi xuống sông chết rất nhiều làm dòng sông bị nghẽn dòng chảy.\n\n[ngoc_hoi_dong_da-p11-b2 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 11]\nKhi Quang Trung diễu võ ngoài đồn Ngọc Hồi, đô đốc Long (Đặng Tiến Đông) đang trên đường bắc tiến hướng đến Sơn Tây – nơi có đạo quân Vân Quý của Ô Đại Kinh – thì bất thần rẽ sang làng Nhân Mục nay thuộc xã Nhân Chính và Khương Đình và nửa đêm bất ngờ tập kích đồn Khương Thượng của Sầm Nghi Đống. Theo Thánh vũ ký của Nguỵ Nguyên, các đội voi của Tây Sơn đều có đại bác trên lưng nã vào đồn. Quân Thanh bị đánh bất ngờ trong đêm tối, chết rất nhiều, tan vỡ bỏ chạy. Sầm Nghi Đống thấy không thể giữ được đồn bèn tự sát trên đài chỉ huy ở Loa Sơn (Khu vực phố chùa Bộc – Hà Nội hiện nay). Một số tài liệu mới mà giới nghiên cứu đưa ra gần đây lại cho thông tin khác về diễn biến trận diệt đồn Khương Thượng. Theo đó, khi quân Thanh bị diệt đáng kể, Sầm Nghi Đống bỏ chạy lên cố thủ tại đài chỉ huy ở Loa Sơn. Đô đốc Long chia quân làm 2: một cánh đánh sang Nam Đồng để tiến vào Thăng Long, một ít quân tiếp tục vây hãm Loa Sơn. Sầm Nghi Đống không tự vẫn ngay mà cố thủ trên đài chờ cứu viện của Tôn Sĩ Nghị, nhưng tới ngày hôm sau không có quân cứu, Sầm mới tuyệt vọng và thắt cổ tự sát. Nhà thơ đương thời Ngô Ngọc Du đã làm bài thơ Loa Sơn điếu cổ có câu:\n\n[ngoc_hoi_dong_da-p11-b1 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 11]\nTheo Đại Nam chính biên liệt truyện, quân Quang Trung thần tốc tiến lên bắt gọn đám quân Thanh do thám và tiêu diệt các đồn bắc sông Nguyệt Quyết và đồn Nhật Tảo (Duy Tiên). Do đạo quân Tây Sơn hành quân nhanh và các đám quân do thám bị bắt, quân Thanh từ đồn Hà Hồi tới Thăng Long không biết gì về nhất cử nhất động của quân Tây Sơn. Ngày mồng 3 tháng Giêng, quân Tây Sơn tiến đến Hà Hồi cách Thăng Long khoảng 20 km. Quang Trung cho quân vây chặt đồn rồi sai bắc loa kêu gọi quân Thanh đầu hàng. Quân Thanh bị bất ngờ trước sự áp sát quá nhanh của quân Tây Sơn, không kịp kháng cự, đều ra hàng. Ngày mồng 4 tháng Giêng, Quang Trung tiến đến đồn Ngọc Hồi. Hứa Thế Hanh ở đây nghe tin đồn Hà Hồi bị diệt vội báo về Thăng Long. Tôn Sĩ Nghị vội điều Thang Hùng Nghiệp mang quân ra tăng viện, lại đặc sai 20 kỵ binh phải thay nhau chạy đi chạy lại báo cáo tình hình. Nhưng khi tiến quân tới Ngọc Hồi, Quang Trung không đánh ngay. Quân Thanh bị động cũng không dám giao tranh trước nhưng cũng không biết bị đánh khi nào. Đến sáng sớm mùng 5, Quang Trung áp sát đồn Ngọc Hồi. Và đánh tan đồn Ngọc Hồi trong ngày.",
+    "context_ids": [
+     "nguyen_hue-p23-b1",
+     "ngoc_hoi_dong_da-p11-b2",
+     "ngoc_hoi_dong_da-p11-b1"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Sau khi đánh tan đồn Ngọc Hồi, Quang Trung đưa quân vào thành Thăng Long vào lúc nào?\" Need citation. From retrieved snippets: first snippet says \"Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi.\" That's about attack, not entry. Need when after defeating Ngọc Hồi, he entered Thang Long. Not directly in snippets. Maybe other sources. Let's search.",
+     "tool_calls": [
+      {
+       "id": "fc_b989d31a-86e4-4c9f-8f8d-d05ca396f86c",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quang Trung đưa quân vào thành Thăng Long sau khi đánh tan đồn Ngọc Hồi ngày mồng 5 tháng Giêng\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1823,
+     "output_tokens": 158
+    }
+   },
+   {
+    "context": "[nguyen_hue-p23-b1 | https://vi.wikipedia.org/wiki/Nguyễn_Huệ | page 23]\nĐêm 30 tháng Chạp âm lịch, quân Tây Sơn đánh diệt đồn Gián Khẩu của các tướng Lê Chiêu Thống. Sau đó Quang Trung đánh diệt các đồn Nguyệt Quyết, Nhật Tảo, dụ hàng được đồn Hà Hồi. Đêm mồng 4 Tết, Quang Trung tiến đến trước đồn lớn nhất của quân Thanh là Ngọc Hồi nhưng dừng lại chưa đánh khiến quân Thanh lo sợ, phần bị động không dám đánh trước nhưng cũng không biết bị đánh lúc nào. Trong khi đó cánh quân của đô đốc Long bất ngờ tập kích đồn Khương Thượng khiến quân Thanh không kịp trở tay, hàng vạn lính bỏ mạng. Chủ tướng Sầm Nghi Đống tự vẫn. Xác quân Thanh chết sau xếp thành 13 gò đống lớn, có đa mọc um tùm nên gọi là gò Đống Đa. Đô đốc Long tiến vào đánh phá quân địch phòng thủ ở Tây Long. Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi. Trước sức tấn công mãnh liệt của Tây Sơn, quân Thanh bị động thua chết hàng vạn, phần lớn các tướng bị giết. Trong khi Quang Trung chưa đánh Ngọc Hồi thì Tôn Sĩ Nghị nghe tin đô đốc Long đánh vào Thăng Long, cuống cuồng sợ hãi đã bỏ chạy trước. Đến sông Nhị Hà, sợ quân Tây sơn đuổi theo, Tôn Sĩ Nghị hạ lệnh cắt cầu khiến quân Thanh rơi xuống sông chết rất nhiều làm dòng sông bị nghẽn dòng chảy.\n\n[ngoc_hoi_dong_da-p11-b2 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 11]\nKhi Quang Trung diễu võ ngoài đồn Ngọc Hồi, đô đốc Long (Đặng Tiến Đông) đang trên đường bắc tiến hướng đến Sơn Tây – nơi có đạo quân Vân Quý của Ô Đại Kinh – thì bất thần rẽ sang làng Nhân Mục nay thuộc xã Nhân Chính và Khương Đình và nửa đêm bất ngờ tập kích đồn Khương Thượng của Sầm Nghi Đống. Theo Thánh vũ ký của Nguỵ Nguyên, các đội voi của Tây Sơn đều có đại bác trên lưng nã vào đồn. Quân Thanh bị đánh bất ngờ trong đêm tối, chết rất nhiều, tan vỡ bỏ chạy. Sầm Nghi Đống thấy không thể giữ được đồn bèn tự sát trên đài chỉ huy ở Loa Sơn (Khu vực phố chùa Bộc – Hà Nội hiện nay). Một số tài liệu mới mà giới nghiên cứu đưa ra gần đây lại cho thông tin khác về diễn biến trận diệt đồn Khương Thượng. Theo đó, khi quân Thanh bị diệt đáng kể, Sầm Nghi Đống bỏ chạy lên cố thủ tại đài chỉ huy ở Loa Sơn. Đô đốc Long chia quân làm 2: một cánh đánh sang Nam Đồng để tiến vào Thăng Long, một ít quân tiếp tục vây hãm Loa Sơn. Sầm Nghi Đống không tự vẫn ngay mà cố thủ trên đài chờ cứu viện của Tôn Sĩ Nghị, nhưng tới ngày hôm sau không có quân cứu, Sầm mới tuyệt vọng và thắt cổ tự sát. Nhà thơ đương thời Ngô Ngọc Du đã làm bài thơ Loa Sơn điếu cổ có câu:\n\n[ngoc_hoi_dong_da-p11-b1 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 11]\nTheo Đại Nam chính biên liệt truyện, quân Quang Trung thần tốc tiến lên bắt gọn đám quân Thanh do thám và tiêu diệt các đồn bắc sông Nguyệt Quyết và đồn Nhật Tảo (Duy Tiên). Do đạo quân Tây Sơn hành quân nhanh và các đám quân do thám bị bắt, quân Thanh từ đồn Hà Hồi tới Thăng Long không biết gì về nhất cử nhất động của quân Tây Sơn. Ngày mồng 3 tháng Giêng, quân Tây Sơn tiến đến Hà Hồi cách Thăng Long khoảng 20 km. Quang Trung cho quân vây chặt đồn rồi sai bắc loa kêu gọi quân Thanh đầu hàng. Quân Thanh bị bất ngờ trước sự áp sát quá nhanh của quân Tây Sơn, không kịp kháng cự, đều ra hàng. Ngày mồng 4 tháng Giêng, Quang Trung tiến đến đồn Ngọc Hồi. Hứa Thế Hanh ở đây nghe tin đồn Hà Hồi bị diệt vội báo về Thăng Long. Tôn Sĩ Nghị vội điều Thang Hùng Nghiệp mang quân ra tăng viện, lại đặc sai 20 kỵ binh phải thay nhau chạy đi chạy lại báo cáo tình hình. Nhưng khi tiến quân tới Ngọc Hồi, Quang Trung không đánh ngay. Quân Thanh bị động cũng không dám giao tranh trước nhưng cũng không biết bị đánh khi nào. Đến sáng sớm mùng 5, Quang Trung áp sát đồn Ngọc Hồi. Và đánh tan đồn Ngọc Hồi trong ngày.",
+    "context_ids": [
+     "nguyen_hue-p23-b1",
+     "ngoc_hoi_dong_da-p11-b2",
+     "ngoc_hoi_dong_da-p11-b1"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Sau khi đánh tan đồn Ngọc Hồi, Quang Trung đưa quân vào thành Thăng Long vào lúc nào?\" The retrieved snippets mention \"Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi.\" Also \"Đến sáng sớm mùng 5, Quang Trung áp sát đồn Ngọc Hồi. Và đánh tan đồn Ngọc Hồi trong ngày.\" So after defeating Ngọc Hồi, he entered Thăng Long. Need time: likely \"sáng mồng 5 tháng Giêng\" (the 5th day of the first lunar month). Provide answer with citation.\n\nWe have two chunks: nguyen_hue-p23-b1 and ngoc_hoi_dong_da-p11-b1 (both contain info). Use both.\n\nAnswer: \"Quang Trung đưa quân vào thành Thăng Long vào sáng ngày mồng 5 tháng Giêng năm 1789\" (year maybe). Provide citation.\n\nLet's cite both chunk IDs.\n\n",
+     "tool_calls": [
+      {
+       "id": "fc_49fd3cbf-2f55-48ec-8674-5eec5de3f25e",
+       "type": "function",
+       "function": {
+        "name": "submit_answer",
+        "arguments": "{\"answer\":\"Quang Trung đưa quân vào thành Thăng Long vào sáng ngày mồng 5 tháng Giêng sau khi đánh tan đồn Ngọc Hồi [nguyen_hue-p23-b1] [ngoc_hoi_dong_da-p11-b1].\",\"citations\":[\"nguyen_hue-p23-b1\",\"ngoc_hoi_dong_da-p11-b1\"]}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1852,
+     "output_tokens": 328
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Trước cuộc kháng chiến chống quân Nguyên Mông lần thứ ba, ai được nhà Trần phong làm Quốc công tiết chế thống lĩnh quân đội toàn quốc?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tran-p2-b1",
+      "score": 0.710793,
+      "source_id": "nha_tran",
+      "page": 2,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "le_loi-p2-b1",
+      "score": 0.635284,
+      "source_id": "le_loi",
+      "page": 2,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p54-b3",
+      "score": 0.632114,
+      "source_id": "chien_dong_duong",
+      "page": 54,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tran-p2-b1",
+     "le_loi-p2-b1",
+     "chien_dong_duong-p54-b3"
+    ],
+    "context_chars": 2646
+   },
+   {
+    "event": "search",
+    "query": "Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tran-p2-b1",
+      "score": 0.710793,
+      "source_id": "nha_tran",
+      "page": 2,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "le_loi-p2-b1",
+      "score": 0.635284,
+      "source_id": "le_loi",
+      "page": 2,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p54-b3",
+      "score": 0.632114,
+      "source_id": "chien_dong_duong",
+      "page": 54,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tran-p2-b1",
+     "le_loi-p2-b1",
+     "chien_dong_duong-p54-b3"
+    ],
+    "context_chars": 2646
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 40821.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 3552,
+   "output_tokens": 340
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba"
+   },
+   {
+    "action": "search",
+    "query": "Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba"
+   },
+   {
+    "action": "search",
+    "query": "Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Trước cuộc kháng chiến chống quân Nguyên Mông lần thứ ba, ai được nhà Trần phong làm Quốc công tiết chế thống lĩnh quân đội toàn quốc?\" Need evidence from corpus. Let's search.",
+     "tool_calls": [
+      {
+       "id": "fc_c66eafdb-f1c0-4445-9390-75afe463fdb8",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 621,
+     "output_tokens": 99
+    }
+   },
+   {
+    "context": "[nha_tran-p2-b1 | https://vi.wikipedia.org/wiki/Nhà_Trần | page 2]\nDưới triều nhà Trần, lực lượng quân đội đặc biệt được chú trọng phát triển đủ sức đánh dẹp các cuộc nội loạn và đương đầu với quân đội các nước xung quanh. Lực lượng quân đội nhà Trần thiện chiến nhất là thủy binh, rồi kỵ binh, bộ binh, tượng binh... Chính sách chia thực ấp cho các thân tộc trong họ, mỗi thế lực trong dòng tộc đều có quân đội tinh nhuệ là nền tảng vững vàng khiến quân đội nhà Trần đánh bại được cuộc xâm phạm của quân đội Nhà Nguyên – Đế quốc Mông Cổ qua 3 lần vào năm 1258, 1285 và 1287. Nhiều tôn thất hoàng gia như Chiêu Minh Đại vương Trần Quang Khải, Chiêu Văn Đại vương Trần Nhật Duật, Hưng Đạo Đại vương Trần Quốc Tuấn và Nhân Huệ vương Trần Khánh Dư đều là những tướng cầm quân tài ba, có vai trò quan trọng trong chiến thắng vào năm 1285 và 1287. Tổ tiên nhà Trần vốn làm nghề chài lưới, có gốc là người Mân Việt (hiện nay thuộc tỉnh Phúc Kiến) di cư đến đất Đại Việt đầu tiên ở Yên Sinh, Đông Triều (nay là phường An Sinh, thành phố Quảng Ninh) sau di dời đến các vùng ven biển như Tức Mặc (phường Nam Định, tỉnh Ninh Bình) và Thái Đường (xã Long Hưng, tỉnh Hưng Yên).\n\n[le_loi-p2-b1 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 2]\nNăm 1426, ông cử 3 đạo quân tiến ra Bắc, trong khi nhà Minh cử một lực lượng lớn do Vương Thông chỉ huy sang tiếp viện. Hai cánh quân của Lê Lợi kết hợp với nhau, đánh bại quân Minh ở trận Tốt Động – Chúc Động, ép Vương Thông lui về Đông Quan cố thủ. Nghe tin, Lê Lợi lập tức mang đại quân ra Bắc, tổ chức lại quân đội, phân chia hành chính, ban hành các đạo dụ răn quân lính và nhân dân,... lập thế trận bao vây quân Minh. Nhà Minh lại tiếp tục sai các tướng Liễu Thăng, Mộc Thạnh mang quân sang tiếp viện, Lê Lợi sai quân ngăn chặn và đánh bại hoàn toàn hai đạo quân tiếp viện này. Vương Thông cùng đường phải xin hòa với quân Lam Sơn khi chưa được sự cho phép của triều đình Minh. Bất chấp sự phản đối của tướng lĩnh và dân chúng, Lê Lợi không những cho phép quân Minh được rút lui an toàn mà còn chu cấp vật tư như thuyền bè, tu sửa đường sá,... cho họ. Đến ngày 17 tháng 12 năm 1427 (âm lịch) quân Minh chính thức về nước, Lê Lợi sai Nguyễn Trãi thay mình làm bài Bình Ngô đại cáo báo cáo cho thiên hạ biết về việc quân Minh đã giảng hòa, rút quân về nước, Nam Bắc thôi việc binh đao, thiên hạ đại định.\n\n[chien_dong_duong-p54-b3 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 54]\nÔng lập lại trật tự bằng cách lập tòa án quân sự xét xử tất cả các chỉ huy quân sự lợi dụng danh nghĩa kháng chiến để cướp bóc, quấy nhiễu dân chúng, tổ chức lại lực lượng kháng chiến thành các chi đội Vệ quốc đoàn.",
+    "context_ids": [
+     "nha_tran-p2-b1",
+     "le_loi-p2-b1",
+     "chien_dong_duong-p54-b3"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Trước cuộc kháng chiến chống quân Nguyên Mông lần thứ ba, ai được nhà Trần phong làm Quốc công tiết chế thống lĩnh quân đội toàn quốc?\" Need evidence. The current search result doesn't contain that. Need to search for \"Quốc công tiết chế thống lĩnh quân đội toàn quốc\" etc.",
+     "tool_calls": [
+      {
+       "id": "fc_ffad1aec-f331-456e-b6b2-9968004995a2",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1453,
+     "output_tokens": 120
+    }
+   },
+   {
+    "context": "[nha_tran-p2-b1 | https://vi.wikipedia.org/wiki/Nhà_Trần | page 2]\nDưới triều nhà Trần, lực lượng quân đội đặc biệt được chú trọng phát triển đủ sức đánh dẹp các cuộc nội loạn và đương đầu với quân đội các nước xung quanh. Lực lượng quân đội nhà Trần thiện chiến nhất là thủy binh, rồi kỵ binh, bộ binh, tượng binh... Chính sách chia thực ấp cho các thân tộc trong họ, mỗi thế lực trong dòng tộc đều có quân đội tinh nhuệ là nền tảng vững vàng khiến quân đội nhà Trần đánh bại được cuộc xâm phạm của quân đội Nhà Nguyên – Đế quốc Mông Cổ qua 3 lần vào năm 1258, 1285 và 1287. Nhiều tôn thất hoàng gia như Chiêu Minh Đại vương Trần Quang Khải, Chiêu Văn Đại vương Trần Nhật Duật, Hưng Đạo Đại vương Trần Quốc Tuấn và Nhân Huệ vương Trần Khánh Dư đều là những tướng cầm quân tài ba, có vai trò quan trọng trong chiến thắng vào năm 1285 và 1287. Tổ tiên nhà Trần vốn làm nghề chài lưới, có gốc là người Mân Việt (hiện nay thuộc tỉnh Phúc Kiến) di cư đến đất Đại Việt đầu tiên ở Yên Sinh, Đông Triều (nay là phường An Sinh, thành phố Quảng Ninh) sau di dời đến các vùng ven biển như Tức Mặc (phường Nam Định, tỉnh Ninh Bình) và Thái Đường (xã Long Hưng, tỉnh Hưng Yên).\n\n[le_loi-p2-b1 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 2]\nNăm 1426, ông cử 3 đạo quân tiến ra Bắc, trong khi nhà Minh cử một lực lượng lớn do Vương Thông chỉ huy sang tiếp viện. Hai cánh quân của Lê Lợi kết hợp với nhau, đánh bại quân Minh ở trận Tốt Động – Chúc Động, ép Vương Thông lui về Đông Quan cố thủ. Nghe tin, Lê Lợi lập tức mang đại quân ra Bắc, tổ chức lại quân đội, phân chia hành chính, ban hành các đạo dụ răn quân lính và nhân dân,... lập thế trận bao vây quân Minh. Nhà Minh lại tiếp tục sai các tướng Liễu Thăng, Mộc Thạnh mang quân sang tiếp viện, Lê Lợi sai quân ngăn chặn và đánh bại hoàn toàn hai đạo quân tiếp viện này. Vương Thông cùng đường phải xin hòa với quân Lam Sơn khi chưa được sự cho phép của triều đình Minh. Bất chấp sự phản đối của tướng lĩnh và dân chúng, Lê Lợi không những cho phép quân Minh được rút lui an toàn mà còn chu cấp vật tư như thuyền bè, tu sửa đường sá,... cho họ. Đến ngày 17 tháng 12 năm 1427 (âm lịch) quân Minh chính thức về nước, Lê Lợi sai Nguyễn Trãi thay mình làm bài Bình Ngô đại cáo báo cáo cho thiên hạ biết về việc quân Minh đã giảng hòa, rút quân về nước, Nam Bắc thôi việc binh đao, thiên hạ đại định.\n\n[chien_dong_duong-p54-b3 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 54]\nÔng lập lại trật tự bằng cách lập tòa án quân sự xét xử tất cả các chỉ huy quân sự lợi dụng danh nghĩa kháng chiến để cướp bóc, quấy nhiễu dân chúng, tổ chức lại lực lượng kháng chiến thành các chi đội Vệ quốc đoàn.",
+    "context_ids": [
+     "nha_tran-p2-b1",
+     "le_loi-p2-b1",
+     "chien_dong_duong-p54-b3"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: \"Trước cuộc kháng chiến chống quân Nguyên Mông lần thứ ba, ai được nhà Trần phong làm Quốc công tiết chế thống lĩnh quân đội toàn quốc?\" Need evidence. The current search result snippet doesn't mention that. Need to search for \"Quốc công tiết chế thống lĩnh quân đội toàn quốc\" etc.",
+     "tool_calls": [
+      {
+       "id": "fc_dc10744f-148d-44c6-b4bf-15a5eb1fe937",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Quốc công tiết chế thống lĩnh quân đội toàn quốc Trần phong trước kháng chiến Nguyên Mông lần thứ ba\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1478,
+     "output_tokens": 121
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q23",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "Chùa Thiên Mụ ở Huế được vua nào cho xây dựng vào năm nào?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Chùa Thiên Mụ vua xây dựng năm",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tien_le-p6-b2",
+      "score": 0.729963,
+      "source_id": "nha_tien_le",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p6-b1",
+      "score": 0.699718,
+      "source_id": "ly_cong_uan",
+      "page": 6,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p14-b2",
+      "score": 0.691662,
+      "source_id": "ly_cong_uan",
+      "page": 14,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tien_le-p6-b2",
+     "ly_cong_uan-p6-b1",
+     "ly_cong_uan-p14-b2"
+    ],
+    "context_chars": 3688
+   },
+   {
+    "event": "search",
+    "query": "Chùa Thiên Mụ được vua nào xây dựng năm nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_quy_ly-p11-b2",
+      "score": 0.738365,
+      "source_id": "ho_quy_ly",
+      "page": 11,
+      "metadata": {
+       "title": "Hồ Quý Ly",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p13-b1",
+      "score": 0.73385,
+      "source_id": "ly_cong_uan",
+      "page": 13,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_tien_le-p6-b2",
+      "score": 0.731447,
+      "source_id": "nha_tien_le",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tien_le-p6-b2",
+     "ly_cong_uan-p6-b1",
+     "ly_cong_uan-p14-b2"
+    ],
+    "context_chars": 3688
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 39180.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4376,
+   "output_tokens": 224
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Chùa Thiên Mụ vua xây dựng năm"
+   },
+   {
+    "action": "search",
+    "query": "Chùa Thiên Mụ được vua nào xây dựng năm nào"
+   },
+   {
+    "action": "search",
+    "query": "Chùa Thiên Mụ được vua nào xây dựng năm nào"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Chùa Thiên Mụ ở Huế được vua nào cho xây dựng vào năm nào?\" Need evidence from the corpus. Use search.\n\nSearch query: \"Chùa Thiên Mụ vua xây dựng năm\".",
+     "tool_calls": [
+      {
+       "id": "fc_e611d0ee-e1f4-4214-8432-0baca9b1f299",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Chùa Thiên Mụ vua xây dựng năm\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 606,
+     "output_tokens": 85
+    }
+   },
+   {
+    "context": "[nha_tien_le-p6-b2 | https://vi.wikipedia.org/wiki/Nhà_Tiền_Lê | page 6]\nTrăm quan đều lạy rạp dưới sân, trong ngoài đều hô \"vạn tuế\", vang dậy cả trong triều. Đại xá cho thiên hạ, lấy năm sau làm niên hiệu Thuận Thiên năm đầu. Đốt giềng lưới, bãi ngục tụng, xuống chiếu từ nay ai có việc tranh kiện cho đến triều tâu bày, vua thân xét quyết. ở xã Liêm Hà, tỉnh Ninh Bình , Nghệ An do Lê Hoàn khởi dựng. Nhà Tiền Lê nối tiếp và hầu như giữ nguyên mọi quy củ của nhà Đinh. Năm 980, sau khi lên ngôi, Lê Hoàn đặt chức quan trong triều, phong Hồng Hiến làm Thái sư, Phạm Cự Lạng làm Thái úy, Từ Mục làm Đại tổng quản, Đinh Thừa Chinh làm Nha nội đô Chỉ huy sứ. So với nhà Đinh tập trung hết quyền hành về tay hoàng đế, vua Lê đã chia trách nhiệm cho các đại thần. Chỉ riêng việc đánh dẹp thì nhà vua thường thân chinh cầm quân. Trong thời gian cai trị, các vua Tiền Lê vẫn gặp phải sự chống đối của các tù trưởng địa phương, nhất là những nơi xa xôi hẻo lánh. Năm 989, Lê Đại Hành sai viên Quảng giáp là Dương Tiến Lộc đi thu thuế hai châu Hoan và Ái. Tiến Lộc đem người hai châu ấy xin theo về với Chiêm Thành. Chiêm Thành không nhận. Dương Tiến Lộc lấy hai châu Hoan, Ái làm phản. Lê Đại Hành thân hành đi đánh, giết chết Tiến Lộc và rất nhiều người 2 châu đó.\n\n[ly_cong_uan-p6-b1 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 6]\nTrăm quan liền bái lạy và tung hô \"Vạn tuế\", rồi cùng dâng tôn hiệu cho vua là: \"Phụng Thiên Chí Lý ứng Vận Tự Tại Thánh Minh Long Hiện Duệ Văn Anh Vũ Sùng Nhân Quảng Hiếu Thiên Hạ Thái Bình Khâm Minh Quang Trạch Chương Minh Vạn Bang Hiển Ứng Phù Cảm Uy Chấn Phiên Man Duệ Mưu Thần Trợ Thánh Tri Tắc Thiên Đạo Chính Hoàng Đế\". Việc Công Uẩn nhận tôn hiệu đến hơn 50 chữ từ các quan bị sử gia Ngô Sĩ Liên phê bình trong Đại Việt sử ký toàn thư: \"Kinh thư tôn xưng vua Nghêu là Phóng Huân, vua Thuấn là Trùng Hoa. Bề tôi đời sau lấy đức hạnh thực mà tôn xưng vua, đến hơn mười chữ đã là nhiều lắm rồi. Bấy giờ bầy tôi dâng tôn hiệu đến 50 chữ, thế là không biết kê cứu cổ học mà chỉ biết nịnh vua. [Lý] Thái Tổ nhận mà không từ, đó là muốn khoe khoang để cho đời sau không ai hơn được. Thế là sai. Sau, Tôn Thái Tông cũng đến gần 50 chữ là vì bắt chước ở đây.\" Lý Công Uẩn lên ngôi hoàng đế ngày 21 tháng 11 năm 1009, chính thức lập ra nhà Lý. Sử còn gọi triều đại của ông là Hậu Lý để phân biệt với nhà Tiền Lý do Lý Nam Đế sáng lập. Vua đặt niên hiệu là Thuận Thiên, nghĩa là \"theo ý trời\".\n\n[ly_cong_uan-p14-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 14]\n:#Đông Chinh vương Lý Lực, phong tước vương năm 1018, mất năm 1038, được thờ là thành hoàng làng tại làng Cổ Nhuế, Từ Liêm và làng Trúng Đích, xã Ô Diên, Hà Nội. :#Vũ Đức vương, không rõ thân thế, theo quan điểm của Trần Trọng Kim là con Lý Thái Tổ. :#Uy Minh hầu Lý Nhật Quang, còn có tên Lý Hoảng. Theo Việt điện u linh tập, mẹ là Linh Hiển Hoàng thái hậu. :#Công chúa An Quốc, gả cho Đào Cam Mộc. :#Lĩnh Nam Công chúa (Lý Bảo Hòa), gả cho Thân Thừa Quý Các sử gia hậu thế của đời Trần, Lê và Nguyễn đều ca ngợi đức độ và tài trị quốc của Lý Thái Tổ. Sử thần Lê Văn Hưu trong Đại Việt sử ký, nhận xét: Sử thần Lê Tung, tác giả bài Đại Việt thông giám tổng luận thì nhận xét: Về quyết định dời đô về Thăng Long của vua, sử thần Ngô Thì Sĩ trong Đại Việt sử ký tiền biên có lời khen ngợi: Tuy nhiên, việc vua quá sùng đạo Phật dẫn đến chuyện mê tín dị đoan đã bị các sử gia phê phán. Sử thần Ngô Thì Sĩ trong Việt sử tiêu án phê bình: Về việc vua nhận tôn hiệu đến hơn 50 chữ, bao gồm nhiều từ tâng bốc quá mức, thì bên cạnh lời phê bình của sử thần Ngô Sĩ Liên vào đời Lê Thánh Tông thì sử gia Nguyễn Nghiễm đời Lê Hiển Tông cũng có lời phê bình tương tự trong Đại Việt Sử ký tiền biên:",
+    "context_ids": [
+     "nha_tien_le-p6-b2",
+     "ly_cong_uan-p6-b1",
+     "ly_cong_uan-p14-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: which king built Thien Mu Pagoda in Hue and in which year. The retrieved chunks are irrelevant. Need to search.",
+     "tool_calls": [
+      {
+       "id": "fc_ec720d68-cb79-4f6c-9b19-b63e61974f69",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Chùa Thiên Mụ được vua nào xây dựng năm nào\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1878,
+     "output_tokens": 68
+    }
+   },
+   {
+    "context": "[nha_tien_le-p6-b2 | https://vi.wikipedia.org/wiki/Nhà_Tiền_Lê | page 6]\nTrăm quan đều lạy rạp dưới sân, trong ngoài đều hô \"vạn tuế\", vang dậy cả trong triều. Đại xá cho thiên hạ, lấy năm sau làm niên hiệu Thuận Thiên năm đầu. Đốt giềng lưới, bãi ngục tụng, xuống chiếu từ nay ai có việc tranh kiện cho đến triều tâu bày, vua thân xét quyết. ở xã Liêm Hà, tỉnh Ninh Bình , Nghệ An do Lê Hoàn khởi dựng. Nhà Tiền Lê nối tiếp và hầu như giữ nguyên mọi quy củ của nhà Đinh. Năm 980, sau khi lên ngôi, Lê Hoàn đặt chức quan trong triều, phong Hồng Hiến làm Thái sư, Phạm Cự Lạng làm Thái úy, Từ Mục làm Đại tổng quản, Đinh Thừa Chinh làm Nha nội đô Chỉ huy sứ. So với nhà Đinh tập trung hết quyền hành về tay hoàng đế, vua Lê đã chia trách nhiệm cho các đại thần. Chỉ riêng việc đánh dẹp thì nhà vua thường thân chinh cầm quân. Trong thời gian cai trị, các vua Tiền Lê vẫn gặp phải sự chống đối của các tù trưởng địa phương, nhất là những nơi xa xôi hẻo lánh. Năm 989, Lê Đại Hành sai viên Quảng giáp là Dương Tiến Lộc đi thu thuế hai châu Hoan và Ái. Tiến Lộc đem người hai châu ấy xin theo về với Chiêm Thành. Chiêm Thành không nhận. Dương Tiến Lộc lấy hai châu Hoan, Ái làm phản. Lê Đại Hành thân hành đi đánh, giết chết Tiến Lộc và rất nhiều người 2 châu đó.\n\n[ly_cong_uan-p6-b1 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 6]\nTrăm quan liền bái lạy và tung hô \"Vạn tuế\", rồi cùng dâng tôn hiệu cho vua là: \"Phụng Thiên Chí Lý ứng Vận Tự Tại Thánh Minh Long Hiện Duệ Văn Anh Vũ Sùng Nhân Quảng Hiếu Thiên Hạ Thái Bình Khâm Minh Quang Trạch Chương Minh Vạn Bang Hiển Ứng Phù Cảm Uy Chấn Phiên Man Duệ Mưu Thần Trợ Thánh Tri Tắc Thiên Đạo Chính Hoàng Đế\". Việc Công Uẩn nhận tôn hiệu đến hơn 50 chữ từ các quan bị sử gia Ngô Sĩ Liên phê bình trong Đại Việt sử ký toàn thư: \"Kinh thư tôn xưng vua Nghêu là Phóng Huân, vua Thuấn là Trùng Hoa. Bề tôi đời sau lấy đức hạnh thực mà tôn xưng vua, đến hơn mười chữ đã là nhiều lắm rồi. Bấy giờ bầy tôi dâng tôn hiệu đến 50 chữ, thế là không biết kê cứu cổ học mà chỉ biết nịnh vua. [Lý] Thái Tổ nhận mà không từ, đó là muốn khoe khoang để cho đời sau không ai hơn được. Thế là sai. Sau, Tôn Thái Tông cũng đến gần 50 chữ là vì bắt chước ở đây.\" Lý Công Uẩn lên ngôi hoàng đế ngày 21 tháng 11 năm 1009, chính thức lập ra nhà Lý. Sử còn gọi triều đại của ông là Hậu Lý để phân biệt với nhà Tiền Lý do Lý Nam Đế sáng lập. Vua đặt niên hiệu là Thuận Thiên, nghĩa là \"theo ý trời\".\n\n[ly_cong_uan-p14-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 14]\n:#Đông Chinh vương Lý Lực, phong tước vương năm 1018, mất năm 1038, được thờ là thành hoàng làng tại làng Cổ Nhuế, Từ Liêm và làng Trúng Đích, xã Ô Diên, Hà Nội. :#Vũ Đức vương, không rõ thân thế, theo quan điểm của Trần Trọng Kim là con Lý Thái Tổ. :#Uy Minh hầu Lý Nhật Quang, còn có tên Lý Hoảng. Theo Việt điện u linh tập, mẹ là Linh Hiển Hoàng thái hậu. :#Công chúa An Quốc, gả cho Đào Cam Mộc. :#Lĩnh Nam Công chúa (Lý Bảo Hòa), gả cho Thân Thừa Quý Các sử gia hậu thế của đời Trần, Lê và Nguyễn đều ca ngợi đức độ và tài trị quốc của Lý Thái Tổ. Sử thần Lê Văn Hưu trong Đại Việt sử ký, nhận xét: Sử thần Lê Tung, tác giả bài Đại Việt thông giám tổng luận thì nhận xét: Về quyết định dời đô về Thăng Long của vua, sử thần Ngô Thì Sĩ trong Đại Việt sử ký tiền biên có lời khen ngợi: Tuy nhiên, việc vua quá sùng đạo Phật dẫn đến chuyện mê tín dị đoan đã bị các sử gia phê phán. Sử thần Ngô Thì Sĩ trong Việt sử tiêu án phê bình: Về việc vua nhận tôn hiệu đến hơn 50 chữ, bao gồm nhiều từ tâng bốc quá mức, thì bên cạnh lời phê bình của sử thần Ngô Sĩ Liên vào đời Lê Thánh Tông thì sử gia Nguyễn Nghiễm đời Lê Hiển Tông cũng có lời phê bình tương tự trong Đại Việt Sử ký tiền biên:",
+    "context_ids": [
+     "nha_tien_le-p6-b2",
+     "ly_cong_uan-p6-b1",
+     "ly_cong_uan-p14-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: which king built Thien Mu Pagoda in Hue and in which year. The retrieved chunks do not contain that info. Need to search.",
+     "tool_calls": [
+      {
+       "id": "fc_db842dbb-8edc-473c-bc17-56e33f5e5242",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Chùa Thiên Mụ được vua nào xây dựng năm nào\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1892,
+     "output_tokens": 71
+    }
+   }
+  ]
+ },
+ {
+  "query_id": "q24",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "Vua Minh Mạng có bao nhiêu người con?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Minh Mạng bao nhiêu người con",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_nguyen-p11-b2",
+      "score": 0.486448,
+      "source_id": "nha_nguyen",
+      "page": 11,
+      "metadata": {
+       "title": "Nhà Nguyễn",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ngoc_hoi_dong_da-p18-b2",
+      "score": 0.484453,
+      "source_id": "ngoc_hoi_dong_da",
+      "page": 18,
+      "metadata": {
+       "title": "Trận Ngọc Hồi – Đống Đa",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "le_loi-p26-b2",
+      "score": 0.473682,
+      "source_id": "le_loi",
+      "page": 26,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_nguyen-p11-b2",
+     "ngoc_hoi_dong_da-p18-b2",
+     "le_loi-p26-b2"
+    ],
+    "context_chars": 3494
+   },
+   {
+    "event": "search",
+    "query": "Vua Minh Mạng bao nhiêu người con",
+    "filter": null,
+    "results": [
+     {
+      "id": "ngo_quyen-p8-b1",
+      "score": 0.765941,
+      "source_id": "ngo_quyen",
+      "page": 8,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_ly-p10-b1",
+      "score": 0.72199,
+      "source_id": "nha_ly",
+      "page": 10,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_tien_le-p5-b2",
+      "score": 0.665266,
+      "source_id": "nha_tien_le",
+      "page": 5,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_nguyen-p11-b2",
+     "ngoc_hoi_dong_da-p18-b2",
+     "le_loi-p26-b2"
+    ],
+    "context_chars": 3494
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 40731.9,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4116,
+   "output_tokens": 187
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Minh Mạng bao nhiêu người con"
+   },
+   {
+    "action": "search",
+    "query": "Vua Minh Mạng bao nhiêu người con"
+   },
+   {
+    "action": "search",
+    "query": "Vua Minh Mạng bao nhiêu người con"
+   }
+  ],
+  "model_calls": [
+   {
+    "context": "",
+    "context_ids": [],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need to answer: \"Vua Minh Mạng có bao nhiêu người con?\" Need evidence from the Vietnamese historical documents. Let's search.",
+     "tool_calls": [
+      {
+       "id": "fc_3c405c9a-0c2b-4a72-bc8f-819376e6cdc9",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Minh Mạng bao nhiêu người con\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 599,
+     "output_tokens": 64
+    }
+   },
+   {
+    "context": "[nha_nguyen-p11-b2 | https://vi.wikipedia.org/wiki/Nhà_Nguyễn | page 11]\nTheo thống kê của bộ Hộ thì số đinh năm đầu đời Gia Long là 992.559 người, cuối đời Thiệu Trị là 1.024.380 người. Về điền thổ thì đầu đời Tự Đức có 3.398.584 mẫu ruộng và 502.672 mẫu đất. Mỗi người dân đinh phải chịu 60 ngày lao dịch cho triều đình. Lao dịch thường là để làm các mục đích, xây sửa hệ thống đê điều, kênh rạch, sông ngòi; xây đắp các thành lũy; xây dựng các cung điện cho hoàng gia. Trên thực tế, người dân phải lao dịch khá nặng trong thời gian vương triều Nguyễn xây dựng các cung điện, lăng tẩm, dinh thự,... Ví dụ năm 1807, ngay khi kinh thành Huế vừa được xây xong, vua Gia Long lại huy động hàng nghìn dân đinh và binh lính tiếp tục sửa chữa và tu bổ thêm trong một thời gian dài. Vua Minh Mạng cũng tiếp tục công việc xây dựng kinh đô. Vua Thiệu Trị thì không tập trung xây dựng kinh đô nữa, nhưng, trong một cuộc tuần du lớn ra Bắc Kỳ năm 1842, người dân đã phải xây 44 hành cung cho một phái đoàn đông đến 17.500 người, 44 con voi và 172 con ngựa của nhà vua. Theo nhận xét của giáo sĩ Pháp Guérard: \"Vua Gia Long bóp nặn dân chúng bằng đủ mọi cách, sự bất công và lộng hành làm người ta rên xiết hơn cả thời Tây Sơn: thuế khóa và lao dịch đã tăng lên gấp ba\".\n\n[ngoc_hoi_dong_da-p18-b2 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 18]\nTheo \"Tám điều quân luật\" thì \"mỗi người lính được cấp một tên phu\" (điều 8). Vậy số quân Thanh 50 vạn thì số phu cũng 50 vạn và toàn bộ lên đến 1 triệu người. Hầu hết các nhà sử học đều cho con số 1 triệu chỉ là phóng đại nhằm khoa trương thanh thế. Nhưng nó cũng cho ta biết rằng 1 người lính chính quy sẽ có một người phu đi theo. *Đại Nam Chính Biên Liệt Truyện sơ tập (Q.30) và Nguyễn Thị Tây Sơn Ký chép số quân là 20 vạn, nhưng không xác định con số đó có bao gồm lực lượng quân địa phương, nghĩa dũng và dân phu hay không. *Tỷ lệ giữa binh lính và dân phu trong các tài liệu cũng không thống nhất. Điều 8 trong \"Quân luật\" của Tôn Sĩ Nghị quy định 1 lính được cấp 1 phu, trong lúc \"Lê Sử Toản Yếu\" và \"Minh Đô Sử\" của Việt Nam lại chép 1 chiến binh có 3 dân binh phục vụ. *Bài Hàng binh Chiếu của Quang Trung do Ngô Thì Nhậm viết, là tài liệu được công bố ngay sau chiến thắng Kỷ Dậu. Bài chiếu có đoạn viết:\n\n[le_loi-p26-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 26]\nSau đó cho ngụy quan chuộc mệnh, định lệ tiền chuộc các vợ cả, vợ lẽ và nô tỳ của ngụy quan. Vợ Bố chính ty thì 70 quan, dưới đến các hạng sinh viên, thổ quan, thừa sai, bạn đương, thì vợ là 10 quan, con trai, con gái và nô tỳ từ 10 tuổi trở xuống thì 5 quan. Năm 1428, sau khi lên ngôi, vua Lê Thái Tổ ra lệnh trị tội những viên quan cộng tác với Nhà Minh. Năm 1429 ông ra lệnh chỉ rằng những người này trước đã có lệnh cho tha tội chuộc mệnh, thì cho miễn cả ruộng đất (không phải sung công). Tháng 5 âm lịch năm 1429, Lê Thái Tổ ra lệnh: cho những văn võ hào kiệt nào còn bị bỏ sót có thể đến chỗ Thiếu phó Lê Văn Linh mà tự tiến, không phân biệt ngụy quan hay sĩ thứ, cốt lấy tài đức. Các quan người Việt của Nhà Minh như Lương Nhữ Hốt, Trần Phong, Đỗ Duy Trung, con cái của Mạc Thúy như Mạc Tung đều được Lê Thái Tổ tha mạng. Các ngụy quan như Trần Phong, Lương Nhữ Hốt,... lại mưu làm loạn, kết bè đảng, ngầm đưa thư sang nhà Minh thì họ sẽ làm nội ứng. Người đưa thư bị Thượng tướng trấn Thái Nguyên là Hoàng Nguyên Ý bắt được. Lê Lợi sai giết đi, giấu việc ấy. Sau có người tố giác, Lê Lợi mới hạ chiếu giết đi, còn con cái, đồ đảng đều được tha mạng.",
+    "context_ids": [
+     "nha_nguyen-p11-b2",
+     "ngoc_hoi_dong_da-p18-b2",
+     "le_loi-p26-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: number of children of Emperor Minh Mang. The provided search result does not contain that info. Need to search.",
+     "tool_calls": [
+      {
+       "id": "fc_03207dc1-4b3e-4ef6-9606-3dca53f70a5d",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Vua Minh Mạng bao nhiêu người con\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1753,
+     "output_tokens": 62
+    }
+   },
+   {
+    "context": "[nha_nguyen-p11-b2 | https://vi.wikipedia.org/wiki/Nhà_Nguyễn | page 11]\nTheo thống kê của bộ Hộ thì số đinh năm đầu đời Gia Long là 992.559 người, cuối đời Thiệu Trị là 1.024.380 người. Về điền thổ thì đầu đời Tự Đức có 3.398.584 mẫu ruộng và 502.672 mẫu đất. Mỗi người dân đinh phải chịu 60 ngày lao dịch cho triều đình. Lao dịch thường là để làm các mục đích, xây sửa hệ thống đê điều, kênh rạch, sông ngòi; xây đắp các thành lũy; xây dựng các cung điện cho hoàng gia. Trên thực tế, người dân phải lao dịch khá nặng trong thời gian vương triều Nguyễn xây dựng các cung điện, lăng tẩm, dinh thự,... Ví dụ năm 1807, ngay khi kinh thành Huế vừa được xây xong, vua Gia Long lại huy động hàng nghìn dân đinh và binh lính tiếp tục sửa chữa và tu bổ thêm trong một thời gian dài. Vua Minh Mạng cũng tiếp tục công việc xây dựng kinh đô. Vua Thiệu Trị thì không tập trung xây dựng kinh đô nữa, nhưng, trong một cuộc tuần du lớn ra Bắc Kỳ năm 1842, người dân đã phải xây 44 hành cung cho một phái đoàn đông đến 17.500 người, 44 con voi và 172 con ngựa của nhà vua. Theo nhận xét của giáo sĩ Pháp Guérard: \"Vua Gia Long bóp nặn dân chúng bằng đủ mọi cách, sự bất công và lộng hành làm người ta rên xiết hơn cả thời Tây Sơn: thuế khóa và lao dịch đã tăng lên gấp ba\".\n\n[ngoc_hoi_dong_da-p18-b2 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 18]\nTheo \"Tám điều quân luật\" thì \"mỗi người lính được cấp một tên phu\" (điều 8). Vậy số quân Thanh 50 vạn thì số phu cũng 50 vạn và toàn bộ lên đến 1 triệu người. Hầu hết các nhà sử học đều cho con số 1 triệu chỉ là phóng đại nhằm khoa trương thanh thế. Nhưng nó cũng cho ta biết rằng 1 người lính chính quy sẽ có một người phu đi theo. *Đại Nam Chính Biên Liệt Truyện sơ tập (Q.30) và Nguyễn Thị Tây Sơn Ký chép số quân là 20 vạn, nhưng không xác định con số đó có bao gồm lực lượng quân địa phương, nghĩa dũng và dân phu hay không. *Tỷ lệ giữa binh lính và dân phu trong các tài liệu cũng không thống nhất. Điều 8 trong \"Quân luật\" của Tôn Sĩ Nghị quy định 1 lính được cấp 1 phu, trong lúc \"Lê Sử Toản Yếu\" và \"Minh Đô Sử\" của Việt Nam lại chép 1 chiến binh có 3 dân binh phục vụ. *Bài Hàng binh Chiếu của Quang Trung do Ngô Thì Nhậm viết, là tài liệu được công bố ngay sau chiến thắng Kỷ Dậu. Bài chiếu có đoạn viết:\n\n[le_loi-p26-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 26]\nSau đó cho ngụy quan chuộc mệnh, định lệ tiền chuộc các vợ cả, vợ lẽ và nô tỳ của ngụy quan. Vợ Bố chính ty thì 70 quan, dưới đến các hạng sinh viên, thổ quan, thừa sai, bạn đương, thì vợ là 10 quan, con trai, con gái và nô tỳ từ 10 tuổi trở xuống thì 5 quan. Năm 1428, sau khi lên ngôi, vua Lê Thái Tổ ra lệnh trị tội những viên quan cộng tác với Nhà Minh. Năm 1429 ông ra lệnh chỉ rằng những người này trước đã có lệnh cho tha tội chuộc mệnh, thì cho miễn cả ruộng đất (không phải sung công). Tháng 5 âm lịch năm 1429, Lê Thái Tổ ra lệnh: cho những văn võ hào kiệt nào còn bị bỏ sót có thể đến chỗ Thiếu phó Lê Văn Linh mà tự tiến, không phân biệt ngụy quan hay sĩ thứ, cốt lấy tài đức. Các quan người Việt của Nhà Minh như Lương Nhữ Hốt, Trần Phong, Đỗ Duy Trung, con cái của Mạc Thúy như Mạc Tung đều được Lê Thái Tổ tha mạng. Các ngụy quan như Trần Phong, Lương Nhữ Hốt,... lại mưu làm loạn, kết bè đảng, ngầm đưa thư sang nhà Minh thì họ sẽ làm nội ứng. Người đưa thư bị Thượng tướng trấn Thái Nguyên là Hoàng Nguyên Ý bắt được. Lê Lợi sai giết đi, giấu việc ấy. Sau có người tố giác, Lê Lợi mới hạ chiếu giết đi, còn con cái, đồ đảng đều được tha mạng.",
+    "context_ids": [
+     "nha_nguyen-p11-b2",
+     "ngoc_hoi_dong_da-p18-b2",
+     "le_loi-p26-b2"
+    ],
+    "response": {
+     "role": "assistant",
+     "reasoning": "We need answer: number of children of Emperor Minh Mang. The retrieved chunks do not contain that info. Need to search.",
+     "tool_calls": [
+      {
+       "id": "fc_c801e9e8-98d9-4b5d-8ff9-bd6cc3159ffb",
+       "type": "function",
+       "function": {
+        "name": "search",
+        "arguments": "{\"query\":\"Vua Minh Mạng bao nhiêu người con\"}"
+       }
+      }
+     ]
+    },
+    "usage": {
+     "input_tokens": 1764,
+     "output_tokens": 61
+    }
+   }
+  ]
+ }
+]

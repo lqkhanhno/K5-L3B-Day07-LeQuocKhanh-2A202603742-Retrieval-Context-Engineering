@@ -1,0 +1,1112 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "question": "Ai lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "tran_bach_dang_938",
+    "page": 1,
+    "evidence": "người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền"
+   }
+  ],
+  "results": [
+   {
+    "id": "tran_bach_dang_938-p1-b1",
+    "text": "Trận sông Bạch Đằng (chữ Hán: 白藤江之戰, Hán-Việt: Bạch Đằng giang chi Chiến) năm 938 là một trận đánh giữa quân dân Tĩnh Hải quân (vào thời đó, Việt Nam chưa có quốc hiệu chính thức) do Ngô Quyền lãnh đạo đánh với quân Nam Hán trên sông Bạch Đằng. Kết quả là người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền. Trước sự chiến đấu dũng mãnh của người Việt, quá nửa quân Nam Hán chết đuối, hoàng tử Nam Hán là Lưu Hoằng Tháo cũng tử trận. Đây là một trận đánh quan trọng trong lịch sử Việt Nam. Nó đánh dấu cho việc chấm dứt hơn 1000 năm Bắc thuộc của Việt Nam, nối lại quốc thống cho người Việt. Sau chiến thắng này, Ngô Quyền lên ngôi vua, tái lập đất nước. Ông được xem là một vị \"vua của các vua\" trong lịch sử Việt Nam. Đại thắng trên sông Bạch Đằng đã khắc họa mưu lược và khả năng đánh trận của ông. Năm 931, Dương Đình Nghệ đánh đuổi quân Nam Hán – một trong 10 nước thời Ngũ đại Thập quốc nằm liền kề với Tĩnh Hải quân – giành lại quyền tự chủ cho người Việt ở Tĩnh Hải quân, tự xưng là Tĩnh Hải quân Tiết độ sứ. Cuối năm 937, Đình Nghệ bị nha tướng Kiều Công Tiễn giết hại để cướp ngôi Tiết độ sứ.",
+    "source_id": "tran_bach_dang_938",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938)",
+    "page": 1,
+    "metadata": {
+     "title": "Trận Bạch Đằng (938)",
+     "period": "938_1427",
+     "dense_rank": 2,
+     "tfidf_rank": 1
+    },
+    "score": 0.032522,
+    "hit": true
+   },
+   {
+    "id": "tran_bach_dang_1288-p1-b1",
+    "text": "Trận Bạch Đằng năm 1288 xảy ra trên sông Bạch Đằng thuộc đất Đại Việt, là một trận đánh quan trọng trong các cuộc kháng chiến chống Nguyên Mông trong lịch sử Việt Nam. Đây là chiến thắng vẻ vang, anh hùng của quân Đại Việt do Quốc công Tiết chế Trần Hưng Đạo cùng với Thái thượng hoàng Trần Thánh Tông và vua Trần Nhân Tông chỉ huy trước quân xâm lược Nguyên Mông. Quân Nguyên bị thiệt hại vô cùng nặng, khoảng hơn 4 vạn quân sĩ và hàng vạn phu thuyền bị giết hoặc bắt sống), nhiều tướng Nguyên trong đó có cả Ô Mã Nhi, Phạm Nhàn và Phàn Tiếp (樊楫) cũng bị bắt sống và dâng lên Thượng hoàng Thánh Tông. Ngoài ra, có tới 400 chiến thuyền của quân Nguyên rơi vào tay quân Trần. Đại thắng trên sông Bạch Đằng được xem là trận thủy chiến lớn nhất trong lịch sử Việt Nam, và là thắng lợi tiêu biểu nhất của Đại Việt trong ba cuộc kháng chiến chống quân xâm lược Nguyên-Mông. Đại thắng này là chiến quả của kế cắm cọc trên sông Bạch Đằng của Hưng Đạo Vương, mở đầu với việc quân sĩ của ông lừa được địch vào trận địa cọc khi triều rút.",
+    "source_id": "tran_bach_dang_1288",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(1288)",
+    "page": 1,
+    "metadata": {
+     "title": "Trận Bạch Đằng (1288)",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": 4
+    },
+    "score": 0.032018,
+    "hit": false
+   },
+   {
+    "id": "tran_bach_dang_938-p3-b2",
+    "text": "Đời sau nghe chuyện dùng cọc đâm thuyền địch có vẻ dễ dàng, nhưng khi áp dụng cụ thể mới thấy không hoàn toàn dễ dàng để có thắng lợi như sử sách đã ghi. Không phải ngẫu nhiên mà cả Ngô Quyền và Trần Hưng Đạo đều được xem là danh tướng trong lịch sử Việt Nam Trận thắng lớn ở sông Bạch Đằng năm 938 có ý nghĩa vô cùng quan trọng đối với lịch sử Việt Nam, nó đã giúp chấm dứt 1000 năm Bắc thuộc trong lịch sử Việt Nam, mở ra một thời kỳ độc lập tự chủ cho Việt Nam. Chiến thắng Bạch Đằng có thể coi là trận toàn thắng của dân tộc Việt Nam trên con đường đấu tranh chống Bắc thuộc, chống đồng hóa, đấu tranh giành lại độc lập dân tộc. Phải đặt trong bối cảnh Bắc thuộc kéo dài sau 1117 năm (179 TCN - 938) mới thấy hết ý nghĩa lịch sử vĩ đại của nó.",
+    "source_id": "tran_bach_dang_938",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938)",
+    "page": 3,
+    "metadata": {
+     "title": "Trận Bạch Đằng (938)",
+     "period": "938_1427",
+     "dense_rank": 4,
+     "tfidf_rank": 5
+    },
+    "score": 0.03101,
+    "hit": false
+   }
+  ],
+  "context": "[tran_bach_dang_938-p1-b1 | https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938) | page 1]\nTrận sông Bạch Đằng (chữ Hán: 白藤江之戰, Hán-Việt: Bạch Đằng giang chi Chiến) năm 938 là một trận đánh giữa quân dân Tĩnh Hải quân (vào thời đó, Việt Nam chưa có quốc hiệu chính thức) do Ngô Quyền lãnh đạo đánh với quân Nam Hán trên sông Bạch Đằng. Kết quả là người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền. Trước sự chiến đấu dũng mãnh của người Việt, quá nửa quân Nam Hán chết đuối, hoàng tử Nam Hán là Lưu Hoằng Tháo cũng tử trận. Đây là một trận đánh quan trọng trong lịch sử Việt Nam. Nó đánh dấu cho việc chấm dứt hơn 1000 năm Bắc thuộc của Việt Nam, nối lại quốc thống cho người Việt. Sau chiến thắng này, Ngô Quyền lên ngôi vua, tái lập đất nước. Ông được xem là một vị \"vua của các vua\" trong lịch sử Việt Nam. Đại thắng trên sông Bạch Đằng đã khắc họa mưu lược và khả năng đánh trận của ông. Năm 931, Dương Đình Nghệ đánh đuổi quân Nam Hán – một trong 10 nước thời Ngũ đại Thập quốc nằm liền kề với Tĩnh Hải quân – giành lại quyền tự chủ cho người Việt ở Tĩnh Hải quân, tự xưng là Tĩnh Hải quân Tiết độ sứ. Cuối năm 937, Đình Nghệ bị nha tướng Kiều Công Tiễn giết hại để cướp ngôi Tiết độ sứ.\n\n[tran_bach_dang_1288-p1-b1 | https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(1288) | page 1]\nTrận Bạch Đằng năm 1288 xảy ra trên sông Bạch Đằng thuộc đất Đại Việt, là một trận đánh quan trọng trong các cuộc kháng chiến chống Nguyên Mông trong lịch sử Việt Nam. Đây là chiến thắng vẻ vang, anh hùng của quân Đại Việt do Quốc công Tiết chế Trần Hưng Đạo cùng với Thái thượng hoàng Trần Thánh Tông và vua Trần Nhân Tông chỉ huy trước quân xâm lược Nguyên Mông. Quân Nguyên bị thiệt hại vô cùng nặng, khoảng hơn 4 vạn quân sĩ và hàng vạn phu thuyền bị giết hoặc bắt sống), nhiều tướng Nguyên trong đó có cả Ô Mã Nhi, Phạm Nhàn và Phàn Tiếp (樊楫) cũng bị bắt sống và dâng lên Thượng hoàng Thánh Tông. Ngoài ra, có tới 400 chiến thuyền của quân Nguyên rơi vào tay quân Trần. Đại thắng trên sông Bạch Đằng được xem là trận thủy chiến lớn nhất trong lịch sử Việt Nam, và là thắng lợi tiêu biểu nhất của Đại Việt trong ba cuộc kháng chiến chống quân xâm lược Nguyên-Mông. Đại thắng này là chiến quả của kế cắm cọc trên sông Bạch Đằng của Hưng Đạo Vương, mở đầu với việc quân sĩ của ông lừa được địch vào trận địa cọc khi triều rút.\n\n[tran_bach_dang_938-p3-b2 | https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938) | page 3]\nĐời sau nghe chuyện dùng cọc đâm thuyền địch có vẻ dễ dàng, nhưng khi áp dụng cụ thể mới thấy không hoàn toàn dễ dàng để có thắng lợi như sử sách đã ghi. Không phải ngẫu nhiên mà cả Ngô Quyền và Trần Hưng Đạo đều được xem là danh tướng trong lịch sử Việt Nam Trận thắng lớn ở sông Bạch Đằng năm 938 có ý nghĩa vô cùng quan trọng đối với lịch sử Việt Nam, nó đã giúp chấm dứt 1000 năm Bắc thuộc trong lịch sử Việt Nam, mở ra một thời kỳ độc lập tự chủ cho Việt Nam. Chiến thắng Bạch Đằng có thể coi là trận toàn thắng của dân tộc Việt Nam trên con đường đấu tranh chống Bắc thuộc, chống đồng hóa, đấu tranh giành lại độc lập dân tộc. Phải đặt trong bối cảnh Bắc thuộc kéo dài sau 1117 năm (179 TCN - 938) mới thấy hết ý nghĩa lịch sử vĩ đại của nó.",
+  "context_ids": [
+   "tran_bach_dang_938-p1-b1",
+   "tran_bach_dang_1288-p1-b1",
+   "tran_bach_dang_938-p3-b2"
+  ],
+  "elapsed_ms": 54.5,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "question": "Vua nào ban Chiếu dời đô năm 1010 và dời kinh đô từ Hoa Lư về đâu?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_ly",
+    "page": 3,
+    "evidence": "tháng 7 âm lịch năm 1010, Lý Thái Tổ tiến hành dời đô từ Hoa Lư (Ninh Bình) về Đại La (Hà Nội)"
+   }
+  ],
+  "results": [
+   {
+    "id": "ly_cong_uan-p12-b2",
+    "text": "Vào năm 1010, sau khi đã dời đô từ Hoa Lư về Thăng Long, việc đầu tiên vua làm là xuất ra 2 vạn quan để làm chùa ở phủ Thiên Đức (tức Cổ Pháp), tất cả tám sở, đều dựng bia ghi công. Tháng 12 năm Canh Tuất (năm 1010 dương lịch), vua sai sứ sang nước Tống để thỉnh kinh điển Phật giáo. Tống Chân Tông chấp thuận, trao cho vua Lý kinh Địa Tạng cùng với chữ ngự bút do chính tay vua Tống viết. Cùng năm, sau khi đã được xây dựng Hoàng thành, vua lại chùa ngự Hưng Thiên và tinh lâu Ngũ Phượng. Ngoài thành về phía nam dựng chùa Thắng Nghiêm. Tháng 6 năm Mậu Ngọ (1018), vua lại sai viên ngoại lang Nguyễn Đạo Thanh và Phạm Hạc sang nước Đại Tống thỉnh Tam tạng kinh đem về để vào kho Đại Hưng. Tháng 9 năm Giáp Tý (1024), Thái Tổ sai dựng chùa Chân Giáo trong nội đô Thăng Long, để hoàng đế lui tới nghe kinh pháp. Về việc này, Lê Văn Hưu nhận xét: \"Lý Thái Tổ lên ngôi mới được 2 năm, tông miếu chưa dựng, đàn xã tắc chưa lập mà trước đã dựng tám chùa ở phủ Thiên Đức, lại trùng tu chùa quán ở các lộ và độ cho làm tăng hơn nghìn người ở Kinh sư, thế thì tiêu phí của cải sức lực vào việc thổ mộc không biết chừng nào mà kể.\"",
+    "source_id": "ly_cong_uan",
+    "source": "https://vi.wikipedia.org/wiki/Lý_Công_Uẩn",
+    "page": 12,
+    "metadata": {
+     "title": "Lý Công Uẩn",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": 5
+    },
+    "score": 0.031778,
+    "hit": false
+   },
+   {
+    "id": "nha_ly-p4-b1",
+    "text": "Việc tìm đất, nghị bàn đến việc chuẩn bị để dời đô diễn ra tương đối khẩn trương. Từ Hoa Lư về thành Đại La có thể đi theo đường bộ hoặc theo đường thủy. Sử cũ không ghi chép chi tiết nhà Lý dời đô bằng đường nào. Các nhà nghiên cứu đã kết luận: triều nhà Lý dời đô bằng đường thủy, và chỉ có dời đô bằng đường thủy thì mới an toàn và tải được cả bộ máy triều đình đông đảo cùng vật chất bảo đảm đồ sộ đi kèm. Bia Lý Thái Tổ bên sông Sào Khê tại Cố đô Hoa Lư, nơi vua ban Chiếu dời đô. Các nhà nghiên cứu khẳng định Lý Thái Tổ dời đô cũng cần dùng tới đội thuyền. Đoàn thuyền xuất phát từ bến Ghềnh Tháp (nay là khu vực giữa phủ Vườn Thiên và nhà bia Lý Thái Tổ ở Khu di tích Cố đô Hoa Lư). Rồi thuyền vào sông Sào Khê, qua cầu Đông, cầu Dền ở Hoa Lư để ra bến đò Trường Yên vào sông Hoàng Long. Đi tiếp đến Gián Khẩu thì rẽ vào sông Đáy. Từ sông Đáy lại rẽ vào sông Châu Giang. Đến Phủ Lý đoàn thuyền ngược sông Hồng, rồi vào sông Tô Lịch trước cửa thành Đại La. Như vậy hành trình dời đô đi qua sáu con sông khác nhau, trong đó các hành trình trên sông Sào Khê, sông Hoàng Long, sông Châu Giang là đi xuôi dòng, trên sông Đáy, sông Hồng, sông Tô Lịch là đi ngược dòng.",
+    "source_id": "nha_ly",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lý",
+    "page": 4,
+    "metadata": {
+     "title": "Nhà Lý",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_ly-p3-b2",
+    "text": "Sau đó làm quan nhà Lê, giữ đến chức Điện tiền Chỉ huy sứ, chỉ huy cấm quân ở kinh đô Hoa Lư. Ông là người có học, có đức và có uy tín nên được triều thần nhà Lê quý trọng. Việc Lý Công Uẩn trưởng thành, thăng tiến trong bộ máy nhà Tiền Lê và lên ngôi vua có vai trò gây dựng rất lớn của thiền sư Vạn Hạnh. Các nhà nghiên cứu thống nhất ghi nhận vai trò của sư Vạn Hạnh và Đào Cam Mộc trong việc đưa Lý Công Uẩn lên ngôi nhanh chóng, êm thấm và kịp thời, khiến cục diện chính trị nước Đại Cồ Việt được duy trì ổn định trong quá trình chuyển giao quyền lực, không gây xáo trộn từ trong cung đình lẫn bên ngoài. Việc lên ngôi nhanh chóng và êm thuận của Lý Công Uẩn được xem là điều kiện thuận lợi và nền tảng để ông yên tâm bắt tay xây dựng đất nước thống nhất, mở đầu một vương triều thịnh vượng lâu dài, mở ra thời kỳ phục hưng toàn diện của đất nước. Gần 1 năm sau khi lên ngôi vua, tháng 7 âm lịch năm 1010, Lý Thái Tổ tiến hành dời đô từ Hoa Lư (Ninh Bình) về Đại La (Hà Nội). Ông đã ban hành Chiếu dời đô vào mùa xuân năm 1010.",
+    "source_id": "nha_ly",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lý",
+    "page": 3,
+    "metadata": {
+     "title": "Nhà Lý",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": true
+   }
+  ],
+  "context": "[ly_cong_uan-p12-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 12]\nVào năm 1010, sau khi đã dời đô từ Hoa Lư về Thăng Long, việc đầu tiên vua làm là xuất ra 2 vạn quan để làm chùa ở phủ Thiên Đức (tức Cổ Pháp), tất cả tám sở, đều dựng bia ghi công. Tháng 12 năm Canh Tuất (năm 1010 dương lịch), vua sai sứ sang nước Tống để thỉnh kinh điển Phật giáo. Tống Chân Tông chấp thuận, trao cho vua Lý kinh Địa Tạng cùng với chữ ngự bút do chính tay vua Tống viết. Cùng năm, sau khi đã được xây dựng Hoàng thành, vua lại chùa ngự Hưng Thiên và tinh lâu Ngũ Phượng. Ngoài thành về phía nam dựng chùa Thắng Nghiêm. Tháng 6 năm Mậu Ngọ (1018), vua lại sai viên ngoại lang Nguyễn Đạo Thanh và Phạm Hạc sang nước Đại Tống thỉnh Tam tạng kinh đem về để vào kho Đại Hưng. Tháng 9 năm Giáp Tý (1024), Thái Tổ sai dựng chùa Chân Giáo trong nội đô Thăng Long, để hoàng đế lui tới nghe kinh pháp. Về việc này, Lê Văn Hưu nhận xét: \"Lý Thái Tổ lên ngôi mới được 2 năm, tông miếu chưa dựng, đàn xã tắc chưa lập mà trước đã dựng tám chùa ở phủ Thiên Đức, lại trùng tu chùa quán ở các lộ và độ cho làm tăng hơn nghìn người ở Kinh sư, thế thì tiêu phí của cải sức lực vào việc thổ mộc không biết chừng nào mà kể.\"\n\n[nha_ly-p4-b1 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 4]\nViệc tìm đất, nghị bàn đến việc chuẩn bị để dời đô diễn ra tương đối khẩn trương. Từ Hoa Lư về thành Đại La có thể đi theo đường bộ hoặc theo đường thủy. Sử cũ không ghi chép chi tiết nhà Lý dời đô bằng đường nào. Các nhà nghiên cứu đã kết luận: triều nhà Lý dời đô bằng đường thủy, và chỉ có dời đô bằng đường thủy thì mới an toàn và tải được cả bộ máy triều đình đông đảo cùng vật chất bảo đảm đồ sộ đi kèm. Bia Lý Thái Tổ bên sông Sào Khê tại Cố đô Hoa Lư, nơi vua ban Chiếu dời đô. Các nhà nghiên cứu khẳng định Lý Thái Tổ dời đô cũng cần dùng tới đội thuyền. Đoàn thuyền xuất phát từ bến Ghềnh Tháp (nay là khu vực giữa phủ Vườn Thiên và nhà bia Lý Thái Tổ ở Khu di tích Cố đô Hoa Lư). Rồi thuyền vào sông Sào Khê, qua cầu Đông, cầu Dền ở Hoa Lư để ra bến đò Trường Yên vào sông Hoàng Long. Đi tiếp đến Gián Khẩu thì rẽ vào sông Đáy. Từ sông Đáy lại rẽ vào sông Châu Giang. Đến Phủ Lý đoàn thuyền ngược sông Hồng, rồi vào sông Tô Lịch trước cửa thành Đại La. Như vậy hành trình dời đô đi qua sáu con sông khác nhau, trong đó các hành trình trên sông Sào Khê, sông Hoàng Long, sông Châu Giang là đi xuôi dòng, trên sông Đáy, sông Hồng, sông Tô Lịch là đi ngược dòng.\n\n[nha_ly-p3-b2 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 3]\nSau đó làm quan nhà Lê, giữ đến chức Điện tiền Chỉ huy sứ, chỉ huy cấm quân ở kinh đô Hoa Lư. Ông là người có học, có đức và có uy tín nên được triều thần nhà Lê quý trọng. Việc Lý Công Uẩn trưởng thành, thăng tiến trong bộ máy nhà Tiền Lê và lên ngôi vua có vai trò gây dựng rất lớn của thiền sư Vạn Hạnh. Các nhà nghiên cứu thống nhất ghi nhận vai trò của sư Vạn Hạnh và Đào Cam Mộc trong việc đưa Lý Công Uẩn lên ngôi nhanh chóng, êm thấm và kịp thời, khiến cục diện chính trị nước Đại Cồ Việt được duy trì ổn định trong quá trình chuyển giao quyền lực, không gây xáo trộn từ trong cung đình lẫn bên ngoài. Việc lên ngôi nhanh chóng và êm thuận của Lý Công Uẩn được xem là điều kiện thuận lợi và nền tảng để ông yên tâm bắt tay xây dựng đất nước thống nhất, mở đầu một vương triều thịnh vượng lâu dài, mở ra thời kỳ phục hưng toàn diện của đất nước. Gần 1 năm sau khi lên ngôi vua, tháng 7 âm lịch năm 1010, Lý Thái Tổ tiến hành dời đô từ Hoa Lư (Ninh Bình) về Đại La (Hà Nội). Ông đã ban hành Chiếu dời đô vào mùa xuân năm 1010.",
+  "context_ids": [
+   "ly_cong_uan-p12-b2",
+   "nha_ly-p4-b1",
+   "nha_ly-p3-b2"
+  ],
+  "elapsed_ms": 57.4,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "question": "Khi lên ngôi Hoàng đế năm 968, Đinh Bộ Lĩnh đặt quốc hiệu nước ta là gì?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "dinh_bo_linh",
+    "page": 7,
+    "evidence": "Năm Mậu Thìn 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, tự xưng là Đại Thắng Minh Hoàng đế, đặt quốc hiệu là Đại Cồ Việt"
+   }
+  ],
+  "results": [
+   {
+    "id": "dinh_bo_linh-p7-b2",
+    "text": "Chỉ trong vài năm, Đinh Bộ Lĩnh lần lượt đánh thắng 11 sứ quân khác, được xưng tụng là Vạn Thắng Vương. Chiến tranh kết thúc năm 968. Đinh Bộ Lĩnh lên ngôi hoàng đế. Thắng lợi của Đinh Bộ Lĩnh là thắng lợi của xu hướng thống nhất quốc gia, của tinh thần dân tộc và ý chí độc lập trong nhân dân. Việc vua Đinh Tiên Hoàng khéo kết hợp dùng võ công và biện pháp chiêu hàng các sứ quân để sớm chấm dứt loạn 12 sứ quân là rất kịp thời, vì không lâu sau đó nhà Tống duỗi tới Quảng Châu, diệt nước Nam Hán (971), áp sát biên giới Đại Cồ Việt. Nếu không có sự xuất hiện của Đinh Bộ Lĩnh để thống nhất quốc gia bị chia sẻ tan nát, Việt Nam khó thoát khỏi họa xâm lăng từ phương bắc tái diễn khi nhà Tống hoàn thành việc thống nhất Trung Hoa. , tiền đầu tiên ở Việt Nam Năm Mậu Thìn 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, tự xưng là Đại Thắng Minh Hoàng đế, đặt quốc hiệu là Đại Cồ Việt, dời Kinh ấp về động Hoa Lư, bắt đầu dựng đô mới, đắp thành đào hào, xây cung điện, đặt triều nghi. Tên Đại Cồ Việt 大瞿越. Đại là từ Hán-Việt và có nghĩa \"vĩ đại\"; Cồ là một chữ Việt có nghĩa \"to lớn, vĩ đại\"; được ký âm bằng một chữ Hán có âm tương ứng.",
+    "source_id": "dinh_bo_linh",
+    "source": "https://vi.wikipedia.org/wiki/Đinh_Bộ_Lĩnh",
+    "page": 7,
+    "metadata": {
+     "title": "Đinh Bộ Lĩnh",
+     "period": "938_1427",
+     "dense_rank": 3,
+     "tfidf_rank": 2
+    },
+    "score": 0.032002,
+    "hit": true
+   },
+   {
+    "id": "dinh_bo_linh-p9-b3",
+    "text": "Năm 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, Đại Việt sử ký toàn thư chép sự kiện: \"Bầy tôi dâng tôn hiệu là Đại Thắng Minh Hoàng Đế\" và \"Vua mở nước, lập đô, đổi xưng Hoàng đế\".",
+    "source_id": "dinh_bo_linh",
+    "source": "https://vi.wikipedia.org/wiki/Đinh_Bộ_Lĩnh",
+    "page": 9,
+    "metadata": {
+     "title": "Đinh Bộ Lĩnh",
+     "period": "938_1427",
+     "dense_rank": 7,
+     "tfidf_rank": 1
+    },
+    "score": 0.031319,
+    "hit": false
+   },
+   {
+    "id": "ly_cong_uan-p14-b1",
+    "text": "Cha: Hiển Khánh vương. *Mẹ: Minh Đức Hoàng thái hậu Phạm Thị Ngà (? – 977). *Bà nội: Đến năm 1018, vua truy phong bà nội chức Thái hậu và đặt tên thụy. Sử thần Ngô Sĩ Liên trong Đại Việt sử ký toàn thư chê trách vua vì phải sau 9 năm lên ngôi thì mới truy tôn bà nội. Tuy nhiên, có ý kiến ngày nay cho rằng việc truy phong chậm trễ này của vua là có chủ đích, vì trước đó thì nhân dân đều tin rằng cha của vua là thần nhân, nên nếu khi lên ngôi mà vua liền truy phong tước cho bà ngay thì sẽ làm mất đi nguồn gốc \"thần nhân\" của mình. *Anh em: :#Dực Thánh vương, có sách ghi là con trai. *Hậu phi: Lúc mới lên ngôi, Thái Tổ đã có 6 hoàng hậu, đến năm 1016 thì lập thêm 3 hoàng hậu nữa, nên tổng cộng vua có 9 hoàng hậu, trong đó có một số người được sử ghi danh hiệu: :#Lập Giáo Hoàng hậu: sử chép là vợ cả, theo dã sử tên húy là Lê Thị Phất Ngân, con của Lê Hoàn, là mẹ của Lý Thái Tông. Sau được Lý Thái Tông phong Linh Hiển Hoàng thái hậu. :#Tá Quốc Hoàng hậu :#Lập Nguyên Hoàng hậu Còn lại đều không rõ tên họ. Khai Thiên vương Lý Phật Mã, năm 1009 phong Hoàng thái tử, sau này là vua Lý Thái Tông. Mẹ là Linh Hiển Hoàng thái hậu. :#Khai Quốc vương Lý Bồ, phong năm 1013, ở phủ Trường Yên.",
+    "source_id": "ly_cong_uan",
+    "source": "https://vi.wikipedia.org/wiki/Lý_Công_Uẩn",
+    "page": 14,
+    "metadata": {
+     "title": "Lý Công Uẩn",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   }
+  ],
+  "context": "[dinh_bo_linh-p7-b2 | https://vi.wikipedia.org/wiki/Đinh_Bộ_Lĩnh | page 7]\nChỉ trong vài năm, Đinh Bộ Lĩnh lần lượt đánh thắng 11 sứ quân khác, được xưng tụng là Vạn Thắng Vương. Chiến tranh kết thúc năm 968. Đinh Bộ Lĩnh lên ngôi hoàng đế. Thắng lợi của Đinh Bộ Lĩnh là thắng lợi của xu hướng thống nhất quốc gia, của tinh thần dân tộc và ý chí độc lập trong nhân dân. Việc vua Đinh Tiên Hoàng khéo kết hợp dùng võ công và biện pháp chiêu hàng các sứ quân để sớm chấm dứt loạn 12 sứ quân là rất kịp thời, vì không lâu sau đó nhà Tống duỗi tới Quảng Châu, diệt nước Nam Hán (971), áp sát biên giới Đại Cồ Việt. Nếu không có sự xuất hiện của Đinh Bộ Lĩnh để thống nhất quốc gia bị chia sẻ tan nát, Việt Nam khó thoát khỏi họa xâm lăng từ phương bắc tái diễn khi nhà Tống hoàn thành việc thống nhất Trung Hoa. , tiền đầu tiên ở Việt Nam Năm Mậu Thìn 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, tự xưng là Đại Thắng Minh Hoàng đế, đặt quốc hiệu là Đại Cồ Việt, dời Kinh ấp về động Hoa Lư, bắt đầu dựng đô mới, đắp thành đào hào, xây cung điện, đặt triều nghi. Tên Đại Cồ Việt 大瞿越. Đại là từ Hán-Việt và có nghĩa \"vĩ đại\"; Cồ là một chữ Việt có nghĩa \"to lớn, vĩ đại\"; được ký âm bằng một chữ Hán có âm tương ứng.\n\n[dinh_bo_linh-p9-b3 | https://vi.wikipedia.org/wiki/Đinh_Bộ_Lĩnh | page 9]\nNăm 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, Đại Việt sử ký toàn thư chép sự kiện: \"Bầy tôi dâng tôn hiệu là Đại Thắng Minh Hoàng Đế\" và \"Vua mở nước, lập đô, đổi xưng Hoàng đế\".\n\n[ly_cong_uan-p14-b1 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 14]\nCha: Hiển Khánh vương. *Mẹ: Minh Đức Hoàng thái hậu Phạm Thị Ngà (? – 977). *Bà nội: Đến năm 1018, vua truy phong bà nội chức Thái hậu và đặt tên thụy. Sử thần Ngô Sĩ Liên trong Đại Việt sử ký toàn thư chê trách vua vì phải sau 9 năm lên ngôi thì mới truy tôn bà nội. Tuy nhiên, có ý kiến ngày nay cho rằng việc truy phong chậm trễ này của vua là có chủ đích, vì trước đó thì nhân dân đều tin rằng cha của vua là thần nhân, nên nếu khi lên ngôi mà vua liền truy phong tước cho bà ngay thì sẽ làm mất đi nguồn gốc \"thần nhân\" của mình. *Anh em: :#Dực Thánh vương, có sách ghi là con trai. *Hậu phi: Lúc mới lên ngôi, Thái Tổ đã có 6 hoàng hậu, đến năm 1016 thì lập thêm 3 hoàng hậu nữa, nên tổng cộng vua có 9 hoàng hậu, trong đó có một số người được sử ghi danh hiệu: :#Lập Giáo Hoàng hậu: sử chép là vợ cả, theo dã sử tên húy là Lê Thị Phất Ngân, con của Lê Hoàn, là mẹ của Lý Thái Tông. Sau được Lý Thái Tông phong Linh Hiển Hoàng thái hậu. :#Tá Quốc Hoàng hậu :#Lập Nguyên Hoàng hậu Còn lại đều không rõ tên họ. Khai Thiên vương Lý Phật Mã, năm 1009 phong Hoàng thái tử, sau này là vua Lý Thái Tông. Mẹ là Linh Hiển Hoàng thái hậu. :#Khai Quốc vương Lý Bồ, phong năm 1013, ở phủ Trường Yên.",
+  "context_ids": [
+   "dinh_bo_linh-p7-b2",
+   "dinh_bo_linh-p9-b3",
+   "ly_cong_uan-p14-b1"
+  ],
+  "elapsed_ms": 54.7,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "question": "Tờ tiền giấy đầu tiên của Việt Nam do ai phát hành và có tên gọi là gì?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "ho_quy_ly",
+    "page": 13,
+    "evidence": "Từ năm 1396, trước khi lên ngôi, Hồ Quý Ly đã cho phát thứ tiền giấy gọi là Thông bảo hội sao"
+   }
+  ],
+  "results": [
+   {
+    "id": "ho_quy_ly-p13-b2",
+    "text": "Từ năm 1396, trước khi lên ngôi, Hồ Quý Ly đã cho phát thứ tiền giấy gọi là Thông bảo hội sao. In xong, ra lệnh cho dân cả nước đến đổi 1 quan tiền đồng lấy 1 quan 2 tiền giấy. Cấm tiêu riêng, chứa riêng tiền đồng; số tiền đồng thu hồi chứa ở kho Ngao trì kinh thành và trị sở các huyện. Phạm tội chứa tiền đồng hình phạt cũng như làm tiền giả. Thể thức tiền giấy: tờ 10 đồng vẽ rồng, tờ 30 đồng vẽ sóng, tờ 1 tiền vẽ mây, tờ 2 tiền vẽ rùa, tờ 3 tiền vẽ lân, tờ 5 tiền vẽ phượng, tờ 1 quan vẽ rồng. Kẻ nào làm tiền giả bị xử tử, tài sản bị tịch thu. Lại cho đánh thuế các thuyền buôn, chia ra 3 mức: thượng, trung, hạ. Tuy nhiên, việc dùng tiền giấy không được sự ủng hộ của dân chúng và nhà Hồ đã thất bại trong cuộc cải cách tiền tệ này. Thực tế, đến năm 1403, tức sau bảy năm ban hành, tiền giấy vẫn không được ưa dùng, và do nhà nước cấm tiền đồng, nhân dân buộc phải trao đổi theo hình thức hàng đổi hàng. Nhà nước đã phải định giá tiền giấy cho trao đổi, lập điều luật định tội không tiêu tiền giấy.",
+    "source_id": "ho_quy_ly",
+    "source": "https://vi.wikipedia.org/wiki/Hồ_Quý_Ly",
+    "page": 13,
+    "metadata": {
+     "title": "Hồ Quý Ly",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": true
+   },
+   {
+    "id": "le_loi-p19-b2",
+    "text": "Đến tháng 4, năm 1428, triều đình cho đúc đồng tiền mới của Đại Việt, gọi là tiền Thuận Thiên, được sử mô tả là mây xanh hiện, có cánh có chân, bên dưới như mâm ngọc, hai bên tả hữu hình như hai con cá chép vờn nhau. Đến tháng 12, năm Thuận Thiên thứ 1 (1428), Lê Thái Tổ lại đúc tiền Thuận Thiên thông bảo, tính 50 đồng là 1 tiền. Năm Thuận Thiên thứ 2 (1429), ông truyền cho các quan trong ngoài bàn phép dùng tiền. Ông xuống chiếu rằng: Nhà Minh hoàn thành việc xâm lược Đại Ngu bằng việc đánh bại Nhà Hậu Trần năm 1414; Nhà Minh có mở khoa thi nhưng kẻ sĩ đều trốn tránh không chịu ra thi. Phép thi cử bỏ mặc cho đến khi vua Lê Thái Tổ đánh thắng quân Minh. Năm 1426, Lê Thái Tổ tiến quân ra Bắc, đóng quân ở dinh Bồ Đề. Ông liền hạ lệnh thi học trò văn học, đầu đề bài thi: Bảng văn dụ thành Đông Quan, lấy đỗ 50 người, sung bổ chức An phủ các lộ bên ngoài và chức Viên ngoại lang ở 6 bộ trong Kinh. Khoa này Đào Công Soạn, người Tiên Lữ, Hưng Yên đỗ đầu. Sau khi giành độc lập năm 1428, Lê Thái Tổ cho mở lại trường Quốc Tử giám để cho con cháu các quan và người thường dân tuấn tú vào học và đặt các nhà học ở các phủ và các lộ. Lúc mới đến Đông Đô, Thái Tổ mở khoa thi lấy đỗ 32 người.",
+    "source_id": "le_loi",
+    "source": "https://vi.wikipedia.org/wiki/Lê_Lợi",
+    "page": 19,
+    "metadata": {
+     "title": "Lê Lợi",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "chien_dong_duong-p45-b1",
+    "text": "Việt Quốc xuất bản Báo Việt Nam ra số đầu tiên ngày 15 tháng 11 năm 1945, trên trang nhất của số đầu tiên tuyên bố Việt Quốc kế thừa sự nghiệp cách mạng của Nguyễn Thái Học và các đồng chí của ông hy sinh năm 1930 đồng thời cáo buộc Hồ Chí Minh quay lưng với Mặt trận thống nhất (1942-1945) bằng cách đơn phương giành chính quyền vào tháng 8 năm 1945. Bài báo cho rằng Việt Quốc hoàn toàn có thể lật đổ Chính phủ Cách mạng lâm thời Việt Nam Dân chủ Cộng hòa nhưng vì lợi ích quốc gia nên họ không làm. Việt Quốc cũng tuyên bố Việt Minh đang \"theo đuổi 1 chính sách sai lầm, thiếu hiệu quả, vì theo chủ nghĩa cực đoan nên đánh mất bạn bè quốc tế, khủng bố các đảng phái cách mạng khác, không xử lý nổi các vấn đề kinh tế và hoàn toàn thụ động trước việc Pháp đổ bộ vào miền Nam\". Việt Quốc kêu gọi các đảng phái gạt bỏ bất đồng để thành lập Chính phủ liên hiệp lãnh đạo nhân dân giành độc lập, kêu gọi các thành viên Việt Minh hãy nhận thức rằng lãnh đạo của họ đang đưa đất nước đến thảm họa và sử dụng họ vào các mục tiêu quyền lực tham lam, ích kỷ.",
+    "source_id": "chien_dong_duong",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương",
+    "page": 45,
+    "metadata": {
+     "title": "Chiến tranh Đông Dương",
+     "period": "1858_ve_sau",
+     "dense_rank": 2,
+     "tfidf_rank": null
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[ho_quy_ly-p13-b2 | https://vi.wikipedia.org/wiki/Hồ_Quý_Ly | page 13]\nTừ năm 1396, trước khi lên ngôi, Hồ Quý Ly đã cho phát thứ tiền giấy gọi là Thông bảo hội sao. In xong, ra lệnh cho dân cả nước đến đổi 1 quan tiền đồng lấy 1 quan 2 tiền giấy. Cấm tiêu riêng, chứa riêng tiền đồng; số tiền đồng thu hồi chứa ở kho Ngao trì kinh thành và trị sở các huyện. Phạm tội chứa tiền đồng hình phạt cũng như làm tiền giả. Thể thức tiền giấy: tờ 10 đồng vẽ rồng, tờ 30 đồng vẽ sóng, tờ 1 tiền vẽ mây, tờ 2 tiền vẽ rùa, tờ 3 tiền vẽ lân, tờ 5 tiền vẽ phượng, tờ 1 quan vẽ rồng. Kẻ nào làm tiền giả bị xử tử, tài sản bị tịch thu. Lại cho đánh thuế các thuyền buôn, chia ra 3 mức: thượng, trung, hạ. Tuy nhiên, việc dùng tiền giấy không được sự ủng hộ của dân chúng và nhà Hồ đã thất bại trong cuộc cải cách tiền tệ này. Thực tế, đến năm 1403, tức sau bảy năm ban hành, tiền giấy vẫn không được ưa dùng, và do nhà nước cấm tiền đồng, nhân dân buộc phải trao đổi theo hình thức hàng đổi hàng. Nhà nước đã phải định giá tiền giấy cho trao đổi, lập điều luật định tội không tiêu tiền giấy.\n\n[le_loi-p19-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 19]\nĐến tháng 4, năm 1428, triều đình cho đúc đồng tiền mới của Đại Việt, gọi là tiền Thuận Thiên, được sử mô tả là mây xanh hiện, có cánh có chân, bên dưới như mâm ngọc, hai bên tả hữu hình như hai con cá chép vờn nhau. Đến tháng 12, năm Thuận Thiên thứ 1 (1428), Lê Thái Tổ lại đúc tiền Thuận Thiên thông bảo, tính 50 đồng là 1 tiền. Năm Thuận Thiên thứ 2 (1429), ông truyền cho các quan trong ngoài bàn phép dùng tiền. Ông xuống chiếu rằng: Nhà Minh hoàn thành việc xâm lược Đại Ngu bằng việc đánh bại Nhà Hậu Trần năm 1414; Nhà Minh có mở khoa thi nhưng kẻ sĩ đều trốn tránh không chịu ra thi. Phép thi cử bỏ mặc cho đến khi vua Lê Thái Tổ đánh thắng quân Minh. Năm 1426, Lê Thái Tổ tiến quân ra Bắc, đóng quân ở dinh Bồ Đề. Ông liền hạ lệnh thi học trò văn học, đầu đề bài thi: Bảng văn dụ thành Đông Quan, lấy đỗ 50 người, sung bổ chức An phủ các lộ bên ngoài và chức Viên ngoại lang ở 6 bộ trong Kinh. Khoa này Đào Công Soạn, người Tiên Lữ, Hưng Yên đỗ đầu. Sau khi giành độc lập năm 1428, Lê Thái Tổ cho mở lại trường Quốc Tử giám để cho con cháu các quan và người thường dân tuấn tú vào học và đặt các nhà học ở các phủ và các lộ. Lúc mới đến Đông Đô, Thái Tổ mở khoa thi lấy đỗ 32 người.\n\n[chien_dong_duong-p45-b1 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 45]\nViệt Quốc xuất bản Báo Việt Nam ra số đầu tiên ngày 15 tháng 11 năm 1945, trên trang nhất của số đầu tiên tuyên bố Việt Quốc kế thừa sự nghiệp cách mạng của Nguyễn Thái Học và các đồng chí của ông hy sinh năm 1930 đồng thời cáo buộc Hồ Chí Minh quay lưng với Mặt trận thống nhất (1942-1945) bằng cách đơn phương giành chính quyền vào tháng 8 năm 1945. Bài báo cho rằng Việt Quốc hoàn toàn có thể lật đổ Chính phủ Cách mạng lâm thời Việt Nam Dân chủ Cộng hòa nhưng vì lợi ích quốc gia nên họ không làm. Việt Quốc cũng tuyên bố Việt Minh đang \"theo đuổi 1 chính sách sai lầm, thiếu hiệu quả, vì theo chủ nghĩa cực đoan nên đánh mất bạn bè quốc tế, khủng bố các đảng phái cách mạng khác, không xử lý nổi các vấn đề kinh tế và hoàn toàn thụ động trước việc Pháp đổ bộ vào miền Nam\". Việt Quốc kêu gọi các đảng phái gạt bỏ bất đồng để thành lập Chính phủ liên hiệp lãnh đạo nhân dân giành độc lập, kêu gọi các thành viên Việt Minh hãy nhận thức rằng lãnh đạo của họ đang đưa đất nước đến thảm họa và sử dụng họ vào các mục tiêu quyền lực tham lam, ích kỷ.",
+  "context_ids": [
+   "ho_quy_ly-p13-b2",
+   "le_loi-p19-b2",
+   "chien_dong_duong-p45-b1"
+  ],
+  "elapsed_ms": 47.4,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "question": "Văn Miếu ở kinh thành Thăng Long được vua nào cho xây dựng và vào năm nào?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_ly",
+    "page": 20,
+    "evidence": "Năm 1070, Lý Thánh Tông cho xây dựng nhà Văn Miếu ở kinh thành Thăng Long"
+   }
+  ],
+  "results": [
+   {
+    "id": "ly_cong_uan-p12-b2",
+    "text": "Vào năm 1010, sau khi đã dời đô từ Hoa Lư về Thăng Long, việc đầu tiên vua làm là xuất ra 2 vạn quan để làm chùa ở phủ Thiên Đức (tức Cổ Pháp), tất cả tám sở, đều dựng bia ghi công. Tháng 12 năm Canh Tuất (năm 1010 dương lịch), vua sai sứ sang nước Tống để thỉnh kinh điển Phật giáo. Tống Chân Tông chấp thuận, trao cho vua Lý kinh Địa Tạng cùng với chữ ngự bút do chính tay vua Tống viết. Cùng năm, sau khi đã được xây dựng Hoàng thành, vua lại chùa ngự Hưng Thiên và tinh lâu Ngũ Phượng. Ngoài thành về phía nam dựng chùa Thắng Nghiêm. Tháng 6 năm Mậu Ngọ (1018), vua lại sai viên ngoại lang Nguyễn Đạo Thanh và Phạm Hạc sang nước Đại Tống thỉnh Tam tạng kinh đem về để vào kho Đại Hưng. Tháng 9 năm Giáp Tý (1024), Thái Tổ sai dựng chùa Chân Giáo trong nội đô Thăng Long, để hoàng đế lui tới nghe kinh pháp. Về việc này, Lê Văn Hưu nhận xét: \"Lý Thái Tổ lên ngôi mới được 2 năm, tông miếu chưa dựng, đàn xã tắc chưa lập mà trước đã dựng tám chùa ở phủ Thiên Đức, lại trùng tu chùa quán ở các lộ và độ cho làm tăng hơn nghìn người ở Kinh sư, thế thì tiêu phí của cải sức lực vào việc thổ mộc không biết chừng nào mà kể.\"",
+    "source_id": "ly_cong_uan",
+    "source": "https://vi.wikipedia.org/wiki/Lý_Công_Uẩn",
+    "page": 12,
+    "metadata": {
+     "title": "Lý Công Uẩn",
+     "period": "938_1427",
+     "dense_rank": 2,
+     "tfidf_rank": 1
+    },
+    "score": 0.032522,
+    "hit": false
+   },
+   {
+    "id": "minh_mang-p3-b2",
+    "text": "Minh Mạng được xem là một vị vua siêng năng, luôn thức khuya dậy sớm để xem xét công việc, có khi thắp đèn đọc sớ chương ở các nơi gởi về đến trống canh ba mới nghỉ. Ông thường bảo với các quan: Trong suốt thời gian trị vì của mình, vua Minh Mạng đã thay đổi rất nhiều việc, từ nội trị, ngoại giao cho đến những cải cách xã hội cùng những việc trong dòng họ. 7 tiền Phi Long, được đúc vào niên hiệu Minh Mạng thứ 14, 1833 - đây là loại tiền thưởng đầu tiên của triều Nguyễn được đúc dưới dạng hình tròn; Với kích thước 41mm và trọng lượng 27,27 gr, có thông số lớn hơn cả các dòng Đô la Tây Ban Nha đương thời và Đô la thương mại sau này thời Minh Mạng. Minh Mạng đã xin triều đình Mãn Thanh cho phép đổi quốc hiệu Việt Nam thành Đại Nam, ngụ ý một quốc gia ở phương Nam rộng lớn. Tuy nhiên triều đình Mãn Thanh không chính thức chấp thuận. Tuy nhiên đến ngày 15 tháng 2 năm 1839, nhận thấy nhà Mãn Thanh đã suy yếu, vua Minh Mạng chính thức công bố quốc hiệu Đại Nam. Quốc hiệu này tồn tại đến năm 1945.",
+    "source_id": "minh_mang",
+    "source": "https://vi.wikipedia.org/wiki/Minh_Mạng",
+    "page": 3,
+    "metadata": {
+     "title": "Minh Mạng",
+     "period": "1428_1857",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_nguyen-p11-b2",
+    "text": "Theo thống kê của bộ Hộ thì số đinh năm đầu đời Gia Long là 992.559 người, cuối đời Thiệu Trị là 1.024.380 người. Về điền thổ thì đầu đời Tự Đức có 3.398.584 mẫu ruộng và 502.672 mẫu đất. Mỗi người dân đinh phải chịu 60 ngày lao dịch cho triều đình. Lao dịch thường là để làm các mục đích, xây sửa hệ thống đê điều, kênh rạch, sông ngòi; xây đắp các thành lũy; xây dựng các cung điện cho hoàng gia. Trên thực tế, người dân phải lao dịch khá nặng trong thời gian vương triều Nguyễn xây dựng các cung điện, lăng tẩm, dinh thự,... Ví dụ năm 1807, ngay khi kinh thành Huế vừa được xây xong, vua Gia Long lại huy động hàng nghìn dân đinh và binh lính tiếp tục sửa chữa và tu bổ thêm trong một thời gian dài. Vua Minh Mạng cũng tiếp tục công việc xây dựng kinh đô. Vua Thiệu Trị thì không tập trung xây dựng kinh đô nữa, nhưng, trong một cuộc tuần du lớn ra Bắc Kỳ năm 1842, người dân đã phải xây 44 hành cung cho một phái đoàn đông đến 17.500 người, 44 con voi và 172 con ngựa của nhà vua. Theo nhận xét của giáo sĩ Pháp Guérard: \"Vua Gia Long bóp nặn dân chúng bằng đủ mọi cách, sự bất công và lộng hành làm người ta rên xiết hơn cả thời Tây Sơn: thuế khóa và lao dịch đã tăng lên gấp ba\".",
+    "source_id": "nha_nguyen",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Nguyễn",
+    "page": 11,
+    "metadata": {
+     "title": "Nhà Nguyễn",
+     "period": "1428_1857",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[ly_cong_uan-p12-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 12]\nVào năm 1010, sau khi đã dời đô từ Hoa Lư về Thăng Long, việc đầu tiên vua làm là xuất ra 2 vạn quan để làm chùa ở phủ Thiên Đức (tức Cổ Pháp), tất cả tám sở, đều dựng bia ghi công. Tháng 12 năm Canh Tuất (năm 1010 dương lịch), vua sai sứ sang nước Tống để thỉnh kinh điển Phật giáo. Tống Chân Tông chấp thuận, trao cho vua Lý kinh Địa Tạng cùng với chữ ngự bút do chính tay vua Tống viết. Cùng năm, sau khi đã được xây dựng Hoàng thành, vua lại chùa ngự Hưng Thiên và tinh lâu Ngũ Phượng. Ngoài thành về phía nam dựng chùa Thắng Nghiêm. Tháng 6 năm Mậu Ngọ (1018), vua lại sai viên ngoại lang Nguyễn Đạo Thanh và Phạm Hạc sang nước Đại Tống thỉnh Tam tạng kinh đem về để vào kho Đại Hưng. Tháng 9 năm Giáp Tý (1024), Thái Tổ sai dựng chùa Chân Giáo trong nội đô Thăng Long, để hoàng đế lui tới nghe kinh pháp. Về việc này, Lê Văn Hưu nhận xét: \"Lý Thái Tổ lên ngôi mới được 2 năm, tông miếu chưa dựng, đàn xã tắc chưa lập mà trước đã dựng tám chùa ở phủ Thiên Đức, lại trùng tu chùa quán ở các lộ và độ cho làm tăng hơn nghìn người ở Kinh sư, thế thì tiêu phí của cải sức lực vào việc thổ mộc không biết chừng nào mà kể.\"\n\n[minh_mang-p3-b2 | https://vi.wikipedia.org/wiki/Minh_Mạng | page 3]\nMinh Mạng được xem là một vị vua siêng năng, luôn thức khuya dậy sớm để xem xét công việc, có khi thắp đèn đọc sớ chương ở các nơi gởi về đến trống canh ba mới nghỉ. Ông thường bảo với các quan: Trong suốt thời gian trị vì của mình, vua Minh Mạng đã thay đổi rất nhiều việc, từ nội trị, ngoại giao cho đến những cải cách xã hội cùng những việc trong dòng họ. 7 tiền Phi Long, được đúc vào niên hiệu Minh Mạng thứ 14, 1833 - đây là loại tiền thưởng đầu tiên của triều Nguyễn được đúc dưới dạng hình tròn; Với kích thước 41mm và trọng lượng 27,27 gr, có thông số lớn hơn cả các dòng Đô la Tây Ban Nha đương thời và Đô la thương mại sau này thời Minh Mạng. Minh Mạng đã xin triều đình Mãn Thanh cho phép đổi quốc hiệu Việt Nam thành Đại Nam, ngụ ý một quốc gia ở phương Nam rộng lớn. Tuy nhiên triều đình Mãn Thanh không chính thức chấp thuận. Tuy nhiên đến ngày 15 tháng 2 năm 1839, nhận thấy nhà Mãn Thanh đã suy yếu, vua Minh Mạng chính thức công bố quốc hiệu Đại Nam. Quốc hiệu này tồn tại đến năm 1945.\n\n[nha_nguyen-p11-b2 | https://vi.wikipedia.org/wiki/Nhà_Nguyễn | page 11]\nTheo thống kê của bộ Hộ thì số đinh năm đầu đời Gia Long là 992.559 người, cuối đời Thiệu Trị là 1.024.380 người. Về điền thổ thì đầu đời Tự Đức có 3.398.584 mẫu ruộng và 502.672 mẫu đất. Mỗi người dân đinh phải chịu 60 ngày lao dịch cho triều đình. Lao dịch thường là để làm các mục đích, xây sửa hệ thống đê điều, kênh rạch, sông ngòi; xây đắp các thành lũy; xây dựng các cung điện cho hoàng gia. Trên thực tế, người dân phải lao dịch khá nặng trong thời gian vương triều Nguyễn xây dựng các cung điện, lăng tẩm, dinh thự,... Ví dụ năm 1807, ngay khi kinh thành Huế vừa được xây xong, vua Gia Long lại huy động hàng nghìn dân đinh và binh lính tiếp tục sửa chữa và tu bổ thêm trong một thời gian dài. Vua Minh Mạng cũng tiếp tục công việc xây dựng kinh đô. Vua Thiệu Trị thì không tập trung xây dựng kinh đô nữa, nhưng, trong một cuộc tuần du lớn ra Bắc Kỳ năm 1842, người dân đã phải xây 44 hành cung cho một phái đoàn đông đến 17.500 người, 44 con voi và 172 con ngựa của nhà vua. Theo nhận xét của giáo sĩ Pháp Guérard: \"Vua Gia Long bóp nặn dân chúng bằng đủ mọi cách, sự bất công và lộng hành làm người ta rên xiết hơn cả thời Tây Sơn: thuế khóa và lao dịch đã tăng lên gấp ba\".",
+  "context_ids": [
+   "ly_cong_uan-p12-b2",
+   "minh_mang-p3-b2",
+   "nha_nguyen-p11-b2"
+  ],
+  "elapsed_ms": 53.2,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "question": "Trước khi khởi nghĩa năm 40, Trưng Trắc và Trưng Nhị làm Hội thề ở đâu?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "khoi_nghia_hai_ba_trung",
+    "page": 3,
+    "evidence": "Trưng Trắc và Trưng Nhị tập hợp các tướng lĩnh cùng nhau làm Hội thề ở bãi đá Tràng Sa, cửa sông Hát"
+   }
+  ],
+  "results": [
+   {
+    "id": "khoi_nghia_hai_ba_trung-p4-b2",
+    "text": "Gồm chiếm được 65 thành tự lập làm vua. Thứ sử Giao Chỉ và các thái thú chỉ giữ được thân mình mà thôi.” Sách Thủy kinh chú chép: :\"[Hai Bà] công phá châu huyện, hàng phục được các Lạc tướng, họ đều suy tôn Trưng Trắc làm vua.\" Các sử gia căn cứ theo các thần phả và truyền thuyết tóm lược trình tự cuộc khởi nghĩa như sau: :Quân Hai Bà trước tiên tấn công đô úy trị quận Giao Chỉ ở Mê Linh. Chiếm được nơi đây, Hai Bà Trưng tiến đánh huyện Tây Vu, chiếm thành Cổ Loa. Trên đà thắng lợi, từ Cổ Loa, Hai Bà Trưng mang quân vượt sông Hoàng, sông Đuống đánh trị sở Giao Chỉ ở Luy Lâu bên bờ sông Dâu (lãng Lũng Khê, Thuận Thành, Bắc Ninh). Quân khởi nghĩa tấn công quá nhanh khiến Tô Định không kịp trở tay. Trước thế mạnh của quân Hai Bà, các viên quan cầm đầu không trở tay kịp và không dám chống cự, bỏ chạy về phương Bắc.",
+    "source_id": "khoi_nghia_hai_ba_trung",
+    "source": "https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng",
+    "page": 4,
+    "metadata": {
+     "title": "Khởi nghĩa Hai Bà Trưng",
+     "period": "co_dai",
+     "dense_rank": 1,
+     "tfidf_rank": 8
+    },
+    "score": 0.031099,
+    "hit": false
+   },
+   {
+    "id": "khoi_nghia_hai_ba_trung-p7-b2",
+    "text": "Đấy là một phong trào nổi dậy của toàn dân, vừa quy tụ vào cuộc khởi nghĩa ở Hát Môn do Hai Bà Trưng đề xướng, vừa tỏa rộng trên toàn miền Âu Lạc cũ Đây là cuộc khởi nghĩa chống sự cai trị của Trung Quốc đầu tiên của người Việt trong 1000 năm Bắc thuộc. Các Lạc tướng cùng hậu duệ của họ là đại biểu của phong trào này. Hai Bà Trưng đã dựa vào nhân dân khôi phục lại sự nghiệp cũ của vua Hùng. Cuộc khởi nghĩa là sự phủ nhận hiên ngang cường quyền của các triều đại phương Bắc coi các dân tộc xung quanh là “Man Di” (\"man tộc\", \"man rợ\" hay \"mọi rợ\"), thuộc quốc buộc phải phục tùng “thiên triều”, “thiên tử”, phủ nhận tư tưởng “tôn quân, đại thống nhất”. Cuộc khởi nghĩa Hai Bà Trưng do phụ nữ đứng đầu, trong thế giới tư tưởng “trọng nam khinh nữ” của đế chế Hán cổ đại, được xem là sự đối chọi quyết liệt về văn hóa, nếp sống, nếp tư duy của đôi bên Nam – Bắc, Việt - Hán.",
+    "source_id": "khoi_nghia_hai_ba_trung",
+    "source": "https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng",
+    "page": 7,
+    "metadata": {
+     "title": "Khởi nghĩa Hai Bà Trưng",
+     "period": "co_dai",
+     "dense_rank": 9,
+     "tfidf_rank": 9
+    },
+    "score": 0.028986,
+    "hit": false
+   },
+   {
+    "id": "khoi_nghia_hai_ba_trung-p4-b1",
+    "text": "Sau một thời gian chuẩn bị, tháng 2 năm 40, Trưng Trắc cùng Trưng Nhị chính thức phát động khởi nghĩa chống lại nhà Đông Hán. Sách Đại Việt sử ký tiền biên của Ngô Thì Sĩ ghi lại lời chép trong dã sử cho biết, khi Trưng Trắc xuất quân vẫn chưa hết tang chồng, bà trang điểm rất đẹp. Các tướng hỏi vì sao, bà đáp rằng: :Việc binh không thể ảnh hưởng. Nếu giữ lễ và làm xấu dung nhan thì nhuệ khí tự nhiên suy kém. Cho nên ta mặc đẹp để mạnh thêm nhiều màu sắc của quân, khiến cho bọn giặc trông thấy động lòng, lợi là chí tranh đấu, thì dễ giành phần thắng. Cuộc khởi nghĩa được sự hưởng ứng của nhiều đội quân và nhân dân các nơi thuộc Âu Lạc và Nam Việt cũ. Quân Hai Bà đánh hãm trị sở Luy Lâu. Sử sách ghi lại rất sơ lược diễn biến cuộc khởi nghĩa của Hai Bà từ khi bắt đầu tới khi thắng lợi. Sách Hậu Hán thư chép: :\"Năm Kiến Vũ thứ 16 (40), người con gái ở Giao Chỉ là Trưng Trắc và em gái là Trưng Nhị làm phản, đánh phá quận. Trưng Trắc là con gái Lạc tướng huyện Mê Linh, là vợ Thi Sách người Chu Diên, rất hùng dũng. Thái thú Giao Chỉ là Tô Định dùng pháp luật trói buộc, Trưng Trắc phẫn nộ, vì thế mà làm phản. Do vậy, những người Man, người Lý ở Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng.",
+    "source_id": "khoi_nghia_hai_ba_trung",
+    "source": "https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng",
+    "page": 4,
+    "metadata": {
+     "title": "Khởi nghĩa Hai Bà Trưng",
+     "period": "co_dai",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   }
+  ],
+  "context": "[khoi_nghia_hai_ba_trung-p4-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng | page 4]\nGồm chiếm được 65 thành tự lập làm vua. Thứ sử Giao Chỉ và các thái thú chỉ giữ được thân mình mà thôi.” Sách Thủy kinh chú chép: :\"[Hai Bà] công phá châu huyện, hàng phục được các Lạc tướng, họ đều suy tôn Trưng Trắc làm vua.\" Các sử gia căn cứ theo các thần phả và truyền thuyết tóm lược trình tự cuộc khởi nghĩa như sau: :Quân Hai Bà trước tiên tấn công đô úy trị quận Giao Chỉ ở Mê Linh. Chiếm được nơi đây, Hai Bà Trưng tiến đánh huyện Tây Vu, chiếm thành Cổ Loa. Trên đà thắng lợi, từ Cổ Loa, Hai Bà Trưng mang quân vượt sông Hoàng, sông Đuống đánh trị sở Giao Chỉ ở Luy Lâu bên bờ sông Dâu (lãng Lũng Khê, Thuận Thành, Bắc Ninh). Quân khởi nghĩa tấn công quá nhanh khiến Tô Định không kịp trở tay. Trước thế mạnh của quân Hai Bà, các viên quan cầm đầu không trở tay kịp và không dám chống cự, bỏ chạy về phương Bắc.\n\n[khoi_nghia_hai_ba_trung-p7-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng | page 7]\nĐấy là một phong trào nổi dậy của toàn dân, vừa quy tụ vào cuộc khởi nghĩa ở Hát Môn do Hai Bà Trưng đề xướng, vừa tỏa rộng trên toàn miền Âu Lạc cũ Đây là cuộc khởi nghĩa chống sự cai trị của Trung Quốc đầu tiên của người Việt trong 1000 năm Bắc thuộc. Các Lạc tướng cùng hậu duệ của họ là đại biểu của phong trào này. Hai Bà Trưng đã dựa vào nhân dân khôi phục lại sự nghiệp cũ của vua Hùng. Cuộc khởi nghĩa là sự phủ nhận hiên ngang cường quyền của các triều đại phương Bắc coi các dân tộc xung quanh là “Man Di” (\"man tộc\", \"man rợ\" hay \"mọi rợ\"), thuộc quốc buộc phải phục tùng “thiên triều”, “thiên tử”, phủ nhận tư tưởng “tôn quân, đại thống nhất”. Cuộc khởi nghĩa Hai Bà Trưng do phụ nữ đứng đầu, trong thế giới tư tưởng “trọng nam khinh nữ” của đế chế Hán cổ đại, được xem là sự đối chọi quyết liệt về văn hóa, nếp sống, nếp tư duy của đôi bên Nam – Bắc, Việt - Hán.\n\n[khoi_nghia_hai_ba_trung-p4-b1 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Hai_Bà_Trưng | page 4]\nSau một thời gian chuẩn bị, tháng 2 năm 40, Trưng Trắc cùng Trưng Nhị chính thức phát động khởi nghĩa chống lại nhà Đông Hán. Sách Đại Việt sử ký tiền biên của Ngô Thì Sĩ ghi lại lời chép trong dã sử cho biết, khi Trưng Trắc xuất quân vẫn chưa hết tang chồng, bà trang điểm rất đẹp. Các tướng hỏi vì sao, bà đáp rằng: :Việc binh không thể ảnh hưởng. Nếu giữ lễ và làm xấu dung nhan thì nhuệ khí tự nhiên suy kém. Cho nên ta mặc đẹp để mạnh thêm nhiều màu sắc của quân, khiến cho bọn giặc trông thấy động lòng, lợi là chí tranh đấu, thì dễ giành phần thắng. Cuộc khởi nghĩa được sự hưởng ứng của nhiều đội quân và nhân dân các nơi thuộc Âu Lạc và Nam Việt cũ. Quân Hai Bà đánh hãm trị sở Luy Lâu. Sử sách ghi lại rất sơ lược diễn biến cuộc khởi nghĩa của Hai Bà từ khi bắt đầu tới khi thắng lợi. Sách Hậu Hán thư chép: :\"Năm Kiến Vũ thứ 16 (40), người con gái ở Giao Chỉ là Trưng Trắc và em gái là Trưng Nhị làm phản, đánh phá quận. Trưng Trắc là con gái Lạc tướng huyện Mê Linh, là vợ Thi Sách người Chu Diên, rất hùng dũng. Thái thú Giao Chỉ là Tô Định dùng pháp luật trói buộc, Trưng Trắc phẫn nộ, vì thế mà làm phản. Do vậy, những người Man, người Lý ở Cửu Chân, Nhật Nam, Hợp Phố đều hưởng ứng.",
+  "context_ids": [
+   "khoi_nghia_hai_ba_trung-p4-b2",
+   "khoi_nghia_hai_ba_trung-p7-b2",
+   "khoi_nghia_hai_ba_trung-p4-b1"
+  ],
+  "elapsed_ms": 54.9,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "question": "Theo truyền thuyết, ai đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "an_duong_vuong",
+    "page": 4,
+    "evidence": "Triệu Đà đã sử dụng cuộc hôn nhân giữa con trai là Trọng Thủy và công chúa Mỵ Châu để thu thập bí mật quân sự của Âu Lạc"
+   }
+  ],
+  "results": [
+   {
+    "id": "an_duong_vuong-p4-b2",
+    "text": "Các sử liệu Việt Nam và Trung Quốc đời sau, cũng như truyền thuyết dân gian, kể rằng Triệu Đà đã sử dụng cuộc hôn nhân giữa con trai là Trọng Thủy và công chúa Mỵ Châu để thu thập bí mật quân sự của Âu Lạc. Sau khi lẫy nỏ thần bị đánh tráo, quân Nam Việt tiến đánh và giành thắng lợi. Theo truyền thuyết, An Dương Vương đưa Mỵ Châu bỏ chạy về phương nam, sau khi được rùa thần Kim Quy chỉ rõ sự việc thì chém chết con gái rồi xuống biển biến mất. Nhiều nhà nghiên cứu cho rằng câu chuyện Mỵ Châu – Trọng Thủy mang đậm yếu tố truyền thuyết, phản ánh bài học về cảnh giác trong bảo vệ quốc gia hơn là ghi chép lịch sử theo nghĩa chặt chẽ. Trong khi đó, việc Triệu Đà chinh phục Âu Lạc được ghi nhận trong Sử ký Tư Mã Thiên, dù tác phẩm này không đề cập đến các chi tiết về nỏ thần hay Mỵ Châu. Niên đại Âu Lạc sụp đổ cũng còn có sự khác biệt giữa các nguồn. Đại Việt sử ký toàn thư, Khâm định Việt sử Thông giám cương mục và Việt sử Tiêu án đều chép sự kiện này vào năm 208 TCN.",
+    "source_id": "an_duong_vuong",
+    "source": "https://vi.wikipedia.org/wiki/An_Dương_Vương",
+    "page": 4,
+    "metadata": {
+     "title": "An Dương Vương",
+     "period": "co_dai",
+     "dense_rank": 1,
+     "tfidf_rank": 1
+    },
+    "score": 0.032787,
+    "hit": true
+   },
+   {
+    "id": "an_duong_vuong-p3-b2",
+    "text": "Các nguồn sử liệu mô tả người Âu Lạc áp dụng chiến thuật tiêu thổ, phục kích và đánh lâu dài khiến quân Tần dần cạn kiệt lương thực. Theo Sử ký Tư Mã Thiên, quân Tần rơi vào tình trạng tiến thoái lưỡng nan và chịu nhiều tổn thất. Hoài Nam Tử cũng ghi nhận tướng Đồ Thư tử trận trong chiến dịch, buộc quân Tần phải rút lui. Theo truyền thống sử học Việt Nam, sau thắng lợi trước quân Tần, Thục Phán củng cố chính quyền và tiếp tục xây dựng nhà nước Âu Lạc. . , một trong những nơi thờ An Dương Vương. Theo truyền thống sử học Việt Nam, sau khi thành lập nước Âu Lạc và giành thắng lợi trước cuộc xâm lược của nhà Tần, An Dương Vương cho xây dựng Thành Cổ Loa làm kinh đô. Một số sử liệu và truyền thuyết cũng gắn Cao Lỗ với việc xây thành và chế tạo nỏ liên châu, được xem là vũ khí chủ lực của quân đội Âu Lạc. Trong truyền thuyết, việc xây thành nhiều lần không thành do yêu quái quấy phá. Sau khi rùa thần Kim Quy xuất hiện, giúp diệt trừ yêu quái và chỉ cách xây thành, công trình mới hoàn thành. Kim Quy sau đó còn trao cho An Dương Vương một móng vuốt để chế tạo lẫy nỏ thần, trở thành chi tiết quan trọng trong truyền thuyết về sự hình thành và suy vong của nước Âu Lạc.",
+    "source_id": "an_duong_vuong",
+    "source": "https://vi.wikipedia.org/wiki/An_Dương_Vương",
+    "page": 3,
+    "metadata": {
+     "title": "An Dương Vương",
+     "period": "co_dai",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   },
+   {
+    "id": "khoi_nghia_tay_son-p38-b1",
+    "text": "Việc Gia Long rước hàng vạn quân Xiêm về giết dân, tàn phá đất Nam Bộ, bị Quang Trung đánh chạy thục mạng ở Rạch Gầm kia đâu phải là chuyện tuyên truyền chính trị. Việc Gia Long nhờ vũ khí, nhờ đại bác của Pháp, nhờ chính bọn đánh thuê, bọn cha cố phương Tây để chiếm lấy đất nước đâu phải là chuyện bịa đặt!\" (Về những hiện tượng bất thường trong văn học và sử học – Báo Công an Tp.Hồ Chí Minh, 21-5-1998, tr. 18). *Ý kiến Jean Chesneaux: \"(...) Sự kiện lớn nhất dường như việc khôi phục thống nhất đất nước, việc xóa bỏ sự chia cắt đất nước thành hai vương quốc đối địch. Chính là Tây Sơn chứ không phải là nhà Nguyễn ở thế kỷ XIX, như người ta thường gán cho họ, đã có công trong việc xây dựng một nước Việt Nam thống nhất; dù chia ra các miền khác nhau nhưng vẫn cùng một mục đích... Niềm kiêu hãnh khôi phục lại uy danh của nước Việt Nam thể hiện rõ trong bài hịch [Hịch Tây Sơn]\" (Contribution à l' histoire de la nation vietnamienne – Paris 1955, tr. 37). *Ý kiến Joseph Buttinger: Trong cuốn The Smaller Dragon (New York, 1962), tác giả viết: \"Khi Hà Nội thất thủ trước chính quyền mới ở Đàng Trong [ý nói: Tây Sơn], Việt Nam đã trở lại thống nhất (...).",
+    "source_id": "khoi_nghia_tay_son",
+    "source": "https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn",
+    "page": 38,
+    "metadata": {
+     "title": "Khởi nghĩa Tây Sơn",
+     "period": "1428_1857",
+     "dense_rank": 2,
+     "tfidf_rank": null
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[an_duong_vuong-p4-b2 | https://vi.wikipedia.org/wiki/An_Dương_Vương | page 4]\nCác sử liệu Việt Nam và Trung Quốc đời sau, cũng như truyền thuyết dân gian, kể rằng Triệu Đà đã sử dụng cuộc hôn nhân giữa con trai là Trọng Thủy và công chúa Mỵ Châu để thu thập bí mật quân sự của Âu Lạc. Sau khi lẫy nỏ thần bị đánh tráo, quân Nam Việt tiến đánh và giành thắng lợi. Theo truyền thuyết, An Dương Vương đưa Mỵ Châu bỏ chạy về phương nam, sau khi được rùa thần Kim Quy chỉ rõ sự việc thì chém chết con gái rồi xuống biển biến mất. Nhiều nhà nghiên cứu cho rằng câu chuyện Mỵ Châu – Trọng Thủy mang đậm yếu tố truyền thuyết, phản ánh bài học về cảnh giác trong bảo vệ quốc gia hơn là ghi chép lịch sử theo nghĩa chặt chẽ. Trong khi đó, việc Triệu Đà chinh phục Âu Lạc được ghi nhận trong Sử ký Tư Mã Thiên, dù tác phẩm này không đề cập đến các chi tiết về nỏ thần hay Mỵ Châu. Niên đại Âu Lạc sụp đổ cũng còn có sự khác biệt giữa các nguồn. Đại Việt sử ký toàn thư, Khâm định Việt sử Thông giám cương mục và Việt sử Tiêu án đều chép sự kiện này vào năm 208 TCN.\n\n[an_duong_vuong-p3-b2 | https://vi.wikipedia.org/wiki/An_Dương_Vương | page 3]\nCác nguồn sử liệu mô tả người Âu Lạc áp dụng chiến thuật tiêu thổ, phục kích và đánh lâu dài khiến quân Tần dần cạn kiệt lương thực. Theo Sử ký Tư Mã Thiên, quân Tần rơi vào tình trạng tiến thoái lưỡng nan và chịu nhiều tổn thất. Hoài Nam Tử cũng ghi nhận tướng Đồ Thư tử trận trong chiến dịch, buộc quân Tần phải rút lui. Theo truyền thống sử học Việt Nam, sau thắng lợi trước quân Tần, Thục Phán củng cố chính quyền và tiếp tục xây dựng nhà nước Âu Lạc. . , một trong những nơi thờ An Dương Vương. Theo truyền thống sử học Việt Nam, sau khi thành lập nước Âu Lạc và giành thắng lợi trước cuộc xâm lược của nhà Tần, An Dương Vương cho xây dựng Thành Cổ Loa làm kinh đô. Một số sử liệu và truyền thuyết cũng gắn Cao Lỗ với việc xây thành và chế tạo nỏ liên châu, được xem là vũ khí chủ lực của quân đội Âu Lạc. Trong truyền thuyết, việc xây thành nhiều lần không thành do yêu quái quấy phá. Sau khi rùa thần Kim Quy xuất hiện, giúp diệt trừ yêu quái và chỉ cách xây thành, công trình mới hoàn thành. Kim Quy sau đó còn trao cho An Dương Vương một móng vuốt để chế tạo lẫy nỏ thần, trở thành chi tiết quan trọng trong truyền thuyết về sự hình thành và suy vong của nước Âu Lạc.\n\n[khoi_nghia_tay_son-p38-b1 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn | page 38]\nViệc Gia Long rước hàng vạn quân Xiêm về giết dân, tàn phá đất Nam Bộ, bị Quang Trung đánh chạy thục mạng ở Rạch Gầm kia đâu phải là chuyện tuyên truyền chính trị. Việc Gia Long nhờ vũ khí, nhờ đại bác của Pháp, nhờ chính bọn đánh thuê, bọn cha cố phương Tây để chiếm lấy đất nước đâu phải là chuyện bịa đặt!\" (Về những hiện tượng bất thường trong văn học và sử học – Báo Công an Tp.Hồ Chí Minh, 21-5-1998, tr. 18). *Ý kiến Jean Chesneaux: \"(...) Sự kiện lớn nhất dường như việc khôi phục thống nhất đất nước, việc xóa bỏ sự chia cắt đất nước thành hai vương quốc đối địch. Chính là Tây Sơn chứ không phải là nhà Nguyễn ở thế kỷ XIX, như người ta thường gán cho họ, đã có công trong việc xây dựng một nước Việt Nam thống nhất; dù chia ra các miền khác nhau nhưng vẫn cùng một mục đích... Niềm kiêu hãnh khôi phục lại uy danh của nước Việt Nam thể hiện rõ trong bài hịch [Hịch Tây Sơn]\" (Contribution à l' histoire de la nation vietnamienne – Paris 1955, tr. 37). *Ý kiến Joseph Buttinger: Trong cuốn The Smaller Dragon (New York, 1962), tác giả viết: \"Khi Hà Nội thất thủ trước chính quyền mới ở Đàng Trong [ý nói: Tây Sơn], Việt Nam đã trở lại thống nhất (...).",
+  "context_ids": [
+   "an_duong_vuong-p4-b2",
+   "an_duong_vuong-p3-b2",
+   "khoi_nghia_tay_son-p38-b1"
+  ],
+  "elapsed_ms": 62.8,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "question": "Cách truyền ngôi đặc biệt của nhà Trần được mô tả thế nào và vì sao được đánh giá là tích cực?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_tran",
+    "page": 1,
+    "evidence": "các Hoàng đế sẽ sớm nhường ngôi cho Thái tử mà lui về làm Thái thượng hoàng"
+   }
+  ],
+  "results": [
+   {
+    "id": "nha_nguyen-p41-b3",
+    "text": "Những thành quả của vương triều Nguyễn trong việc xây dựng nhà nước quân chủ phong kiến tập quyền thống nhất trên toàn lãnh thổ cũng được ghi nhận từ việc quản lý đất nước. Đặc biệt là những thành tựu trong cải cách hành chính dưới triều Minh Mạng còn có nhiều giá trị. Nhà nghiên cứu Nguyễn Đắc Xuân cho rằng:",
+    "source_id": "nha_nguyen",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Nguyễn",
+    "page": 41,
+    "metadata": {
+     "title": "Nhà Nguyễn",
+     "period": "1428_1857",
+     "dense_rank": 2,
+     "tfidf_rank": 6
+    },
+    "score": 0.031281,
+    "hit": false
+   },
+   {
+    "id": "nha_tran-p14-b1",
+    "text": "Còn một nguyên nhân nữa phải kể tới trong thành công của nhà Trần là đội ngũ tướng lĩnh xuất sắc, nòng cốt lại chính là các tướng trong hoàng tộc nhà Trần. Dù xuất thân quyền quý nhưng các hoàng tử, thân tộc nhà Trần, ngoài lòng yêu nước - và bảo vệ quyền lợi dòng tộc - số lớn là những người có thực tài cả văn lẫn võ. Thật hiếm dòng họ cai trị nào có nhiều nhân tài nổi bật và nhiều chiến công như nhà Trần, đặc biệt là thế hệ thứ hai: Trần Quốc Tuấn, Trần Nhân Tông, Trần Quang Khải, Trần Nhật Duật đều là những tên tuổi lớn trong lịch sử Việt Nam. Đó là chưa kể tới Trần Thủ Độ, Trần Khánh Dư, Trần Quốc Toản... Mông - Nguyên đương thời là đế quốc lớn nhất thế giới. Những nơi người Mông bại trận lúc đó như Ai Cập quá xa xôi, Nhật Bản và Indonesia đều có biển cả ngăn cách và quân Mông cũng không có sở trường đánh thủy quân nên mới bị thua trận. Thế nhưng nước Đại Việt lúc đó nằm liền kề trên đại lục Trung Hoa, chung đường biên giới cả ngàn dặm với người Mông mà người Mông vẫn không đánh chiếm được. Một đế quốc đã nằm trùm cả đại lục Á-Âu mà không lấy nổi một dải đất bé nhỏ ở phía nam.",
+    "source_id": "nha_tran",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Trần",
+    "page": 14,
+    "metadata": {
+     "title": "Nhà Trần",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": 9
+    },
+    "score": 0.030886,
+    "hit": false
+   },
+   {
+    "id": "khang_chien_nguyen_tran-p5-b2",
+    "text": "Dù trong hoàng tộc nhà Trần có những người phản bội theo nhà Nguyên nhưng nước Đại Việt không bị mất, nhờ sự ủng hộ của đông đảo dân chúng. Còn một nguyên nhân nữa phải kể tới trong thành công của nhà Trần là đội ngũ tướng lĩnh xuất sắc, nòng cốt lại chính là các tướng trong hoàng tộc nhà Trần. Dù xuất thân quyền quý nhưng các hoàng tử, thân tộc nhà Trần, ngoài lòng yêu nước - và bảo vệ quyền lợi dòng tộc - số lớn là những người có thực tài cả văn lẫn võ. Thật hiếm dòng họ cai trị nào có nhiều nhân tài nổi bật và nhiều chiến công như nhà Trần, đặc biệt là thế hệ thứ hai: Trần Quốc Tuấn, Trần Thánh Tông, Trần Quang Khải, Trần Nhật Duật đều là những tên tuổi lớn trong lịch sử Việt Nam. Đó là chưa kể tới Trần Thủ Độ, Trần Khánh Dư, Trần Quốc Toản....",
+    "source_id": "khang_chien_nguyen_tran",
+    "source": "https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông",
+    "page": 5,
+    "metadata": {
+     "title": "Kháng chiến chống quân Nguyên Mông",
+     "period": "938_1427",
+     "dense_rank": 6,
+     "tfidf_rank": 4
+    },
+    "score": 0.030777,
+    "hit": false
+   }
+  ],
+  "context": "[nha_nguyen-p41-b3 | https://vi.wikipedia.org/wiki/Nhà_Nguyễn | page 41]\nNhững thành quả của vương triều Nguyễn trong việc xây dựng nhà nước quân chủ phong kiến tập quyền thống nhất trên toàn lãnh thổ cũng được ghi nhận từ việc quản lý đất nước. Đặc biệt là những thành tựu trong cải cách hành chính dưới triều Minh Mạng còn có nhiều giá trị. Nhà nghiên cứu Nguyễn Đắc Xuân cho rằng:\n\n[nha_tran-p14-b1 | https://vi.wikipedia.org/wiki/Nhà_Trần | page 14]\nCòn một nguyên nhân nữa phải kể tới trong thành công của nhà Trần là đội ngũ tướng lĩnh xuất sắc, nòng cốt lại chính là các tướng trong hoàng tộc nhà Trần. Dù xuất thân quyền quý nhưng các hoàng tử, thân tộc nhà Trần, ngoài lòng yêu nước - và bảo vệ quyền lợi dòng tộc - số lớn là những người có thực tài cả văn lẫn võ. Thật hiếm dòng họ cai trị nào có nhiều nhân tài nổi bật và nhiều chiến công như nhà Trần, đặc biệt là thế hệ thứ hai: Trần Quốc Tuấn, Trần Nhân Tông, Trần Quang Khải, Trần Nhật Duật đều là những tên tuổi lớn trong lịch sử Việt Nam. Đó là chưa kể tới Trần Thủ Độ, Trần Khánh Dư, Trần Quốc Toản... Mông - Nguyên đương thời là đế quốc lớn nhất thế giới. Những nơi người Mông bại trận lúc đó như Ai Cập quá xa xôi, Nhật Bản và Indonesia đều có biển cả ngăn cách và quân Mông cũng không có sở trường đánh thủy quân nên mới bị thua trận. Thế nhưng nước Đại Việt lúc đó nằm liền kề trên đại lục Trung Hoa, chung đường biên giới cả ngàn dặm với người Mông mà người Mông vẫn không đánh chiếm được. Một đế quốc đã nằm trùm cả đại lục Á-Âu mà không lấy nổi một dải đất bé nhỏ ở phía nam.\n\n[khang_chien_nguyen_tran-p5-b2 | https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông | page 5]\nDù trong hoàng tộc nhà Trần có những người phản bội theo nhà Nguyên nhưng nước Đại Việt không bị mất, nhờ sự ủng hộ của đông đảo dân chúng. Còn một nguyên nhân nữa phải kể tới trong thành công của nhà Trần là đội ngũ tướng lĩnh xuất sắc, nòng cốt lại chính là các tướng trong hoàng tộc nhà Trần. Dù xuất thân quyền quý nhưng các hoàng tử, thân tộc nhà Trần, ngoài lòng yêu nước - và bảo vệ quyền lợi dòng tộc - số lớn là những người có thực tài cả văn lẫn võ. Thật hiếm dòng họ cai trị nào có nhiều nhân tài nổi bật và nhiều chiến công như nhà Trần, đặc biệt là thế hệ thứ hai: Trần Quốc Tuấn, Trần Thánh Tông, Trần Quang Khải, Trần Nhật Duật đều là những tên tuổi lớn trong lịch sử Việt Nam. Đó là chưa kể tới Trần Thủ Độ, Trần Khánh Dư, Trần Quốc Toản....",
+  "context_ids": [
+   "nha_nguyen-p41-b3",
+   "nha_tran-p14-b1",
+   "khang_chien_nguyen_tran-p5-b2"
+  ],
+  "elapsed_ms": 62.3,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "question": "Khẩu hiệu của phong trào Duy Tân mà Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp vận động ở Quảng Nam là gì?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "phan_chau_trinh",
+    "page": 5,
+    "evidence": "Khẩu hiệu của phong trào lúc bấy giờ là: Khai dân trí, chấn dân khí, hậu dân sinh"
+   }
+  ],
+  "results": [
+   {
+    "id": "phan_chau_trinh-p5-b1",
+    "text": "Sau đó, với phương châm \"tự lực khai hóa\" và tư tưởng dân quyền, Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp đi khắp tỉnh Quảng Nam và các tỉnh lân cận để vận động cuộc duy tân. Khẩu hiệu của phong trào lúc bấy giờ là: Khai dân trí, chấn dân khí, hậu dân sinh. Phương thức hoạt động của phong trào là bất bạo động, công khai hoạt động nhằm khai hóa dân tộc, giáo dục ý thức công dân - tinh thần tự do, xây dựng cá nhân độc lập - tự chủ - có trách nhiệm với bản thân và xã hội, thay đổi tận gốc rễ nền văn hóa - tâm lý - tính cách - tư duy - tập quán của người Việt, phổ biến các giá trị của nền văn minh phương Tây như pháp quyền - dân quyền - nhân quyền - dân chủ - tự do - bình đẳng - bác ái, cải cách trên mọi lãnh vực. Phong trào thực hiện mục tiêu cải tạo con người và xã hội Việt Nam bằng cách khuyến khích cải cách giáo dục (bỏ lối học từ chương, xóa mù chữ bằng cách phát động phong trào học Quốc ngữ), mở mang công thương nghiệp, chấn hưng công nghệ, bỏ mê tín dị đoan, thay đổi tập quán (cắt tóc ngắn, cắt ngắn móng tay)... Thời gian này, ông viết bài Tỉnh quốc hồn ca kêu gọi mọi người duy tân theo hướng khai minh và phát triển thực nghiệp như vừa lược kể.",
+    "source_id": "phan_chau_trinh",
+    "source": "https://vi.wikipedia.org/wiki/Phan_Châu_Trinh",
+    "page": 5,
+    "metadata": {
+     "title": "Phan Châu Trinh",
+     "period": "1858_ve_sau",
+     "dense_rank": 2,
+     "tfidf_rank": 1
+    },
+    "score": 0.032522,
+    "hit": true
+   },
+   {
+    "id": "khoi_nghia_tay_son-p36-b2",
+    "text": "Sở dĩ Nguyễn Ánh thắng được Cảnh Thịnh, một phần lớn là nhờ vào cái địa thế \"phụng chử lân chầu\" và \"long bàn hổ cứ\" của miền Nam rất thuận lợi để làm bàn đạp cho cuộc Bắc tiến, nhằm mục đích thống nhất lãnh thổ\" (Văn hóa nguyệt san, số 64). *Ý kiến GS Phan Huy Lê: Khái quát toàn bộ sự nghiệp của phong trào Tây Sơn, tác giả viết: \"Đó là sự nghiệp lật đổ chính quyền họ Nguyễn ở Đàng Trong, chính quyền chúa Trịnh cùng chế độ vua Lê – chúa Trịnh ở Đàng Ngoài, đánh tan quân xâm lược Xiêm ở phía nam, quân xâm lược Thanh ở phía bắc, bảo vệ vững chắc nền độc lập dân tộc, xóa bỏ tình trạng chia cắt đất nước kéo dài trên hai thế kỷ, bước đầu lập lại nền thống nhất quốc gia, xây dựng vương triều Tây Sơn trong đó triều Quang Trung đã đề ra và thực thi nhiều chính sách tích cực...\" (Kỷ yếu HTKH \"Phú Xuân – Thuận Hóa thời Tây Sơn\" – Huế, tháng 12-2001). *Ý kiến Phan Thuận An: \"Nguyễn Huệ, người anh hùng kiệt xuất của thời đại ấy đã lần lượt phá tan từng mảng xã hội mâu thuẫn, bất công, nhiễu nhương từ Nam ra Bắc để bước đầu đưa đất nước đến chỗ thống nhất\" (Kỷ yếu HTKH \"Phú Xuân – Thuận Hóa thời Tây Sơn\" – Huế, tháng 12-2001).",
+    "source_id": "khoi_nghia_tay_son",
+    "source": "https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn",
+    "page": 36,
+    "metadata": {
+     "title": "Khởi nghĩa Tây Sơn",
+     "period": "1428_1857",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "phan_chau_trinh-p8-b1",
+    "text": "Tuy bị bệnh nhưng Phan Châu Trinh cố gắng diễn thuyết thêm hai đề tài là Đạo đức và luân lý Đông Tây, Quân trị chủ nghĩa và dân trị chủ nghĩa. Hai bài này đã có tác động không nhỏ đến thế hệ trẻ tại Sài Gòn, trong đó có Tạ Thu Thâu. Thân sĩ khắp ba kỳ năng lui tới nơi ở của Phan Châu Trinh, như Trần Huy Liệu và Nguyễn Văn Đính (Bắc Kỳ), Nguyễn Trọng Hy và Huỳnh Phò (Huế), Ngô Châu Danh và Trần Đình Phiên (Hội An), Hồ Tá Bang (Phan Thiết), Bùi Công Trừng (Nam Kỳ)... Phan Châu Trinh cuối cùng nhận thấy thực dân Pháp không chấp nhận bất cứ một sự cải cách nào có lợi cho nhân dân Việt Nam, tư tưởng của ông có sự thay đổi. Bài “Đạo đức và luân lí Đông Tây” (1925) kết luận: “Nay muốn một ngày kia nước Việt Nam được tự do độc lập thì trước hết dân Việt Nam phải có đoàn thể đã. Mà muốn có đoàn thể thì có chi hay hơn là truyền bá xã hội chủ nghĩa trong dân Việt Nam” Khi bệnh tình trở nặng (tháng 12 năm 1925), túc trực thường xuyên cạnh Phan Châu Trinh là Nguyễn An Ninh, Phan Văn Trường, Nguyễn Sinh Sắc, Huỳnh Thúc Kháng. Đang lúc Phan Châu Trinh nằm trên giường bệnh thì hay tin ông Ninh vừa bị mật thám Pháp đến vây bắt tại nhà vào lúc 11 giờ 30 trưa ngày 24 tháng 3 năm 1926.",
+    "source_id": "phan_chau_trinh",
+    "source": "https://vi.wikipedia.org/wiki/Phan_Châu_Trinh",
+    "page": 8,
+    "metadata": {
+     "title": "Phan Châu Trinh",
+     "period": "1858_ve_sau",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[phan_chau_trinh-p5-b1 | https://vi.wikipedia.org/wiki/Phan_Châu_Trinh | page 5]\nSau đó, với phương châm \"tự lực khai hóa\" và tư tưởng dân quyền, Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp đi khắp tỉnh Quảng Nam và các tỉnh lân cận để vận động cuộc duy tân. Khẩu hiệu của phong trào lúc bấy giờ là: Khai dân trí, chấn dân khí, hậu dân sinh. Phương thức hoạt động của phong trào là bất bạo động, công khai hoạt động nhằm khai hóa dân tộc, giáo dục ý thức công dân - tinh thần tự do, xây dựng cá nhân độc lập - tự chủ - có trách nhiệm với bản thân và xã hội, thay đổi tận gốc rễ nền văn hóa - tâm lý - tính cách - tư duy - tập quán của người Việt, phổ biến các giá trị của nền văn minh phương Tây như pháp quyền - dân quyền - nhân quyền - dân chủ - tự do - bình đẳng - bác ái, cải cách trên mọi lãnh vực. Phong trào thực hiện mục tiêu cải tạo con người và xã hội Việt Nam bằng cách khuyến khích cải cách giáo dục (bỏ lối học từ chương, xóa mù chữ bằng cách phát động phong trào học Quốc ngữ), mở mang công thương nghiệp, chấn hưng công nghệ, bỏ mê tín dị đoan, thay đổi tập quán (cắt tóc ngắn, cắt ngắn móng tay)... Thời gian này, ông viết bài Tỉnh quốc hồn ca kêu gọi mọi người duy tân theo hướng khai minh và phát triển thực nghiệp như vừa lược kể.\n\n[khoi_nghia_tay_son-p36-b2 | https://vi.wikipedia.org/wiki/Khởi_nghĩa_Tây_Sơn | page 36]\nSở dĩ Nguyễn Ánh thắng được Cảnh Thịnh, một phần lớn là nhờ vào cái địa thế \"phụng chử lân chầu\" và \"long bàn hổ cứ\" của miền Nam rất thuận lợi để làm bàn đạp cho cuộc Bắc tiến, nhằm mục đích thống nhất lãnh thổ\" (Văn hóa nguyệt san, số 64). *Ý kiến GS Phan Huy Lê: Khái quát toàn bộ sự nghiệp của phong trào Tây Sơn, tác giả viết: \"Đó là sự nghiệp lật đổ chính quyền họ Nguyễn ở Đàng Trong, chính quyền chúa Trịnh cùng chế độ vua Lê – chúa Trịnh ở Đàng Ngoài, đánh tan quân xâm lược Xiêm ở phía nam, quân xâm lược Thanh ở phía bắc, bảo vệ vững chắc nền độc lập dân tộc, xóa bỏ tình trạng chia cắt đất nước kéo dài trên hai thế kỷ, bước đầu lập lại nền thống nhất quốc gia, xây dựng vương triều Tây Sơn trong đó triều Quang Trung đã đề ra và thực thi nhiều chính sách tích cực...\" (Kỷ yếu HTKH \"Phú Xuân – Thuận Hóa thời Tây Sơn\" – Huế, tháng 12-2001). *Ý kiến Phan Thuận An: \"Nguyễn Huệ, người anh hùng kiệt xuất của thời đại ấy đã lần lượt phá tan từng mảng xã hội mâu thuẫn, bất công, nhiễu nhương từ Nam ra Bắc để bước đầu đưa đất nước đến chỗ thống nhất\" (Kỷ yếu HTKH \"Phú Xuân – Thuận Hóa thời Tây Sơn\" – Huế, tháng 12-2001).\n\n[phan_chau_trinh-p8-b1 | https://vi.wikipedia.org/wiki/Phan_Châu_Trinh | page 8]\nTuy bị bệnh nhưng Phan Châu Trinh cố gắng diễn thuyết thêm hai đề tài là Đạo đức và luân lý Đông Tây, Quân trị chủ nghĩa và dân trị chủ nghĩa. Hai bài này đã có tác động không nhỏ đến thế hệ trẻ tại Sài Gòn, trong đó có Tạ Thu Thâu. Thân sĩ khắp ba kỳ năng lui tới nơi ở của Phan Châu Trinh, như Trần Huy Liệu và Nguyễn Văn Đính (Bắc Kỳ), Nguyễn Trọng Hy và Huỳnh Phò (Huế), Ngô Châu Danh và Trần Đình Phiên (Hội An), Hồ Tá Bang (Phan Thiết), Bùi Công Trừng (Nam Kỳ)... Phan Châu Trinh cuối cùng nhận thấy thực dân Pháp không chấp nhận bất cứ một sự cải cách nào có lợi cho nhân dân Việt Nam, tư tưởng của ông có sự thay đổi. Bài “Đạo đức và luân lí Đông Tây” (1925) kết luận: “Nay muốn một ngày kia nước Việt Nam được tự do độc lập thì trước hết dân Việt Nam phải có đoàn thể đã. Mà muốn có đoàn thể thì có chi hay hơn là truyền bá xã hội chủ nghĩa trong dân Việt Nam” Khi bệnh tình trở nặng (tháng 12 năm 1925), túc trực thường xuyên cạnh Phan Châu Trinh là Nguyễn An Ninh, Phan Văn Trường, Nguyễn Sinh Sắc, Huỳnh Thúc Kháng. Đang lúc Phan Châu Trinh nằm trên giường bệnh thì hay tin ông Ninh vừa bị mật thám Pháp đến vây bắt tại nhà vào lúc 11 giờ 30 trưa ngày 24 tháng 3 năm 1926.",
+  "context_ids": [
+   "phan_chau_trinh-p5-b1",
+   "khoi_nghia_tay_son-p36-b2",
+   "phan_chau_trinh-p8-b1"
+  ],
+  "elapsed_ms": 65.1,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "question": "Ngày 2 tháng 9 năm 1945 ai đọc bản Tuyên ngôn Độc lập và đọc ở đâu?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "ho_chi_minh",
+    "page": 14,
+    "evidence": "Hồ Chí Minh đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945 trên Quảng trường Ba Đình tại Hà Nội"
+   }
+  ],
+  "results": [
+   {
+    "id": "ho_chi_minh-p14-b1",
+    "text": "Hồ Chí Minh đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945 trên Quảng trường Ba Đình tại Hà Nội, tuyên bố thành lập nước Việt Nam Dân chủ Cộng hòa. Ông trích dẫn bản Tuyên ngôn Độc lập của Hoa Kỳ và bản Tuyên ngôn Nhân quyền và Dân quyền của Pháp để mở đầu bản Tuyên ngôn Độc lập của Việt Nam. Hồ Chí Minh nói với chỉ huy tình báo quân sự Mỹ OSS tại miền Bắc, Archimedes L. A Patti, rằng ông theo chủ nghĩa Lenin, tham gia thành lập Đảng Cộng sản Pháp và xin gia nhập Đệ Tam Quốc tế vì đây là những cá nhân và tổ chức duy nhất quan tâm đến vấn đề thuộc địa. Ông không thấy có sự lựa chọn nào khác. Nhưng trong nhiều năm sau đó những tổ chức này cũng không có hành động gì vì nền độc lập của các dân tộc thuộc địa. Trước mắt, ông đặt nhiều tin tưởng vào sự giúp đỡ của Mỹ trước khi có thể hy vọng vào sự giúp đỡ của Liên Xô (bằng việc gửi thư cho Tổng thống Hoa Kỳ Harry Truman nhưng không được đáp lại). Theo Patti, Hồ Chí Minh nói rằng người Mỹ không muốn giúp ông vì họ xem ông là một người quốc tế cộng sản, bù nhìn của Moskva do ông đã ở Moskva và nước ngoài nhiều năm, nhưng thực tế ông không phải là người cộng sản theo cách mà Mỹ hiểu.",
+    "source_id": "ho_chi_minh",
+    "source": "https://vi.wikipedia.org/wiki/Hồ_Chí_Minh",
+    "page": 14,
+    "metadata": {
+     "title": "Hồ Chí Minh",
+     "period": "1858_ve_sau",
+     "dense_rank": 1,
+     "tfidf_rank": 3
+    },
+    "score": 0.032266,
+    "hit": true
+   },
+   {
+    "id": "cach_mang_thang_tam-p10-b1",
+    "text": "Ngày 2 tháng 9 năm 1945, tại quảng trường Ba Đình (Hà Nội). Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập và tuyên bố sự khai sinh của một nước Việt Nam mới: Việt Nam Dân chủ Cộng hòa. Bản tuyên ngôn, dựa theo bản Tuyên ngôn Độc lập Hoa Kỳ, bắt đầu bằng câu: Tất cả mọi người sinh ra đều có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc. Hồ Chí Minh cũng trích dẫn Tuyên ngôn Nhân quyền và Dân quyền Pháp 1791 khi đọc bản Tuyên ngôn độc lập. Mặc dù chương trình được mong đợi bắt đầu vào đúng 2 giờ chiều, nhưng xe hơi chở các thành viên trong nội các Việt Nam Dân chủ Cộng hoà đã đến trễ 25 phút khi phải đi xuyên qua các đám đông. Hồ Chí Minh dẫn đầu những người còn lại bước nhanh lên khán đài. Trong khi hầu hết các đồng sự của ông trên khán đài đều mặc đồ vest Tây và thắt cravate, nhưng ông Hồ cố ý chọn mặc bộ đồ kaki phai màu với cổ cao và mang đôi dép cao su trắng. Sau lễ chào cờ và hát quốc ca, Võ Nguyên Giáp, Bộ trưởng Nội vụ, bước tới micrô giới thiệu Hồ Chí Minh, người được chào mừng bằng những tiếng hô vang dội được sắp xếp trước, \"Độc lập!",
+    "source_id": "cach_mang_thang_tam",
+    "source": "https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Tám",
+    "page": 10,
+    "metadata": {
+     "title": "Cách mạng Tháng Tám",
+     "period": "1858_ve_sau",
+     "dense_rank": 4,
+     "tfidf_rank": 1
+    },
+    "score": 0.032018,
+    "hit": false
+   },
+   {
+    "id": "cach_mang_thang_tam-p12-b1",
+    "text": "Ngày 2 tháng 9 năm 1945, hàng ngàn người dân từ nhiều tỉnh và tại Sài Gòn kéo về quảng trường Norodom (gần nhà thờ Đức Bà) chờ được nghe Chủ tịch Hồ Chí Minh đọc tuyên ngôn độc lập từ quảng trường Ba Đình (Hà Nội). Nhưng do thời tiết xấu và trình độ kỹ thuật lúc đó, những lời tuyên bố của Hồ Chí Minh trước quốc dân không đến được với những người dự mít tinh. Ông Trần Văn Giàu, Chủ tịch Lâm ủy hành chính Nam Bộ bước lên khán đài kêu gọi nhân dân đoàn kết chung quanh chính phủ Hồ Chí Minh, nâng cao cảnh giác, \"sẵn sàng đập tan mưu đồ của thực dân, đế quốc trở lại xâm lược nước ta lần nữa\". Bác sĩ Phạm Ngọc Thạch, người được cử chức Bộ trưởng Bộ Y tế Chính phủ lâm thời thay mặt chính phủ tuyên thệ trước quốc dân \"Cương quyết lãnh đạo đồng bào giữ gìn đất nước, vượt qua khó khăn nguy hiểm xây đắp nền độc lập hoàn toàn cho Việt Nam\". Khi cuộc mít tinh chuyển sang biểu tình tuần hành, từ trên những tầng lầu cao xung quanh, quân Pháp đã nổ súng bắn vào đoàn biểu tình tuần hành, làm 47 người chết và bị thương. Ngày 23 tháng 9 năm 1945, ông Trần Văn Giàu viết lời kêu gọi Nam Bộ kháng chiến: \"Hãy nắm chặt vũ khí trong tay, xông lên đánh đuổi thực dân Pháp, cứu nước. Cuộc kháng chiến bắt đầu...\"",
+    "source_id": "cach_mang_thang_tam",
+    "source": "https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Tám",
+    "page": 12,
+    "metadata": {
+     "title": "Cách mạng Tháng Tám",
+     "period": "1858_ve_sau",
+     "dense_rank": 10,
+     "tfidf_rank": 10
+    },
+    "score": 0.028571,
+    "hit": false
+   }
+  ],
+  "context": "[ho_chi_minh-p14-b1 | https://vi.wikipedia.org/wiki/Hồ_Chí_Minh | page 14]\nHồ Chí Minh đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945 trên Quảng trường Ba Đình tại Hà Nội, tuyên bố thành lập nước Việt Nam Dân chủ Cộng hòa. Ông trích dẫn bản Tuyên ngôn Độc lập của Hoa Kỳ và bản Tuyên ngôn Nhân quyền và Dân quyền của Pháp để mở đầu bản Tuyên ngôn Độc lập của Việt Nam. Hồ Chí Minh nói với chỉ huy tình báo quân sự Mỹ OSS tại miền Bắc, Archimedes L. A Patti, rằng ông theo chủ nghĩa Lenin, tham gia thành lập Đảng Cộng sản Pháp và xin gia nhập Đệ Tam Quốc tế vì đây là những cá nhân và tổ chức duy nhất quan tâm đến vấn đề thuộc địa. Ông không thấy có sự lựa chọn nào khác. Nhưng trong nhiều năm sau đó những tổ chức này cũng không có hành động gì vì nền độc lập của các dân tộc thuộc địa. Trước mắt, ông đặt nhiều tin tưởng vào sự giúp đỡ của Mỹ trước khi có thể hy vọng vào sự giúp đỡ của Liên Xô (bằng việc gửi thư cho Tổng thống Hoa Kỳ Harry Truman nhưng không được đáp lại). Theo Patti, Hồ Chí Minh nói rằng người Mỹ không muốn giúp ông vì họ xem ông là một người quốc tế cộng sản, bù nhìn của Moskva do ông đã ở Moskva và nước ngoài nhiều năm, nhưng thực tế ông không phải là người cộng sản theo cách mà Mỹ hiểu.\n\n[cach_mang_thang_tam-p10-b1 | https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Tám | page 10]\nNgày 2 tháng 9 năm 1945, tại quảng trường Ba Đình (Hà Nội). Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập và tuyên bố sự khai sinh của một nước Việt Nam mới: Việt Nam Dân chủ Cộng hòa. Bản tuyên ngôn, dựa theo bản Tuyên ngôn Độc lập Hoa Kỳ, bắt đầu bằng câu: Tất cả mọi người sinh ra đều có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc. Hồ Chí Minh cũng trích dẫn Tuyên ngôn Nhân quyền và Dân quyền Pháp 1791 khi đọc bản Tuyên ngôn độc lập. Mặc dù chương trình được mong đợi bắt đầu vào đúng 2 giờ chiều, nhưng xe hơi chở các thành viên trong nội các Việt Nam Dân chủ Cộng hoà đã đến trễ 25 phút khi phải đi xuyên qua các đám đông. Hồ Chí Minh dẫn đầu những người còn lại bước nhanh lên khán đài. Trong khi hầu hết các đồng sự của ông trên khán đài đều mặc đồ vest Tây và thắt cravate, nhưng ông Hồ cố ý chọn mặc bộ đồ kaki phai màu với cổ cao và mang đôi dép cao su trắng. Sau lễ chào cờ và hát quốc ca, Võ Nguyên Giáp, Bộ trưởng Nội vụ, bước tới micrô giới thiệu Hồ Chí Minh, người được chào mừng bằng những tiếng hô vang dội được sắp xếp trước, \"Độc lập!\n\n[cach_mang_thang_tam-p12-b1 | https://vi.wikipedia.org/wiki/Cách_mạng_Tháng_Tám | page 12]\nNgày 2 tháng 9 năm 1945, hàng ngàn người dân từ nhiều tỉnh và tại Sài Gòn kéo về quảng trường Norodom (gần nhà thờ Đức Bà) chờ được nghe Chủ tịch Hồ Chí Minh đọc tuyên ngôn độc lập từ quảng trường Ba Đình (Hà Nội). Nhưng do thời tiết xấu và trình độ kỹ thuật lúc đó, những lời tuyên bố của Hồ Chí Minh trước quốc dân không đến được với những người dự mít tinh. Ông Trần Văn Giàu, Chủ tịch Lâm ủy hành chính Nam Bộ bước lên khán đài kêu gọi nhân dân đoàn kết chung quanh chính phủ Hồ Chí Minh, nâng cao cảnh giác, \"sẵn sàng đập tan mưu đồ của thực dân, đế quốc trở lại xâm lược nước ta lần nữa\". Bác sĩ Phạm Ngọc Thạch, người được cử chức Bộ trưởng Bộ Y tế Chính phủ lâm thời thay mặt chính phủ tuyên thệ trước quốc dân \"Cương quyết lãnh đạo đồng bào giữ gìn đất nước, vượt qua khó khăn nguy hiểm xây đắp nền độc lập hoàn toàn cho Việt Nam\". Khi cuộc mít tinh chuyển sang biểu tình tuần hành, từ trên những tầng lầu cao xung quanh, quân Pháp đã nổ súng bắn vào đoàn biểu tình tuần hành, làm 47 người chết và bị thương. Ngày 23 tháng 9 năm 1945, ông Trần Văn Giàu viết lời kêu gọi Nam Bộ kháng chiến: \"Hãy nắm chặt vũ khí trong tay, xông lên đánh đuổi thực dân Pháp, cứu nước. Cuộc kháng chiến bắt đầu...\"",
+  "context_ids": [
+   "ho_chi_minh-p14-b1",
+   "cach_mang_thang_tam-p10-b1",
+   "cach_mang_thang_tam-p12-b1"
+  ],
+  "elapsed_ms": 50.2,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: kết cục của Sở chỉ huy do tướng Đờ Cát đứng đầu trong chiến dịch Điện Biên Phủ?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "chien_dich_dien_bien_phu",
+    "page": 55,
+    "evidence": "Toàn bộ quân địch tại khu trung tâm đã đầu hàng. Đã bắt được tướng Đờ Cát"
+   }
+  ],
+  "results": [
+   {
+    "id": "chien_dong_duong-p91-b1",
+    "text": "Cầm cự: bao gồm gian đoạn vừa đánh vừa đàm trước 19 tháng 12 năm 1946 đến hết Chiến dịch Việt Bắc. Thời này có cuộc Nam Bộ Kháng chiến, cầm cự miền Nam, miền Trung, Hiệp định Sơ bộ và Tạm ước Việt - Pháp, Toàn quốc kháng chiến ở các tỉnh, Hà Nội 1946, nỗ lực vãn hồi hòa bình, công cuộc di tản lên chiến khu. Cuối cùng là đánh bại Pháp trong Chiến dịch Việt Bắc. * Phòng ngự: sau chiến dịch Việt Bắc đến hết Chiến dịch Biên giới. Có các chiến dịch lớn: Chiến dịch Đông Bắc, Chiến dịch Cao-Bắc-Lạng, Chiến dịch Biên giới. * Phản công: Chiến dịch Trung Du, Chiến dịch Đồng Bằng, Chiến dịch Hoàng Hoa Thám, Chiến dịch Tây Bắc, Chiến dịch Hòa Bình, Chiến dịch Thượng Lào, Kế hoạch Navarre, Chiến cục đông-xuân 1953-1954, Chiến dịch Điện Biên Phủ, Hiệp định Giơnevơ, chấm dứt chiến tranh, lập lại hoà bình ở Đông Dương (21 tháng 7 năm 1954). Ngay từ tháng 1/1944, Hồ Chí Minh đã chỉ đạo, hướng dẫn biên soạn bài giảng để đào tạo cán bộ, về sau in thành tác phẩm \"Con đường giải phóng\". Tác phẩm chỉ rõ \"du kích là một cách chiến tranh của dân chúng dùng khí giới ít và kém chống với đế quốc có khí giới tốt và nhiều\".",
+    "source_id": "chien_dong_duong",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương",
+    "page": 91,
+    "metadata": {
+     "title": "Chiến tranh Đông Dương",
+     "period": "1858_ve_sau",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_le_som-p15-b1",
+    "text": "Trong những năm đầu cầm quyền, Lê Tương Dực cũng có vài đóng góp thể hiện sự cố gắng vực dậy đất nước đã suy tàn, nhất là trong lĩnh vực khoa cử. Năm 1511, ông tổ chức kỳ thi Hội, đến kỳ thi Đình thì ông đích thân ra đề văn hỏi về đạo trị quốc. Ông cho trùng tu Quốc Tử Giám, dựng lại bia tiến sĩ tỏ rõ sự khuyến khích hiền tài. Đông các Đại học sĩ Đỗ Nhạc đã soạn bài ký ở Quốc Tử giám ca ngợi công đức của Lê Tương Dực, đánh giá là người đủ tài đức để tiếp nối cơ nghiệp của Thuần Hoàng khi xưa. Bấy giờ, Lại bộ tả thị lang Lương Đắc Bằng dâng kế trị nước, đại ý khuyên rằng sửa sang văn chiếu điển lệ; tỏ lòng hiếu để cho người trong nước thuận theo; rời xa sắc dục; không dùng lời nịnh; không tùy tiện trao thưởng quan tước; cân nhắc bổ nhiệm quan lại chân chính công bằng; tiết kiệm chi tiêu để khuyến khích sự liêm chính; khen người tiết nghĩa để trọng đạo cương thường; cấm hối hộ bỏ trừng thói tham ô; sửa sang võ bị để thủ thế hùng cường; lựa chọn ngôn quan để trọng dụng lời thật; nới nhẹ việc phu để xót thương dân chúng; hiệu lệnh tín thực để nắm ý chí thiên hạ; luật pháp chế độ phải thận trọng để mở nền thịnh trị thái bình.",
+    "source_id": "nha_le_som",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lê_sơ",
+    "page": 15,
+    "metadata": {
+     "title": "Nhà Lê sơ",
+     "period": "1428_1857",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "chien_dich_dien_bien_phu-p54-b2",
+    "text": "Đúng 3 giờ chiều, các đại đoàn được lệnh: \"Không cần đợi trời tối, lập tức mở cuộc tổng công kích vào Mường Thanh. Đơn vị phía đông đánh thẳng vào khu vực trung tâm, đơn vị phía tây giáp công sang, cùng tiến vào Sở chỉ huy của địch. Phải đánh thật mạnh, bao vây thật chặt, không để cho Đờ Cát hoặc bất cứ tên địch nào chạy thoát\". QĐNDVN tổng tiến công trên khắp các mặt trận. Quân Pháp đã sức tàn lực kiệt, rệu rã kéo cờ quyết định đầu hàng. Đại đội trưởng Tạ Quốc Luật thuộc trung đoàn Hoàng Cầm lập tức dẫn Đại đội 360 luồn dưới làn đạn của những khẩu trọng liên bốn nòng, băng qua cầu Mường Thanh. Nhận thấy quân Pháp hầu như không chống cự, Tạ Quốc Luật nhảy lên mặt đất, dùng một lính bảo an người Việt dẫn theo đường tắt tiến thật nhanh tới sở chỉ huy của de Castries. Các đài quan sát báo cáo về: \"Quân ta từ ba phía đang đánh vào khu trung tâm, 312 từ phía đông tiến qua cầu Mường Thanh, 308 từ phía tây mở đường qua sân bay, và từ phía tây nam mở đường vào Lili, hướng về sở chỉ huy của Đờ Cát. Quân địch chỉ chống cự lẻ tẻ.\"",
+    "source_id": "chien_dich_dien_bien_phu",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_dịch_Điện_Biên_Phủ",
+    "page": 54,
+    "metadata": {
+     "title": "Chiến dịch Điện Biên Phủ",
+     "period": "1858_ve_sau",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[chien_dong_duong-p91-b1 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 91]\nCầm cự: bao gồm gian đoạn vừa đánh vừa đàm trước 19 tháng 12 năm 1946 đến hết Chiến dịch Việt Bắc. Thời này có cuộc Nam Bộ Kháng chiến, cầm cự miền Nam, miền Trung, Hiệp định Sơ bộ và Tạm ước Việt - Pháp, Toàn quốc kháng chiến ở các tỉnh, Hà Nội 1946, nỗ lực vãn hồi hòa bình, công cuộc di tản lên chiến khu. Cuối cùng là đánh bại Pháp trong Chiến dịch Việt Bắc. * Phòng ngự: sau chiến dịch Việt Bắc đến hết Chiến dịch Biên giới. Có các chiến dịch lớn: Chiến dịch Đông Bắc, Chiến dịch Cao-Bắc-Lạng, Chiến dịch Biên giới. * Phản công: Chiến dịch Trung Du, Chiến dịch Đồng Bằng, Chiến dịch Hoàng Hoa Thám, Chiến dịch Tây Bắc, Chiến dịch Hòa Bình, Chiến dịch Thượng Lào, Kế hoạch Navarre, Chiến cục đông-xuân 1953-1954, Chiến dịch Điện Biên Phủ, Hiệp định Giơnevơ, chấm dứt chiến tranh, lập lại hoà bình ở Đông Dương (21 tháng 7 năm 1954). Ngay từ tháng 1/1944, Hồ Chí Minh đã chỉ đạo, hướng dẫn biên soạn bài giảng để đào tạo cán bộ, về sau in thành tác phẩm \"Con đường giải phóng\". Tác phẩm chỉ rõ \"du kích là một cách chiến tranh của dân chúng dùng khí giới ít và kém chống với đế quốc có khí giới tốt và nhiều\".\n\n[nha_le_som-p15-b1 | https://vi.wikipedia.org/wiki/Nhà_Lê_sơ | page 15]\nTrong những năm đầu cầm quyền, Lê Tương Dực cũng có vài đóng góp thể hiện sự cố gắng vực dậy đất nước đã suy tàn, nhất là trong lĩnh vực khoa cử. Năm 1511, ông tổ chức kỳ thi Hội, đến kỳ thi Đình thì ông đích thân ra đề văn hỏi về đạo trị quốc. Ông cho trùng tu Quốc Tử Giám, dựng lại bia tiến sĩ tỏ rõ sự khuyến khích hiền tài. Đông các Đại học sĩ Đỗ Nhạc đã soạn bài ký ở Quốc Tử giám ca ngợi công đức của Lê Tương Dực, đánh giá là người đủ tài đức để tiếp nối cơ nghiệp của Thuần Hoàng khi xưa. Bấy giờ, Lại bộ tả thị lang Lương Đắc Bằng dâng kế trị nước, đại ý khuyên rằng sửa sang văn chiếu điển lệ; tỏ lòng hiếu để cho người trong nước thuận theo; rời xa sắc dục; không dùng lời nịnh; không tùy tiện trao thưởng quan tước; cân nhắc bổ nhiệm quan lại chân chính công bằng; tiết kiệm chi tiêu để khuyến khích sự liêm chính; khen người tiết nghĩa để trọng đạo cương thường; cấm hối hộ bỏ trừng thói tham ô; sửa sang võ bị để thủ thế hùng cường; lựa chọn ngôn quan để trọng dụng lời thật; nới nhẹ việc phu để xót thương dân chúng; hiệu lệnh tín thực để nắm ý chí thiên hạ; luật pháp chế độ phải thận trọng để mở nền thịnh trị thái bình.\n\n[chien_dich_dien_bien_phu-p54-b2 | https://vi.wikipedia.org/wiki/Chiến_dịch_Điện_Biên_Phủ | page 54]\nĐúng 3 giờ chiều, các đại đoàn được lệnh: \"Không cần đợi trời tối, lập tức mở cuộc tổng công kích vào Mường Thanh. Đơn vị phía đông đánh thẳng vào khu vực trung tâm, đơn vị phía tây giáp công sang, cùng tiến vào Sở chỉ huy của địch. Phải đánh thật mạnh, bao vây thật chặt, không để cho Đờ Cát hoặc bất cứ tên địch nào chạy thoát\". QĐNDVN tổng tiến công trên khắp các mặt trận. Quân Pháp đã sức tàn lực kiệt, rệu rã kéo cờ quyết định đầu hàng. Đại đội trưởng Tạ Quốc Luật thuộc trung đoàn Hoàng Cầm lập tức dẫn Đại đội 360 luồn dưới làn đạn của những khẩu trọng liên bốn nòng, băng qua cầu Mường Thanh. Nhận thấy quân Pháp hầu như không chống cự, Tạ Quốc Luật nhảy lên mặt đất, dùng một lính bảo an người Việt dẫn theo đường tắt tiến thật nhanh tới sở chỉ huy của de Castries. Các đài quan sát báo cáo về: \"Quân ta từ ba phía đang đánh vào khu trung tâm, 312 từ phía đông tiến qua cầu Mường Thanh, 308 từ phía tây mở đường qua sân bay, và từ phía tây nam mở đường vào Lili, hướng về sở chỉ huy của Đờ Cát. Quân địch chỉ chống cự lẻ tẻ.\"",
+  "context_ids": [
+   "chien_dong_duong-p91-b1",
+   "nha_le_som-p15-b1",
+   "chien_dich_dien_bien_phu-p54-b2"
+  ],
+  "elapsed_ms": 54.0,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "question": "Đại hội nào của Đảng năm 1986 chính thức khởi xướng công cuộc Đổi Mới?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "doi_moi_1986",
+    "page": 2,
+    "evidence": "Đại hội VI (1986): chính thức khởi xướng công cuộc đổi mới"
+   }
+  ],
+  "results": [
+   {
+    "id": "doi_moi_1986-p1-b1",
+    "text": "Đổi Mới là chương trình cải cách toàn diện được khởi xướng tại Việt Nam từ cuối thập niên 1980, đặc biệt trong các lĩnh vực kinh tế, chính trị, văn hóa và giáo dục. Chính sách này chính thức được thông qua tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986, dưới sự lãnh đạo của Tổng Bí thư Nguyễn Văn Linh, với mục tiêu xây dựng nền kinh tế thị trường định hướng xã hội chủ nghĩa. Động lực cho công cuộc đổi mới bắt nguồn từ sự thất bại của mô hình kinh tế kế hoạch hóa tập trung và những áp lực từ khủng hoảng kinh tế - xã hội nghiêm trọng vào đầu những năm 1980. Sau bốn thập kỷ (1986–2026), Đổi Mới đã làm thay đổi căn bản bộ mặt đất nước, đưa Việt Nam từ một trong những quốc gia nghèo nhất thế giới trở thành nước có thu nhập trung bình cao với quy mô nền kinh tế đứng thứ 32 toàn cầu. Tuy nhiên, bên cạnh những thành tựu, quá trình Đổi Mới cũng bộc lộ nhiều bất cập, từ năng suất lao động thấp, chất lượng thể chế chưa cao, đến nguy cơ tụt hậu và bẫy thu nhập trung bình. Sau khi thống nhất đất nước năm 1975, Việt Nam bước vào thời kỳ tái thiết trong bối cảnh bị bao vây, cấm vận và chịu hậu quả nặng nề của chiến tranh.",
+    "source_id": "doi_moi_1986",
+    "source": "https://vi.wikipedia.org/wiki/Đổi_Mới",
+    "page": 1,
+    "metadata": {
+     "title": "Đổi Mới",
+     "period": "1858_ve_sau",
+     "dense_rank": 2,
+     "tfidf_rank": 1
+    },
+    "score": 0.032522,
+    "hit": false
+   },
+   {
+    "id": "chien_dong_duong-p39-b2",
+    "text": "Theo Trần Huy Liệu, tại hội nghị Quốc dân Đại hội Tân Trào tháng 8 năm 1945 ở Tân Trào, Sơn Dương, tất cả đại biểu của các đảng phái tham dự đã thống nhất cuộc cách mạng giải phóng dân tộc sẽ theo khuynh hướng dân chủ, không dùng bạo lực và lập ra 1 mặt trận thống nhất có kỷ luật của tất cả các đảng phái để ra mắt Đồng Minh. Tuy nhiên một số đảng phái ở miền Nam đã không thấy hết sự quan trọng của việc duy trì trật tự xã hội trong giai đoạn chuyển tiếp này. Ngày 14 tháng 8 năm 1945, Mặt trận Quốc gia Thống nhất được thành lập quy tụ nhiều tổ chức cách mạng tại miền Nam Việt Nam như Việt Nam Quốc gia Độc lập Đảng, Thanh niên Tiền phong, Tịnh độ cư sĩ Phật giáo, Hòa Hảo, Cao Đài, Liên đoàn công chức, nhóm Tranh đấu của những người Trotskyist... Ngày 21 tháng 8 năm 1945, Mặt trận Quốc gia Thống nhất tổ chức biểu tình biểu dương lực lượng tại Sài Gòn. Ngày 22 tháng 8 năm 1945, Thanh niên Tiền phong rời khỏi Mặt trận Quốc gia Thống nhất để gia nhập Việt Minh. Ngay sau đó, Việt Minh treo biểu ngữ \"Chánh quyền về Việt Minh\" khắp Sài Gòn, rải truyền đơn tuyên bố Việt Minh được phe Đồng Minh ủng hộ và kêu gọi nhân dân ủng hộ chính quyền do Việt Minh thành lập. Lãnh tụ các đảng phái quốc gia tại miền Nam Việt Nam hoàn toàn bất ngờ trước ý định đơn phương thành lập chính quyền của Việt Minh.",
+    "source_id": "chien_dong_duong",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương",
+    "page": 39,
+    "metadata": {
+     "title": "Chiến tranh Đông Dương",
+     "period": "1858_ve_sau",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "doi_moi_1986-p1-b2",
+    "text": "Nền kinh tế được tổ chức theo mô hình kế hoạch hóa tập trung với hai thành phần chủ đạo là quốc doanh và tập thể. Đến cuối thập niên 1970, đầu thập niên 1980, mô hình này bộc lộ những khuyết tật nghiêm trọng: sản xuất đình trệ, hàng hóa khan hiếm, lạm phát phi mã. Năm 1986, lạm phát lên tới 774%, thu nhập bình quân đầu người chỉ đạt 125–200 USD, đẩy Việt Nam vào nhóm nghèo nhất thế giới. Những \"bước đột phá\" manh nha từ cuối thập niên 1970, như Nghị quyết Trung ương 6 khóa IV (1979) cho phép \"bung ra\" sản xuất, Chỉ thị 100 (1981) về khoán sản phẩm trong nông nghiệp, và Quyết định 25/26-CP (1981) trao quyền tự chủ cho doanh nghiệp quốc doanh, đã tạo tiền đề thực tiễn cho công cuộc đổi mới. Về mặt lý luận, Đổi Mới là sự vận dụng trở lại các nguyên lý của Chính sách kinh tế mới (Liên Xô) (NEP) do Lenin khởi xướng, đồng thời chịu ảnh hưởng của Cải cách Khai phóng ở Trung Quốc và Đổi Mới ở Lào. Điểm khác biệt của Đổi Mới Việt Nam là được tiến hành đồng thời với những biến động chính trị - ý thức hệ ở mức độ hạn chế, giữ vững sự lãnh đạo duy nhất của Đảng Cộng sản Việt Nam.",
+    "source_id": "doi_moi_1986",
+    "source": "https://vi.wikipedia.org/wiki/Đổi_Mới",
+    "page": 1,
+    "metadata": {
+     "title": "Đổi Mới",
+     "period": "1858_ve_sau",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[doi_moi_1986-p1-b1 | https://vi.wikipedia.org/wiki/Đổi_Mới | page 1]\nĐổi Mới là chương trình cải cách toàn diện được khởi xướng tại Việt Nam từ cuối thập niên 1980, đặc biệt trong các lĩnh vực kinh tế, chính trị, văn hóa và giáo dục. Chính sách này chính thức được thông qua tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986, dưới sự lãnh đạo của Tổng Bí thư Nguyễn Văn Linh, với mục tiêu xây dựng nền kinh tế thị trường định hướng xã hội chủ nghĩa. Động lực cho công cuộc đổi mới bắt nguồn từ sự thất bại của mô hình kinh tế kế hoạch hóa tập trung và những áp lực từ khủng hoảng kinh tế - xã hội nghiêm trọng vào đầu những năm 1980. Sau bốn thập kỷ (1986–2026), Đổi Mới đã làm thay đổi căn bản bộ mặt đất nước, đưa Việt Nam từ một trong những quốc gia nghèo nhất thế giới trở thành nước có thu nhập trung bình cao với quy mô nền kinh tế đứng thứ 32 toàn cầu. Tuy nhiên, bên cạnh những thành tựu, quá trình Đổi Mới cũng bộc lộ nhiều bất cập, từ năng suất lao động thấp, chất lượng thể chế chưa cao, đến nguy cơ tụt hậu và bẫy thu nhập trung bình. Sau khi thống nhất đất nước năm 1975, Việt Nam bước vào thời kỳ tái thiết trong bối cảnh bị bao vây, cấm vận và chịu hậu quả nặng nề của chiến tranh.\n\n[chien_dong_duong-p39-b2 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 39]\nTheo Trần Huy Liệu, tại hội nghị Quốc dân Đại hội Tân Trào tháng 8 năm 1945 ở Tân Trào, Sơn Dương, tất cả đại biểu của các đảng phái tham dự đã thống nhất cuộc cách mạng giải phóng dân tộc sẽ theo khuynh hướng dân chủ, không dùng bạo lực và lập ra 1 mặt trận thống nhất có kỷ luật của tất cả các đảng phái để ra mắt Đồng Minh. Tuy nhiên một số đảng phái ở miền Nam đã không thấy hết sự quan trọng của việc duy trì trật tự xã hội trong giai đoạn chuyển tiếp này. Ngày 14 tháng 8 năm 1945, Mặt trận Quốc gia Thống nhất được thành lập quy tụ nhiều tổ chức cách mạng tại miền Nam Việt Nam như Việt Nam Quốc gia Độc lập Đảng, Thanh niên Tiền phong, Tịnh độ cư sĩ Phật giáo, Hòa Hảo, Cao Đài, Liên đoàn công chức, nhóm Tranh đấu của những người Trotskyist... Ngày 21 tháng 8 năm 1945, Mặt trận Quốc gia Thống nhất tổ chức biểu tình biểu dương lực lượng tại Sài Gòn. Ngày 22 tháng 8 năm 1945, Thanh niên Tiền phong rời khỏi Mặt trận Quốc gia Thống nhất để gia nhập Việt Minh. Ngay sau đó, Việt Minh treo biểu ngữ \"Chánh quyền về Việt Minh\" khắp Sài Gòn, rải truyền đơn tuyên bố Việt Minh được phe Đồng Minh ủng hộ và kêu gọi nhân dân ủng hộ chính quyền do Việt Minh thành lập. Lãnh tụ các đảng phái quốc gia tại miền Nam Việt Nam hoàn toàn bất ngờ trước ý định đơn phương thành lập chính quyền của Việt Minh.\n\n[doi_moi_1986-p1-b2 | https://vi.wikipedia.org/wiki/Đổi_Mới | page 1]\nNền kinh tế được tổ chức theo mô hình kế hoạch hóa tập trung với hai thành phần chủ đạo là quốc doanh và tập thể. Đến cuối thập niên 1970, đầu thập niên 1980, mô hình này bộc lộ những khuyết tật nghiêm trọng: sản xuất đình trệ, hàng hóa khan hiếm, lạm phát phi mã. Năm 1986, lạm phát lên tới 774%, thu nhập bình quân đầu người chỉ đạt 125–200 USD, đẩy Việt Nam vào nhóm nghèo nhất thế giới. Những \"bước đột phá\" manh nha từ cuối thập niên 1970, như Nghị quyết Trung ương 6 khóa IV (1979) cho phép \"bung ra\" sản xuất, Chỉ thị 100 (1981) về khoán sản phẩm trong nông nghiệp, và Quyết định 25/26-CP (1981) trao quyền tự chủ cho doanh nghiệp quốc doanh, đã tạo tiền đề thực tiễn cho công cuộc đổi mới. Về mặt lý luận, Đổi Mới là sự vận dụng trở lại các nguyên lý của Chính sách kinh tế mới (Liên Xô) (NEP) do Lenin khởi xướng, đồng thời chịu ảnh hưởng của Cải cách Khai phóng ở Trung Quốc và Đổi Mới ở Lào. Điểm khác biệt của Đổi Mới Việt Nam là được tiến hành đồng thời với những biến động chính trị - ý thức hệ ở mức độ hạn chế, giữ vững sự lãnh đạo duy nhất của Đảng Cộng sản Việt Nam.",
+  "context_ids": [
+   "doi_moi_1986-p1-b1",
+   "chien_dong_duong-p39-b2",
+   "doi_moi_1986-p1-b2"
+  ],
+  "elapsed_ms": 51.2,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "question": "Quốc hiệu Đại Việt ra đời khi nào và dưới thời vị vua nào của nhà Lý?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_ly",
+    "page": 1,
+    "evidence": "Vào năm 1054, Lý Thánh Tông đã đổi quốc hiệu từ Đại Cồ Việt (大瞿越) thành Đại Việt (大越)"
+   }
+  ],
+  "results": [
+   {
+    "id": "nha_ly-p1-b1",
+    "text": "Nhà Lý (chữ Nôm: 茹李, chữ Hán: 李朝, Hán Việt: Lý triều), đôi khi gọi là nhà Hậu Lý (để phân biệt với triều đại Tiền Lý do Lý Bí thành lập) là một triều đại trong nền quân chủ Việt Nam. Triều đại này bắt đầu khi Lý Công Uẩn lên ngôi vào tháng 10 âm lịch năm 1009 sau khi giành được quyền lực từ tay nhà Tiền Lê. Triều đại này trải qua 9 vị hoàng đế và chấm dứt khi Lý Chiêu Hoàng, lúc đó mới có 7 tuổi, bị ép thoái vị để nhường ngôi cho chồng là Trần Cảnh vào năm 1225 – tổng cộng là 216 năm. Trong thời đại này, lần đầu tiên nhà Lý đã giữ vững được chính quyền một cách lâu dài đến hơn 200 năm, khác với các vương triều cũ trước đó chỉ tồn tại hơn vài chục năm. Vào năm 1054, Lý Thánh Tông đã đổi quốc hiệu từ Đại Cồ Việt (大瞿越) thành Đại Việt (大越), mở ra kỷ nguyên Đại Việt rực rỡ nhất trong lịch sử Việt Nam. Trong nước, mặc dù các vị Hoàng đế đều sùng bái Phật giáo nhưng ảnh hưởng của Nho giáo cũng rất cao với việc mở các trường đại học đầu tiên là Văn miếu (1070) và Quốc Tử giám (1076) và tổ chức các khoa thi để chọn người hiền tài không có nguồn gốc xuất thân là quý tộc ra giúp nước. Khoa thi đầu tiên được mở vào năm 1075, và Trạng nguyên đầu tiên là Lê Văn Thịnh.",
+    "source_id": "nha_ly",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lý",
+    "page": 1,
+    "metadata": {
+     "title": "Nhà Lý",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": true
+   },
+   {
+    "id": "nha_ly-p3-b1",
+    "text": "Việc hình thành nhà Lý gắn liền với sự kiện Lý Công Uẩn thay ngôi Lê Long Đĩnh. Các bộ sử cổ của Việt Nam như Việt sử lược, Đại Việt sử ký toàn thư và Khâm định Việt sử thông giám cương mục thống nhất chép rằng tháng 10 năm 1009, vua nhà Tiền Lê là Long Đĩnh mất, các con còn nhỏ, quan Điện tiền Chỉ huy sứ là Lý Công Uẩn được sự ủng hộ của Chi nội là Đào Cam Mộc cùng thiền sư Vạn Hạnh đã lên ngôi hoàng đế; các quan trong triều đều nhất trí suy tôn. Lý Thái Tổ (李太祖) (974-1028) Riêng trong sách Đại Việt sử ký tiền biên, sử gia Ngô Thì Sĩ ghi lại lời nghi vấn về việc Lý Công Uẩn nhân lúc Long Đĩnh bệnh tật, sai người vào đầu độc giết đi rồi giấu kín việc đó, nên sử không được chép. Tuy nhiên, các bộ sử, kể cả Đại Việt sử ký tiền biên, đều ghi nhận việc trăm quan của triều đình cũ suy tôn Lý Công Uẩn khi ông lên ngôi và sử sách không ghi nhận một cuộc nổi dậy nào của những người nhân danh trung thành với nhà Tiền Lê để chống lại nhà Lý sau khi triều đại này hình thành. Nhà sử học Lê Văn Hưu viết: Lý Công Uẩn người châu Cổ Pháp (Từ Sơn, Bắc Ninh). Thuở nhỏ làm con nuôi nhà sư Lý Khánh Văn, theo học ở chùa Lục Tổ của sư Vạn Hạnh.",
+    "source_id": "nha_ly",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lý",
+    "page": 3,
+    "metadata": {
+     "title": "Nhà Lý",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "ly_bi-p1-b2",
+    "text": "Theo sách Văn minh Đại Việt của Nguyễn Duy Hinh căn cứ các thần phả thì Lý Bí không phải là thế hệ thứ bảy mà là thế hệ thứ 11 của họ Lý từ khi sang Việt Nam. Khoảng cách 11 thế hệ trong năm thế kỷ hợp lý hơn là bảy thế hệ trong năm thế kỷ. Theo đó, đời thứ bảy là Lý Hàm lấy bà Ma thị là người Việt, sinh ra Lý Thanh. Lý Thanh phục vụ dưới quyền Thứ sử Giao Châu là Đàn Hòa Chi nhà Lưu Tống thời Nam Bắc Triều (Trung Quốc). Lý Thanh sinh ra Lý Hoa, Lý Hoa sinh ra Lý Cạnh. Lý Cạnh sinh ra Lý Thiên Bảo, Lý Bí và Lý Hùng.",
+    "source_id": "ly_bi",
+    "source": "https://vi.wikipedia.org/wiki/Lý_Nam_Đế",
+    "page": 1,
+    "metadata": {
+     "title": "Lý Nam Đế",
+     "period": "co_dai",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[nha_ly-p1-b1 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 1]\nNhà Lý (chữ Nôm: 茹李, chữ Hán: 李朝, Hán Việt: Lý triều), đôi khi gọi là nhà Hậu Lý (để phân biệt với triều đại Tiền Lý do Lý Bí thành lập) là một triều đại trong nền quân chủ Việt Nam. Triều đại này bắt đầu khi Lý Công Uẩn lên ngôi vào tháng 10 âm lịch năm 1009 sau khi giành được quyền lực từ tay nhà Tiền Lê. Triều đại này trải qua 9 vị hoàng đế và chấm dứt khi Lý Chiêu Hoàng, lúc đó mới có 7 tuổi, bị ép thoái vị để nhường ngôi cho chồng là Trần Cảnh vào năm 1225 – tổng cộng là 216 năm. Trong thời đại này, lần đầu tiên nhà Lý đã giữ vững được chính quyền một cách lâu dài đến hơn 200 năm, khác với các vương triều cũ trước đó chỉ tồn tại hơn vài chục năm. Vào năm 1054, Lý Thánh Tông đã đổi quốc hiệu từ Đại Cồ Việt (大瞿越) thành Đại Việt (大越), mở ra kỷ nguyên Đại Việt rực rỡ nhất trong lịch sử Việt Nam. Trong nước, mặc dù các vị Hoàng đế đều sùng bái Phật giáo nhưng ảnh hưởng của Nho giáo cũng rất cao với việc mở các trường đại học đầu tiên là Văn miếu (1070) và Quốc Tử giám (1076) và tổ chức các khoa thi để chọn người hiền tài không có nguồn gốc xuất thân là quý tộc ra giúp nước. Khoa thi đầu tiên được mở vào năm 1075, và Trạng nguyên đầu tiên là Lê Văn Thịnh.\n\n[nha_ly-p3-b1 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 3]\nViệc hình thành nhà Lý gắn liền với sự kiện Lý Công Uẩn thay ngôi Lê Long Đĩnh. Các bộ sử cổ của Việt Nam như Việt sử lược, Đại Việt sử ký toàn thư và Khâm định Việt sử thông giám cương mục thống nhất chép rằng tháng 10 năm 1009, vua nhà Tiền Lê là Long Đĩnh mất, các con còn nhỏ, quan Điện tiền Chỉ huy sứ là Lý Công Uẩn được sự ủng hộ của Chi nội là Đào Cam Mộc cùng thiền sư Vạn Hạnh đã lên ngôi hoàng đế; các quan trong triều đều nhất trí suy tôn. Lý Thái Tổ (李太祖) (974-1028) Riêng trong sách Đại Việt sử ký tiền biên, sử gia Ngô Thì Sĩ ghi lại lời nghi vấn về việc Lý Công Uẩn nhân lúc Long Đĩnh bệnh tật, sai người vào đầu độc giết đi rồi giấu kín việc đó, nên sử không được chép. Tuy nhiên, các bộ sử, kể cả Đại Việt sử ký tiền biên, đều ghi nhận việc trăm quan của triều đình cũ suy tôn Lý Công Uẩn khi ông lên ngôi và sử sách không ghi nhận một cuộc nổi dậy nào của những người nhân danh trung thành với nhà Tiền Lê để chống lại nhà Lý sau khi triều đại này hình thành. Nhà sử học Lê Văn Hưu viết: Lý Công Uẩn người châu Cổ Pháp (Từ Sơn, Bắc Ninh). Thuở nhỏ làm con nuôi nhà sư Lý Khánh Văn, theo học ở chùa Lục Tổ của sư Vạn Hạnh.\n\n[ly_bi-p1-b2 | https://vi.wikipedia.org/wiki/Lý_Nam_Đế | page 1]\nTheo sách Văn minh Đại Việt của Nguyễn Duy Hinh căn cứ các thần phả thì Lý Bí không phải là thế hệ thứ bảy mà là thế hệ thứ 11 của họ Lý từ khi sang Việt Nam. Khoảng cách 11 thế hệ trong năm thế kỷ hợp lý hơn là bảy thế hệ trong năm thế kỷ. Theo đó, đời thứ bảy là Lý Hàm lấy bà Ma thị là người Việt, sinh ra Lý Thanh. Lý Thanh phục vụ dưới quyền Thứ sử Giao Châu là Đàn Hòa Chi nhà Lưu Tống thời Nam Bắc Triều (Trung Quốc). Lý Thanh sinh ra Lý Hoa, Lý Hoa sinh ra Lý Cạnh. Lý Cạnh sinh ra Lý Thiên Bảo, Lý Bí và Lý Hùng.",
+  "context_ids": [
+   "nha_ly-p1-b1",
+   "nha_ly-p3-b1",
+   "ly_bi-p1-b2"
+  ],
+  "elapsed_ms": 49.8,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1428–1857: nhà Hồ đổi quốc hiệu Đại Việt thành gì?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_ho",
+    "page": 1,
+    "evidence": "Quốc hiệu Đại Việt khi này đã được đổi thành Đại Ngu"
+   }
+  ],
+  "results": [
+   {
+    "id": "le_loi-p2-b2",
+    "text": "Năm 1428, lên ngôi vua, Lê Lợi từ điện Tranh ở Bồ Đề vào thành Đông Quan, đại xá thiên hạ, đổi niên hiệu là Thuận Thiên, đặt quốc hiệu là Đại Việt, lấy Đông Kinh làm thủ đô, xưng là Thuận Thiên Thừa Vận Duệ Văn Anh Vũ Đại Vương, hiệu là Lam sơn động chủ, sử gọi là Thái Tổ Cao Hoàng đế, dựng lên hoàng triều Lê (sử Việt Nam hiện đại gọi là nhà Hậu Lê). Lê Lợi đã xây dựng lại khoa cử, luật lệ, kinh tế, chế tác lễ nhạc, đồng thời thu thập lại sách vở, mở mang trường học... làm cho nước Đại Việt được thịnh trị. Ông còn dẹp yên các thổ tù chống đối ở vùng biên viễn phía Tây như Bế Khắc Thiệu, Nông Đắc Thái (châu Thạch Lâm) và Đèo Cát Hãn (châu Mường Lễ), đánh bại một cánh quân Ai Lao sang giúp Hãn.",
+    "source_id": "le_loi",
+    "source": "https://vi.wikipedia.org/wiki/Lê_Lợi",
+    "page": 2,
+    "metadata": {
+     "title": "Lê Lợi",
+     "period": "938_1427",
+     "dense_rank": 10,
+     "tfidf_rank": 6
+    },
+    "score": 0.029437,
+    "hit": false
+   },
+   {
+    "id": "le_loi-p16-b2",
+    "text": "Ngày 15 tháng 4 âm lịch năm 1428, Lê Lợi từ điện Tranh ở Bồ Đề vào thành Đông Quan, đại xá thiên hạ, đổi niên hiệu là Thuận Thiên, đặt quốc hiệu là Đại Việt, lấy Đông Kinh làm thủ đô, xưng là Thuận Thiên Thừa Vận Duệ Văn Anh Vũ Đại Vương, hiệu là Lam Sơn động chủ, sử gọi là Thái Tổ Cao Hoàng đế, dựng lên Hoàng triều Lê (sử Việt Nam hiện đại thường gọi là nhà Hậu Lê). Theo sử gia Phan Huy Chú, do Việt Nam ở phía Nam Trung Quốc, tuy là một nước tự chủ, có quy mô riêng, ở trong xưng đế, mà bên ngoài thì phong vương, vẫn chịu phong hiệu của triều đình Trung Quốc. Vào thời nhà Hồ, nhà Minh xâm lược nước Việt trên danh nghĩa phù Trần diệt Hồ. Khi Lê Lợi khởi nghĩa đánh nhà Minh, cho tới năm 1427, khi ấy nghĩa quân Lam Sơn đang vây thành Đông Quan, Lê Lợi lập Trần Cảo làm vua, sai sứ sang nhà Minh cầu phong cho Trần Cảo làm An Nam quốc vương. Nhà Minh đồng ý, sai sứ sang nước Việt để thụ phong cho Trần Cảo. Nhưng khi sứ giả nhà Minh sang Đại Việt năm 1428, Trần Cảo đã chết, Lê Lợi sai sứ sang báo tang, và ông tổ chức lễ lên ngôi làm vua nước Đại Việt mà không cần thông qua triều đình nhà Minh.",
+    "source_id": "le_loi",
+    "source": "https://vi.wikipedia.org/wiki/Lê_Lợi",
+    "page": 16,
+    "metadata": {
+     "title": "Lê Lợi",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_ly-p6-b2",
+    "text": "Lý Thánh Tông (李聖宗) (1023–1072) Một sự kiện lớn trong những năm thịnh trị thời Lý là việc đổi quốc hiệu từ Đại Cồ Việt (大瞿越) sang Đại Việt (大越) vào năm 1054, mở ra kỷ nguyên Đại Việt trong lịch sử Việt Nam. Năm 1069, Lý Thánh Tông thân chinh đi đánh nước Chiêm Thành do Chiêm Thành thường sang quấy nhiễu, cướp phá. Quân nhà Lý bắt được quốc vương Chiêm Thành là Chế Củ. Chế Củ xin dâng đất ba châu là Địa Lý, Ma Linh và Bố Chính để chuộc tội. Thánh Tông lấy 3 châu ấy và cho Chế Củ về nước. Những châu ấy nay ở địa hạt các huyện Quảng Ninh, Quảng Trạch, Bố Trạch, Tuyên Hóa, Lệ Thuỷ tỉnh Quảng Bình và huyện Bến Hải tỉnh Quảng Trị. Lãnh thổ Đại Việt được mở rộng đáng kể về phía nam. Năm 1070, Thánh Tông cho xây dựng Văn miếu, đắp tượng thờ Khổng Tử, Chu Công, Tứ phối, vẽ tượng Thất thập nhị hiền, bốn mùa cũng tế, để mở mang Nho học. Ông là vị vua đầu tiên khởi xướng Nho giáo vào việc cai trị của các Hoàng đế Đại Việt sau này.",
+    "source_id": "nha_ly",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Lý",
+    "page": 6,
+    "metadata": {
+     "title": "Nhà Lý",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   }
+  ],
+  "context": "[le_loi-p2-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 2]\nNăm 1428, lên ngôi vua, Lê Lợi từ điện Tranh ở Bồ Đề vào thành Đông Quan, đại xá thiên hạ, đổi niên hiệu là Thuận Thiên, đặt quốc hiệu là Đại Việt, lấy Đông Kinh làm thủ đô, xưng là Thuận Thiên Thừa Vận Duệ Văn Anh Vũ Đại Vương, hiệu là Lam sơn động chủ, sử gọi là Thái Tổ Cao Hoàng đế, dựng lên hoàng triều Lê (sử Việt Nam hiện đại gọi là nhà Hậu Lê). Lê Lợi đã xây dựng lại khoa cử, luật lệ, kinh tế, chế tác lễ nhạc, đồng thời thu thập lại sách vở, mở mang trường học... làm cho nước Đại Việt được thịnh trị. Ông còn dẹp yên các thổ tù chống đối ở vùng biên viễn phía Tây như Bế Khắc Thiệu, Nông Đắc Thái (châu Thạch Lâm) và Đèo Cát Hãn (châu Mường Lễ), đánh bại một cánh quân Ai Lao sang giúp Hãn.\n\n[le_loi-p16-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 16]\nNgày 15 tháng 4 âm lịch năm 1428, Lê Lợi từ điện Tranh ở Bồ Đề vào thành Đông Quan, đại xá thiên hạ, đổi niên hiệu là Thuận Thiên, đặt quốc hiệu là Đại Việt, lấy Đông Kinh làm thủ đô, xưng là Thuận Thiên Thừa Vận Duệ Văn Anh Vũ Đại Vương, hiệu là Lam Sơn động chủ, sử gọi là Thái Tổ Cao Hoàng đế, dựng lên Hoàng triều Lê (sử Việt Nam hiện đại thường gọi là nhà Hậu Lê). Theo sử gia Phan Huy Chú, do Việt Nam ở phía Nam Trung Quốc, tuy là một nước tự chủ, có quy mô riêng, ở trong xưng đế, mà bên ngoài thì phong vương, vẫn chịu phong hiệu của triều đình Trung Quốc. Vào thời nhà Hồ, nhà Minh xâm lược nước Việt trên danh nghĩa phù Trần diệt Hồ. Khi Lê Lợi khởi nghĩa đánh nhà Minh, cho tới năm 1427, khi ấy nghĩa quân Lam Sơn đang vây thành Đông Quan, Lê Lợi lập Trần Cảo làm vua, sai sứ sang nhà Minh cầu phong cho Trần Cảo làm An Nam quốc vương. Nhà Minh đồng ý, sai sứ sang nước Việt để thụ phong cho Trần Cảo. Nhưng khi sứ giả nhà Minh sang Đại Việt năm 1428, Trần Cảo đã chết, Lê Lợi sai sứ sang báo tang, và ông tổ chức lễ lên ngôi làm vua nước Đại Việt mà không cần thông qua triều đình nhà Minh.\n\n[nha_ly-p6-b2 | https://vi.wikipedia.org/wiki/Nhà_Lý | page 6]\nLý Thánh Tông (李聖宗) (1023–1072) Một sự kiện lớn trong những năm thịnh trị thời Lý là việc đổi quốc hiệu từ Đại Cồ Việt (大瞿越) sang Đại Việt (大越) vào năm 1054, mở ra kỷ nguyên Đại Việt trong lịch sử Việt Nam. Năm 1069, Lý Thánh Tông thân chinh đi đánh nước Chiêm Thành do Chiêm Thành thường sang quấy nhiễu, cướp phá. Quân nhà Lý bắt được quốc vương Chiêm Thành là Chế Củ. Chế Củ xin dâng đất ba châu là Địa Lý, Ma Linh và Bố Chính để chuộc tội. Thánh Tông lấy 3 châu ấy và cho Chế Củ về nước. Những châu ấy nay ở địa hạt các huyện Quảng Ninh, Quảng Trạch, Bố Trạch, Tuyên Hóa, Lệ Thuỷ tỉnh Quảng Bình và huyện Bến Hải tỉnh Quảng Trị. Lãnh thổ Đại Việt được mở rộng đáng kể về phía nam. Năm 1070, Thánh Tông cho xây dựng Văn miếu, đắp tượng thờ Khổng Tử, Chu Công, Tứ phối, vẽ tượng Thất thập nhị hiền, bốn mùa cũng tế, để mở mang Nho học. Ông là vị vua đầu tiên khởi xướng Nho giáo vào việc cai trị của các Hoàng đế Đại Việt sau này.",
+  "context_ids": [
+   "le_loi-p2-b2",
+   "le_loi-p16-b2",
+   "nha_ly-p6-b2"
+  ],
+  "elapsed_ms": 56.6,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "question": "Sau Hiệp định Genève 1954, sông nào và vĩ tuyến nào được dùng làm giới tuyến quân sự tạm thời ở Việt Nam?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "hiep_dinh_geneve",
+    "page": 24,
+    "evidence": "sông Bến Hải, vĩ tuyến 17, được dùng làm giới tuyến quân sự tạm thời chia Việt Nam làm hai vùng tập kết quân sự tạm thời"
+   }
+  ],
+  "results": [
+   {
+    "id": "hiep_dinh_geneve-p30-b1",
+    "text": "(Con đường đến Tự Do) do Pháp và Hoa Kỳ tổ chức (tháng 8 năm 1954) Theo báo cáo gửi về Hà Nội của phái đoàn Việt Nam Dân chủ Cộng hòa, Trưởng đoàn Phạm Văn Đồng nêu rõ ý tưởng giới tuyến quân sự là do phái đoàn Anh khởi xướng. Sau đó, ý tưởng được Pháp và Mỹ ủng hộ. Mỹ cho rằng nên để giới tuyến ở vỹ tuyến 20 còn Pháp cho rằng nên ở vỹ tuyến 16. Cả Pháp và Mỹ đều muốn chia Việt Nam thành hai quốc gia riêng biệt chứ không chỉ dừng lại là giới tuyến quân sự tạm thời. Về phía Trung Quốc, họ lúc đó đã nắm được ý đồ phá rối hội nghị của Mỹ nhưng cũng ủng hộ quan điểm về chia cắt Việt Nam thành hai quốc gia riêng biệt của các nước phương Tây bất chấp đây là điều Việt Nam Dân chủ Cộng hòa hết sức phản đối. Ngày 02 tháng 3 năm 1954, trong thư gửi Trung ương Đảng Lao động Việt Nam, Trung ương Đảng Cộng sản Trung Quốc đã nêu nội dung: \"Nếu muốn đình chiến, tốt nhất nên có một giới tuyến tương đối cố định, có thể bảo đảm được một khu vực tương đối hoàn chỉnh. Trên thực tế, giới tuyến đình chiến hôm nay có thể trở thành ranh giới chia cắt trong tương lai...Đường giới tuyến này càng xuống phía Nam càng tốt.",
+    "source_id": "hiep_dinh_geneve",
+    "source": "https://vi.wikipedia.org/wiki/Hiệp_định_Genève",
+    "page": 30,
+    "metadata": {
+     "title": "Hiệp định Genève",
+     "period": "1858_ve_sau",
+     "dense_rank": 2,
+     "tfidf_rank": 4
+    },
+    "score": 0.031754,
+    "hit": false
+   },
+   {
+    "id": "hiep_dinh_geneve-p45-b2",
+    "text": "Hiệp định Paris 1973 kế thừa Hiệp định Genève, 1954 khi tiếp tục khẳng định Việt Nam là một quốc gia độc lập, có chủ quyền, toàn vẹn lãnh thổ, giới tuyến quân sự tạm thời không được coi là biên giới quốc gia. Đồng thời, Hiệp định Paris 1973 cũng quy định Việt Nam được thống nhất thông qua Hiệp thương Tổng tuyển cử. Để hoàn thành nốt các điều khoản trong Hiệp định Paris vốn kề thừa từ Hiệp định Genève, 1954 liên quan đến Tổng tuyển cử, Việt Nam Dân chủ Cộng hòa và Cộng hòa miền Nam Việt Nam tiến hành cuộc Tổng tuyển cử năm 1976 để thống nhất thành Cộng hòa Xã hội Chủ nghĩa Việt Nam.",
+    "source_id": "hiep_dinh_geneve",
+    "source": "https://vi.wikipedia.org/wiki/Hiệp_định_Genève",
+    "page": 45,
+    "metadata": {
+     "title": "Hiệp định Genève",
+     "period": "1858_ve_sau",
+     "dense_rank": 1,
+     "tfidf_rank": 6
+    },
+    "score": 0.031545,
+    "hit": false
+   },
+   {
+    "id": "hiep_dinh_geneve-p30-b2",
+    "text": "Có thể tham khảo vĩ tuyến 16 độ Bắc\" Khi mới bắt đầu bước vào đàm phán, Việt Nam Dân chủ Cộng hòa chủ động đưa ra phương án tập kết tại chỗ đối với cả chính trị lẫn quân sự. Tuy nhiên, phía Pháp bác bỏ và yêu cầu phải có tập kết theo ranh giới rõ ràng khiến Việt Nam chuyển sang chủ trương lấy Vĩ tuyến 13, cắt ngang đèo Đại Lãnh giữa Phú Yên và Khánh Hòa, làm giới tuyến quân sự tạm thời bởi Việt Nam có vùng tự do Liên khu V kéo dài từ Quảng Nam vào đến Phú Yên và thời hạn tổng tuyển cử là 6 tháng sau khi ngừng bắn. Giới tuyến quân sự không được coi là biên giới quốc gia. Trước khi đàm phán bắt đầu, Việt Nam Dân chủ Cộng hòa muốn tập kết tại chỗ chứ không cần giới tuyến quân sự tạm thời khi ít nhất 75% diện tích lãnh thổ Việt Nam đang do họ kiểm soát. Hồ Chí Minh và các thuộc cấp nhận định phương án này chắc chắn sẽ bị Pháp phản đối nhưng họ sẽ dùng chiến thắng tại Điện Biên Phủ để buộc Pháp phải chấp nhận tập kết tại chỗ. Trong trường hợp không thành công, họ sẽ chuyển sang phương án ấy vĩ tuyến 13.",
+    "source_id": "hiep_dinh_geneve",
+    "source": "https://vi.wikipedia.org/wiki/Hiệp_định_Genève",
+    "page": 30,
+    "metadata": {
+     "title": "Hiệp định Genève",
+     "period": "1858_ve_sau",
+     "dense_rank": 6,
+     "tfidf_rank": 3
+    },
+    "score": 0.031025,
+    "hit": false
+   }
+  ],
+  "context": "[hiep_dinh_geneve-p30-b1 | https://vi.wikipedia.org/wiki/Hiệp_định_Genève | page 30]\n(Con đường đến Tự Do) do Pháp và Hoa Kỳ tổ chức (tháng 8 năm 1954) Theo báo cáo gửi về Hà Nội của phái đoàn Việt Nam Dân chủ Cộng hòa, Trưởng đoàn Phạm Văn Đồng nêu rõ ý tưởng giới tuyến quân sự là do phái đoàn Anh khởi xướng. Sau đó, ý tưởng được Pháp và Mỹ ủng hộ. Mỹ cho rằng nên để giới tuyến ở vỹ tuyến 20 còn Pháp cho rằng nên ở vỹ tuyến 16. Cả Pháp và Mỹ đều muốn chia Việt Nam thành hai quốc gia riêng biệt chứ không chỉ dừng lại là giới tuyến quân sự tạm thời. Về phía Trung Quốc, họ lúc đó đã nắm được ý đồ phá rối hội nghị của Mỹ nhưng cũng ủng hộ quan điểm về chia cắt Việt Nam thành hai quốc gia riêng biệt của các nước phương Tây bất chấp đây là điều Việt Nam Dân chủ Cộng hòa hết sức phản đối. Ngày 02 tháng 3 năm 1954, trong thư gửi Trung ương Đảng Lao động Việt Nam, Trung ương Đảng Cộng sản Trung Quốc đã nêu nội dung: \"Nếu muốn đình chiến, tốt nhất nên có một giới tuyến tương đối cố định, có thể bảo đảm được một khu vực tương đối hoàn chỉnh. Trên thực tế, giới tuyến đình chiến hôm nay có thể trở thành ranh giới chia cắt trong tương lai...Đường giới tuyến này càng xuống phía Nam càng tốt.\n\n[hiep_dinh_geneve-p45-b2 | https://vi.wikipedia.org/wiki/Hiệp_định_Genève | page 45]\nHiệp định Paris 1973 kế thừa Hiệp định Genève, 1954 khi tiếp tục khẳng định Việt Nam là một quốc gia độc lập, có chủ quyền, toàn vẹn lãnh thổ, giới tuyến quân sự tạm thời không được coi là biên giới quốc gia. Đồng thời, Hiệp định Paris 1973 cũng quy định Việt Nam được thống nhất thông qua Hiệp thương Tổng tuyển cử. Để hoàn thành nốt các điều khoản trong Hiệp định Paris vốn kề thừa từ Hiệp định Genève, 1954 liên quan đến Tổng tuyển cử, Việt Nam Dân chủ Cộng hòa và Cộng hòa miền Nam Việt Nam tiến hành cuộc Tổng tuyển cử năm 1976 để thống nhất thành Cộng hòa Xã hội Chủ nghĩa Việt Nam.\n\n[hiep_dinh_geneve-p30-b2 | https://vi.wikipedia.org/wiki/Hiệp_định_Genève | page 30]\nCó thể tham khảo vĩ tuyến 16 độ Bắc\" Khi mới bắt đầu bước vào đàm phán, Việt Nam Dân chủ Cộng hòa chủ động đưa ra phương án tập kết tại chỗ đối với cả chính trị lẫn quân sự. Tuy nhiên, phía Pháp bác bỏ và yêu cầu phải có tập kết theo ranh giới rõ ràng khiến Việt Nam chuyển sang chủ trương lấy Vĩ tuyến 13, cắt ngang đèo Đại Lãnh giữa Phú Yên và Khánh Hòa, làm giới tuyến quân sự tạm thời bởi Việt Nam có vùng tự do Liên khu V kéo dài từ Quảng Nam vào đến Phú Yên và thời hạn tổng tuyển cử là 6 tháng sau khi ngừng bắn. Giới tuyến quân sự không được coi là biên giới quốc gia. Trước khi đàm phán bắt đầu, Việt Nam Dân chủ Cộng hòa muốn tập kết tại chỗ chứ không cần giới tuyến quân sự tạm thời khi ít nhất 75% diện tích lãnh thổ Việt Nam đang do họ kiểm soát. Hồ Chí Minh và các thuộc cấp nhận định phương án này chắc chắn sẽ bị Pháp phản đối nhưng họ sẽ dùng chiến thắng tại Điện Biên Phủ để buộc Pháp phải chấp nhận tập kết tại chỗ. Trong trường hợp không thành công, họ sẽ chuyển sang phương án ấy vĩ tuyến 13.",
+  "context_ids": [
+   "hiep_dinh_geneve-p30-b1",
+   "hiep_dinh_geneve-p45-b2",
+   "hiep_dinh_geneve-p30-b2"
+  ],
+  "elapsed_ms": 55.4,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ }
+]

@@ -1,0 +1,1974 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Ai lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938?",
+  "status": "answered",
+  "answer": "Ngô Quyền lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938 [ngo_quyen-p1-b1].",
+  "citations": [
+   "ngo_quyen-p1-b1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Ngô Quyền lãnh đạo quân dân đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_quy_ly-p1-b2",
+      "score": 0.726421,
+      "source_id": "ho_quy_ly",
+      "page": 1,
+      "metadata": {
+       "title": "Hồ Quý Ly",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_ly-p8-b1",
+      "score": 0.711162,
+      "source_id": "nha_ly",
+      "page": 8,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ngo_quyen-p1-b1",
+      "score": 0.707209,
+      "source_id": "ngo_quyen",
+      "page": 1,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_quy_ly-p1-b2",
+     "nha_ly-p8-b1",
+     "ngo_quyen-p1-b1"
+    ],
+    "context_chars": 3467
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 2483.7,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 1,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 2390,
+   "output_tokens": 257
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Ngô Quyền lãnh đạo quân dân đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938"
+   },
+   {
+    "action": "answer",
+    "answer": "Ngô Quyền lãnh đạo quân dân Việt Nam đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938 [ngo_quyen-p1-b1].",
+    "citations": [
+     "ngo_quyen-p1-b1"
+    ]
+   }
+  ]
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Vua nào ban Chiếu dời đô năm 1010 và dời kinh đô từ Hoa Lư về đâu?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_quy_ly-p13-b2",
+      "score": 0.597917,
+      "source_id": "ho_quy_ly",
+      "page": 13,
+      "metadata": {
+       "title": "Hồ Quý Ly",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_bi-p4-b2",
+      "score": 0.544221,
+      "source_id": "ly_bi",
+      "page": 4,
+      "metadata": {
+       "title": "Lý Nam Đế",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "khoi_nghia_tay_son-p13-b1",
+      "score": 0.535754,
+      "source_id": "khoi_nghia_tay_son",
+      "page": 13,
+      "metadata": {
+       "title": "Khởi nghĩa Tây Sơn",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_quy_ly-p13-b2",
+     "ly_bi-p4-b2",
+     "khoi_nghia_tay_son-p13-b1"
+    ],
+    "context_chars": 3387
+   },
+   {
+    "event": "search",
+    "query": "ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_quy_ly-p13-b2",
+      "score": 0.597917,
+      "source_id": "ho_quy_ly",
+      "page": 13,
+      "metadata": {
+       "title": "Hồ Quý Ly",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_bi-p4-b2",
+      "score": 0.544221,
+      "source_id": "ly_bi",
+      "page": 4,
+      "metadata": {
+       "title": "Lý Nam Đế",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "khoi_nghia_tay_son-p13-b1",
+      "score": 0.535754,
+      "source_id": "khoi_nghia_tay_son",
+      "page": 13,
+      "metadata": {
+       "title": "Khởi nghĩa Tây Sơn",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_quy_ly-p13-b2",
+     "ly_bi-p4-b2",
+     "khoi_nghia_tay_son-p13-b1"
+    ],
+    "context_chars": 3387
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 1511.1,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4119,
+   "output_tokens": 268
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về"
+   },
+   {
+    "action": "search",
+    "query": "ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về"
+   },
+   {
+    "action": "search",
+    "query": "Ban Chiếu dời đô năm 1010 dời kinh đô từ Hoa Lư về"
+   }
+  ]
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Khi lên ngôi Hoàng đế năm 968, Đinh Bộ Lĩnh đặt quốc hiệu nước ta là gì?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Đinh Bộ Lĩnh lên ngôi Hoàng đế năm 968 quốc hiệu đặt là",
+    "filter": null,
+    "results": [
+     {
+      "id": "dinh_bo_linh-p9-b3",
+      "score": 0.713106,
+      "source_id": "dinh_bo_linh",
+      "page": 9,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p1-b1",
+      "score": 0.702442,
+      "source_id": "ly_cong_uan",
+      "page": 1,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p14-b1",
+      "score": 0.689896,
+      "source_id": "ly_cong_uan",
+      "page": 14,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "dinh_bo_linh-p9-b3",
+     "ly_cong_uan-p1-b1",
+     "ly_cong_uan-p14-b1"
+    ],
+    "context_chars": 2669
+   },
+   {
+    "event": "search",
+    "query": "Đinh Bộ Lĩnh quốc hiệu Đại Cồ Việt 968",
+    "filter": null,
+    "results": [
+     {
+      "id": "minh_mang-p4-b1",
+      "score": 0.8296,
+      "source_id": "minh_mang",
+      "page": 4,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "nha_ly-p26-b3",
+      "score": 0.822151,
+      "source_id": "nha_ly",
+      "page": 26,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "dinh_bo_linh-p5-b2",
+      "score": 0.801464,
+      "source_id": "dinh_bo_linh",
+      "page": 5,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "dinh_bo_linh-p9-b3",
+     "ly_cong_uan-p1-b1",
+     "ly_cong_uan-p14-b1",
+     "minh_mang-p4-b1",
+     "nha_ly-p26-b3"
+    ],
+    "context_chars": 4114
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 29803.1,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4157,
+   "output_tokens": 474
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Đinh Bộ Lĩnh lên ngôi Hoàng đế năm 968 quốc hiệu đặt là"
+   },
+   {
+    "action": "search",
+    "query": "Đinh Bộ Lĩnh quốc hiệu Đại Cồ Việt 968"
+   },
+   {
+    "action": "search",
+    "query": "Đinh Bộ Lĩnh quốc hiệu Đại Cồ Việt 968"
+   }
+  ]
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Tờ tiền giấy đầu tiên của Việt Nam do ai phát hành và có tên gọi là gì?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "tờ tiền giấy đầu tiên của Việt Nam phát hành ai và tên gọi",
+    "filter": null,
+    "results": [
+     {
+      "id": "chien_dong_duong-p45-b1",
+      "score": 0.739623,
+      "source_id": "chien_dong_duong",
+      "page": 45,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "phan_boi_chau-p7-b2",
+      "score": 0.704449,
+      "source_id": "phan_boi_chau",
+      "page": 7,
+      "metadata": {
+       "title": "Phan Bội Châu",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "trieu_thi_trinh-p6-b1",
+      "score": 0.691943,
+      "source_id": "trieu_thi_trinh",
+      "page": 6,
+      "metadata": {
+       "title": "Triệu Thị Trinh",
+       "period": "co_dai"
+      }
+     }
+    ],
+    "context_ids": [
+     "chien_dong_duong-p45-b1",
+     "phan_boi_chau-p7-b2",
+     "trieu_thi_trinh-p6-b1"
+    ],
+    "context_chars": 3649
+   },
+   {
+    "event": "search",
+    "query": "tờ tiền giấy đầu tiên của Việt Nam phát hành ai và tên gọi",
+    "filter": null,
+    "results": [
+     {
+      "id": "chien_dong_duong-p45-b1",
+      "score": 0.739623,
+      "source_id": "chien_dong_duong",
+      "page": 45,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "phan_boi_chau-p7-b2",
+      "score": 0.704449,
+      "source_id": "phan_boi_chau",
+      "page": 7,
+      "metadata": {
+       "title": "Phan Bội Châu",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "trieu_thi_trinh-p6-b1",
+      "score": 0.691943,
+      "source_id": "trieu_thi_trinh",
+      "page": 6,
+      "metadata": {
+       "title": "Triệu Thị Trinh",
+       "period": "co_dai"
+      }
+     }
+    ],
+    "context_ids": [
+     "chien_dong_duong-p45-b1",
+     "phan_boi_chau-p7-b2",
+     "trieu_thi_trinh-p6-b1"
+    ],
+    "context_chars": 3649
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 28397.7,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4452,
+   "output_tokens": 282
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "tờ tiền giấy đầu tiên của Việt Nam phát hành ai và tên gọi"
+   },
+   {
+    "action": "search",
+    "query": "tờ tiền giấy đầu tiên của Việt Nam phát hành ai và tên gọi"
+   },
+   {
+    "action": "search",
+    "query": "tờ tiền giấy đầu tiên của Việt Nam phát hành ai tên gọi"
+   }
+  ]
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Văn Miếu ở kinh thành Thăng Long được vua nào cho xây dựng và vào năm nào?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Văn Miếu Thăng Long vua xây dựng năm",
+    "filter": null,
+    "results": [
+     {
+      "id": "minh_mang-p3-b2",
+      "score": 0.716947,
+      "source_id": "minh_mang",
+      "page": 3,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p13-b1",
+      "score": 0.707022,
+      "source_id": "ly_cong_uan",
+      "page": 13,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "minh_mang-p8-b1",
+      "score": 0.691795,
+      "source_id": "minh_mang",
+      "page": 8,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "minh_mang-p3-b2",
+     "ly_cong_uan-p13-b1",
+     "minh_mang-p8-b1"
+    ],
+    "context_chars": 3528
+   },
+   {
+    "event": "search",
+    "query": "Văn Miếu Thăng Long vua xây dựng năm",
+    "filter": null,
+    "results": [
+     {
+      "id": "minh_mang-p3-b2",
+      "score": 0.716947,
+      "source_id": "minh_mang",
+      "page": 3,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "ly_cong_uan-p13-b1",
+      "score": 0.707022,
+      "source_id": "ly_cong_uan",
+      "page": 13,
+      "metadata": {
+       "title": "Lý Công Uẩn",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "minh_mang-p8-b1",
+      "score": 0.691795,
+      "source_id": "minh_mang",
+      "page": 8,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     }
+    ],
+    "context_ids": [
+     "minh_mang-p3-b2",
+     "ly_cong_uan-p13-b1",
+     "minh_mang-p8-b1"
+    ],
+    "context_chars": 3528
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 29082.7,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4109,
+   "output_tokens": 215
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Văn Miếu Thăng Long vua xây dựng năm"
+   },
+   {
+    "action": "search",
+    "query": "Văn Miếu Thăng Long vua xây dựng năm"
+   },
+   {
+    "action": "search",
+    "query": "Văn Miếu Thăng Long vua xây dựng năm"
+   }
+  ]
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Trước khi khởi nghĩa năm 40, Trưng Trắc và Trưng Nhị làm Hội thề ở đâu?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Trưng Trắc Trưng Nhị hội thề trước khởi nghĩa năm 40 địa điểm",
+    "filter": null,
+    "results": [
+     {
+      "id": "khoi_nghia_hai_ba_trung-p4-b2",
+      "score": 0.648951,
+      "source_id": "khoi_nghia_hai_ba_trung",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Hai Bà Trưng",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "nha_tien_le-p6-b2",
+      "score": 0.641463,
+      "source_id": "nha_tien_le",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ngo_quyen-p5-b2",
+      "score": 0.60503,
+      "source_id": "ngo_quyen",
+      "page": 5,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "nha_tien_le-p6-b2",
+     "ngo_quyen-p5-b2"
+    ],
+    "context_chars": 3342
+   },
+   {
+    "event": "search",
+    "query": "Hội thề Trưng Trắc Trưng Nhị trước khởi nghĩa năm 40 địa điểm",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tien_le-p6-b2",
+      "score": 0.673475,
+      "source_id": "nha_tien_le",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Tiền Lê",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "khoi_nghia_hai_ba_trung-p4-b2",
+      "score": 0.639601,
+      "source_id": "khoi_nghia_hai_ba_trung",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Hai Bà Trưng",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "nha_ly-p6-b1",
+      "score": 0.633987,
+      "source_id": "nha_ly",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "khoi_nghia_hai_ba_trung-p4-b2",
+     "nha_tien_le-p6-b2",
+     "ngo_quyen-p5-b2",
+     "nha_ly-p6-b1"
+    ],
+    "context_chars": 4461
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 35137.8,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4428,
+   "output_tokens": 337
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Trưng Trắc Trưng Nhị hội thề trước khởi nghĩa năm 40 địa điểm"
+   },
+   {
+    "action": "search",
+    "query": "Hội thề Trưng Trắc Trưng Nhị trước khởi nghĩa năm 40 địa điểm"
+   },
+   {
+    "action": "search",
+    "query": "Hội thề Trưng Trắc Trưng Nhị trước khởi nghĩa địa điểm"
+   }
+  ]
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "type": "dieu_kien",
+  "question": "Theo truyền thuyết, ai đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc?",
+  "status": "answered",
+  "answer": "Theo truyền thuyết, Triệu Đà đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc [an_duong_vuong-p4-b2].",
+  "citations": [
+   "an_duong_vuong-p4-b2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Trọng Thủy Mỵ Châu hôn nhân thu thập bí mật quân sự Âu Lạc truyền thuyết",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tran-p24-b2",
+      "score": 0.529053,
+      "source_id": "nha_tran",
+      "page": 24,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "an_duong_vuong-p4-b2",
+      "score": 0.505164,
+      "source_id": "an_duong_vuong",
+      "page": 4,
+      "metadata": {
+       "title": "An Dương Vương",
+       "period": "co_dai"
+      }
+     },
+     {
+      "id": "nha_tran-p2-b1",
+      "score": 0.490252,
+      "source_id": "nha_tran",
+      "page": 2,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tran-p24-b2",
+     "an_duong_vuong-p4-b2",
+     "nha_tran-p2-b1"
+    ],
+    "context_chars": 3503
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 17588.0,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 1,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 2436,
+   "output_tokens": 476
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Trọng Thủy Mỵ Châu hôn nhân thu thập bí mật quân sự Âu Lạc truyền thuyết"
+   },
+   {
+    "action": "answer",
+    "answer": "Theo truyền thuyết, Triệu Đà đã dùng cuộc hôn nhân giữa Trọng Thủy và Mỵ Châu để thu thập bí mật quân sự của Âu Lạc [an_duong_vuong-p4-b2].",
+    "citations": [
+     "an_duong_vuong-p4-b2"
+    ]
+   }
+  ]
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Cách truyền ngôi đặc biệt của nhà Trần được mô tả thế nào và vì sao được đánh giá là tích cực?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tran-p15-b1",
+      "score": 0.509708,
+      "source_id": "nha_tran",
+      "page": 15,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "tran_hung_dao-p7-b1",
+      "score": 0.508205,
+      "source_id": "tran_hung_dao",
+      "page": 7,
+      "metadata": {
+       "title": "Trần Hưng Đạo",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "dinh_bo_linh-p5-b2",
+      "score": 0.501883,
+      "source_id": "dinh_bo_linh",
+      "page": 5,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tran-p15-b1",
+     "tran_hung_dao-p7-b1",
+     "dinh_bo_linh-p5-b2"
+    ],
+    "context_chars": 3803
+   },
+   {
+    "event": "search",
+    "query": "truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha_tran-p15-b1",
+      "score": 0.509708,
+      "source_id": "nha_tran",
+      "page": 15,
+      "metadata": {
+       "title": "Nhà Trần",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "tran_hung_dao-p7-b1",
+      "score": 0.508205,
+      "source_id": "tran_hung_dao",
+      "page": 7,
+      "metadata": {
+       "title": "Trần Hưng Đạo",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "dinh_bo_linh-p5-b2",
+      "score": 0.501883,
+      "source_id": "dinh_bo_linh",
+      "page": 5,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "nha_tran-p15-b1",
+     "tran_hung_dao-p7-b1",
+     "dinh_bo_linh-p5-b2"
+    ],
+    "context_chars": 3803
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 28384.1,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4447,
+   "output_tokens": 403
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực"
+   },
+   {
+    "action": "search",
+    "query": "truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực"
+   },
+   {
+    "action": "search",
+    "query": "truyền ngôi đặc biệt nhà Trần cách truyền ngôi đặc biệt nhà Trần tích cực"
+   }
+  ]
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Khẩu hiệu của phong trào Duy Tân mà Phan Châu Trinh cùng Huỳnh Thúc Kháng, Trần Quý Cáp vận động ở Quảng Nam là gì?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Trần Quý Cáp Quảng Nam",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_chi_minh-p50-b1",
+      "score": 0.758474,
+      "source_id": "ho_chi_minh",
+      "page": 50,
+      "metadata": {
+       "title": "Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "ngo_quyen-p10-b1",
+      "score": 0.722265,
+      "source_id": "ngo_quyen",
+      "page": 10,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ngo_quyen-p10-b2",
+      "score": 0.714199,
+      "source_id": "ngo_quyen",
+      "page": 10,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_chi_minh-p50-b1",
+     "ngo_quyen-p10-b1",
+     "ngo_quyen-p10-b2"
+    ],
+    "context_chars": 3583
+   },
+   {
+    "event": "search",
+    "query": "khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Trần Quý Cáp Quảng Nam",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_chi_minh-p50-b1",
+      "score": 0.758474,
+      "source_id": "ho_chi_minh",
+      "page": 50,
+      "metadata": {
+       "title": "Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "ngo_quyen-p10-b1",
+      "score": 0.722265,
+      "source_id": "ngo_quyen",
+      "page": 10,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "ngo_quyen-p10-b2",
+      "score": 0.714199,
+      "source_id": "ngo_quyen",
+      "page": 10,
+      "metadata": {
+       "title": "Ngô Quyền",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_chi_minh-p50-b1",
+     "ngo_quyen-p10-b1",
+     "ngo_quyen-p10-b2"
+    ],
+    "context_chars": 3583
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 34016.6,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4606,
+   "output_tokens": 418
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Trần Quý Cáp Quảng Nam"
+   },
+   {
+    "action": "search",
+    "query": "khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Trần Quý Cáp Quảng Nam"
+   },
+   {
+    "action": "search",
+    "query": "khẩu hiệu phong trào Duy Tân Phan Châu Trinh Huỳnh Thúc Kháng Quảng Nam"
+   }
+  ]
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Ngày 2 tháng 9 năm 1945 ai đọc bản Tuyên ngôn Độc lập và đọc ở đâu?",
+  "status": "answered",
+  "answer": "Hồ Chí Minh là người đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945, và ông đã đọc tại Quảng trường Ba Đình, Hà Nội [ho_chi_minh-p14-b1].",
+  "citations": [
+   "ho_chi_minh-p14-b1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "2 tháng 9 1945 ai đọc bản Tuyên ngôn Độc lập đọc ở đâu",
+    "filter": null,
+    "results": [
+     {
+      "id": "ho_chi_minh-p14-b1",
+      "score": 0.608777,
+      "source_id": "ho_chi_minh",
+      "page": 14,
+      "metadata": {
+       "title": "Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "ho_chi_minh-p42-b2",
+      "score": 0.529137,
+      "source_id": "ho_chi_minh",
+      "page": 42,
+      "metadata": {
+       "title": "Hồ Chí Minh",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p26-b2",
+      "score": 0.525095,
+      "source_id": "chien_dong_duong",
+      "page": 26,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "ho_chi_minh-p14-b1",
+     "ho_chi_minh-p42-b2",
+     "chien_dong_duong-p26-b2"
+    ],
+    "context_chars": 3047
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 14292.5,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 1,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 2147,
+   "output_tokens": 287
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "2 tháng 9 1945 ai đọc bản Tuyên ngôn Độc lập đọc ở đâu"
+   },
+   {
+    "action": "answer",
+    "answer": "Hồ Chí Minh là người đọc bản Tuyên ngôn Độc lập vào ngày 2 tháng 9 năm 1945, và ông đã đọc tại Quảng trường Ba Đình, Hà Nội [ho_chi_minh-p14-b1].",
+    "citations": [
+     "ho_chi_minh-p14-b1"
+    ]
+   }
+  ]
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "type": "filter",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: kết cục của Sở chỉ huy do tướng Đờ Cát đứng đầu trong chiến dịch Điện Biên Phủ?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục",
+    "filter": null,
+    "results": [
+     {
+      "id": "hiep_dinh_geneve-p25-b1",
+      "score": 0.605619,
+      "source_id": "hiep_dinh_geneve",
+      "page": 25,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p132-b1",
+      "score": 0.588577,
+      "source_id": "chien_dong_duong",
+      "page": 132,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "khoi_nghia_yen_bai-p4-b1",
+      "score": 0.587549,
+      "source_id": "khoi_nghia_yen_bai",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Yên Bái",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "hiep_dinh_geneve-p25-b1",
+     "chien_dong_duong-p132-b1",
+     "khoi_nghia_yen_bai-p4-b1"
+    ],
+    "context_chars": 3720
+   },
+   {
+    "event": "search",
+    "query": "Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục",
+    "filter": null,
+    "results": [
+     {
+      "id": "hiep_dinh_geneve-p25-b1",
+      "score": 0.605619,
+      "source_id": "hiep_dinh_geneve",
+      "page": 25,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p132-b1",
+      "score": 0.588577,
+      "source_id": "chien_dong_duong",
+      "page": 132,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "khoi_nghia_yen_bai-p4-b1",
+      "score": 0.587549,
+      "source_id": "khoi_nghia_yen_bai",
+      "page": 4,
+      "metadata": {
+       "title": "Khởi nghĩa Yên Bái",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "hiep_dinh_geneve-p25-b1",
+     "chien_dong_duong-p132-b1",
+     "khoi_nghia_yen_bai-p4-b1"
+    ],
+    "context_chars": 3720
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 27724.5,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4241,
+   "output_tokens": 364
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục"
+   },
+   {
+    "action": "search",
+    "query": "Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục"
+   },
+   {
+    "action": "search",
+    "query": "Sở chỉ huy tướng Đờ Cát chiến dịch Điện Biên Phủ kết cục"
+   }
+  ]
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Đại hội nào của Đảng năm 1986 chính thức khởi xướng công cuộc Đổi Mới?",
+  "status": "answered",
+  "answer": "Đại hội Đảng Cộng sản Việt Nam lần thứ VI (được tổ chức vào tháng 12 năm 1986) là đại hội đã chính thức khởi xướng công cuộc Đổi Mới [doi_moi_1986-p1-b1].",
+  "citations": [
+   "doi_moi_1986-p1-b1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Đại hội 6 Đảng 1986 khởi xướng Đổi Mới",
+    "filter": null,
+    "results": [
+     {
+      "id": "chien_dong_duong-p39-b2",
+      "score": 0.56163,
+      "source_id": "chien_dong_duong",
+      "page": 39,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "doi_moi_1986-p1-b1",
+      "score": 0.538985,
+      "source_id": "doi_moi_1986",
+      "page": 1,
+      "metadata": {
+       "title": "Đổi Mới",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p41-b1",
+      "score": 0.508801,
+      "source_id": "hiep_dinh_geneve",
+      "page": 41,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "chien_dong_duong-p39-b2",
+     "doi_moi_1986-p1-b1",
+     "hiep_dinh_geneve-p41-b1"
+    ],
+    "context_chars": 3837
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 16753.8,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 1,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 2374,
+   "output_tokens": 321
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Đại hội 6 Đảng 1986 khởi xướng Đổi Mới"
+   },
+   {
+    "action": "answer",
+    "answer": "Đại hội Đảng Cộng sản Việt Nam lần thứ VI (được tổ chức vào tháng 12 năm 1986) là đại hội đã chính thức khởi xướng công cuộc Đổi Mới [doi_moi_1986-p1-b1].",
+    "citations": [
+     "doi_moi_1986-p1-b1"
+    ]
+   }
+  ]
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Quốc hiệu Đại Việt ra đời khi nào và dưới thời vị vua nào của nhà Lý?",
+  "status": "answered",
+  "answer": "Quốc hiệu Đại Việt được đổi từ Đại Cồ Việt sang Đại Việt vào năm 1054, dưới thời vua Lý Thánh Tông [nha_ly-p6-b2].",
+  "citations": [
+   "nha_ly-p6-b2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "quốc hiệu Đại Việt ra đời khi nào dưới thời vua nhà Lý",
+    "filter": null,
+    "results": [
+     {
+      "id": "dinh_bo_linh-p15-b1",
+      "score": 0.847478,
+      "source_id": "dinh_bo_linh",
+      "page": 15,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_ly-p6-b2",
+      "score": 0.843158,
+      "source_id": "nha_ly",
+      "page": 6,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "dinh_bo_linh-p1-b2",
+      "score": 0.833803,
+      "source_id": "dinh_bo_linh",
+      "page": 1,
+      "metadata": {
+       "title": "Đinh Bộ Lĩnh",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "dinh_bo_linh-p15-b1",
+     "nha_ly-p6-b2",
+     "dinh_bo_linh-p1-b2"
+    ],
+    "context_chars": 2565
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "elapsed_ms": 10004.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 1,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 2074,
+   "output_tokens": 254
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "quốc hiệu Đại Việt ra đời khi nào dưới thời vua nhà Lý"
+   },
+   {
+    "action": "answer",
+    "answer": "Quốc hiệu Đại Việt được đổi từ Đại Cồ Việt sang Đại Việt vào năm 1054, dưới thời vua Lý Thánh Tông [nha_ly-p6-b2].",
+    "citations": [
+     "nha_ly-p6-b2"
+    ]
+   }
+  ]
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "type": "filter",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1428–1857: nhà Hồ đổi quốc hiệu Đại Việt thành gì?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Hồ đổi quốc hiệu Đại Việt thành Đại Ngu",
+    "filter": null,
+    "results": [
+     {
+      "id": "minh_mang-p4-b1",
+      "score": 0.850222,
+      "source_id": "minh_mang",
+      "page": 4,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "le_loi-p16-b2",
+      "score": 0.778349,
+      "source_id": "le_loi",
+      "page": 16,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p44-b1",
+      "score": 0.772726,
+      "source_id": "chien_dong_duong",
+      "page": 44,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "minh_mang-p4-b1",
+     "le_loi-p16-b2",
+     "chien_dong_duong-p44-b1"
+    ],
+    "context_chars": 3454
+   },
+   {
+    "event": "search",
+    "query": "nhà Hồ đổi quốc hiệu Đại Việt thành Đại Ngu",
+    "filter": null,
+    "results": [
+     {
+      "id": "minh_mang-p4-b1",
+      "score": 0.826378,
+      "source_id": "minh_mang",
+      "page": 4,
+      "metadata": {
+       "title": "Minh Mạng",
+       "period": "1428_1857"
+      }
+     },
+     {
+      "id": "le_loi-p16-b2",
+      "score": 0.796482,
+      "source_id": "le_loi",
+      "page": 16,
+      "metadata": {
+       "title": "Lê Lợi",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "nha_ly-p26-b3",
+      "score": 0.794655,
+      "source_id": "nha_ly",
+      "page": 26,
+      "metadata": {
+       "title": "Nhà Lý",
+       "period": "938_1427"
+      }
+     }
+    ],
+    "context_ids": [
+     "minh_mang-p4-b1",
+     "le_loi-p16-b2",
+     "chien_dong_duong-p44-b1",
+     "nha_ly-p26-b3"
+    ],
+    "context_chars": 3683
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 28456.5,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4055,
+   "output_tokens": 753
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Hồ đổi quốc hiệu Đại Việt thành Đại Ngu"
+   },
+   {
+    "action": "search",
+    "query": "nhà Hồ đổi quốc hiệu Đại Việt thành Đại Ngu"
+   },
+   {
+    "action": "search",
+    "query": "Hồ đổi quốc hiệu Đại Việt thành Đại Ngu"
+   }
+  ]
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Sau Hiệp định Genève 1954, sông nào và vĩ tuyến nào được dùng làm giới tuyến quân sự tạm thời ở Việt Nam?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Hiệp định Genève 1954 sông và vĩ tuyến làm giới tuyến quân sự tạm thời Việt Nam",
+    "filter": null,
+    "results": [
+     {
+      "id": "hiep_dinh_geneve-p45-b2",
+      "score": 0.783527,
+      "source_id": "hiep_dinh_geneve",
+      "page": 45,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p1-b1",
+      "score": 0.739329,
+      "source_id": "hiep_dinh_geneve",
+      "page": 1,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p24-b2",
+      "score": 0.70864,
+      "source_id": "hiep_dinh_geneve",
+      "page": 24,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "hiep_dinh_geneve-p45-b2",
+     "hiep_dinh_geneve-p1-b1",
+     "hiep_dinh_geneve-p24-b2"
+    ],
+    "context_chars": 2666
+   },
+   {
+    "event": "search",
+    "query": "Hiệp định Genève 1954 sông Bến Hải giới tuyến quân sự tạm thời",
+    "filter": null,
+    "results": [
+     {
+      "id": "hiep_dinh_geneve-p1-b1",
+      "score": 0.771514,
+      "source_id": "hiep_dinh_geneve",
+      "page": 1,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p22-b2",
+      "score": 0.650441,
+      "source_id": "hiep_dinh_geneve",
+      "page": 22,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p5-b2",
+      "score": 0.627138,
+      "source_id": "hiep_dinh_geneve",
+      "page": 5,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "hiep_dinh_geneve-p45-b2",
+     "hiep_dinh_geneve-p1-b1",
+     "hiep_dinh_geneve-p24-b2",
+     "hiep_dinh_geneve-p22-b2",
+     "hiep_dinh_geneve-p5-b2"
+    ],
+    "context_chars": 3873
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 24006.0,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 3894,
+   "output_tokens": 340
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Hiệp định Genève 1954 sông và vĩ tuyến làm giới tuyến quân sự tạm thời Việt Nam"
+   },
+   {
+    "action": "search",
+    "query": "Hiệp định Genève 1954 sông Bến Hải giới tuyến quân sự tạm thời"
+   },
+   {
+    "action": "search",
+    "query": "Hiệp định Genève 1954 sông Bến Hải giới tuyến quân sự tạm thời"
+   }
+  ]
+ },
+ {
+  "query_id": "q21",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "Việt Nam chính thức gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN) vào năm nào?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "Việt Nam gia nhập ASEAN năm nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "cach_mang_thang_tam-p2-b2",
+      "score": 0.717416,
+      "source_id": "cach_mang_thang_tam",
+      "page": 2,
+      "metadata": {
+       "title": "Cách mạng Tháng Tám",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p44-b1",
+      "score": 0.708667,
+      "source_id": "chien_dong_duong",
+      "page": 44,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p31-b3",
+      "score": 0.706245,
+      "source_id": "chien_dong_duong",
+      "page": 31,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "cach_mang_thang_tam-p2-b2",
+     "chien_dong_duong-p44-b1",
+     "chien_dong_duong-p31-b3"
+    ],
+    "context_chars": 2786
+   },
+   {
+    "event": "search",
+    "query": "Việt Nam gia nhập ASEAN năm nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "cach_mang_thang_tam-p2-b2",
+      "score": 0.717416,
+      "source_id": "cach_mang_thang_tam",
+      "page": 2,
+      "metadata": {
+       "title": "Cách mạng Tháng Tám",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p44-b1",
+      "score": 0.708667,
+      "source_id": "chien_dong_duong",
+      "page": 44,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "chien_dong_duong-p31-b3",
+      "score": 0.706245,
+      "source_id": "chien_dong_duong",
+      "page": 31,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "cach_mang_thang_tam-p2-b2",
+     "chien_dong_duong-p44-b1",
+     "chien_dong_duong-p31-b3"
+    ],
+    "context_chars": 2786
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 16714.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 3515,
+   "output_tokens": 252
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "Việt Nam gia nhập ASEAN năm nào"
+   },
+   {
+    "action": "search",
+    "query": "Việt Nam gia nhập ASEAN năm nào"
+   },
+   {
+    "action": "search",
+    "query": "Việt Nam gia nhập ASEAN năm nào"
+   }
+  ]
+ },
+ {
+  "query_id": "q22",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "Chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc bùng phát năm 1979 kéo dài bao nhiêu ngày?",
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc bùng phát năm 1979 kéo dài bao nhiêu ngày",
+    "filter": null,
+    "results": [
+     {
+      "id": "khang_chien_nguyen_tran-p1-b1",
+      "score": 0.656371,
+      "source_id": "khang_chien_nguyen_tran",
+      "page": 1,
+      "metadata": {
+       "title": "Kháng chiến chống quân Nguyên Mông",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p16-b1",
+      "score": 0.642099,
+      "source_id": "hiep_dinh_geneve",
+      "page": 16,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "nha_trieu-p4-b1",
+      "score": 0.627764,
+      "source_id": "nha_trieu",
+      "page": 4,
+      "metadata": {
+       "title": "Nhà Triệu",
+       "period": "co_dai"
+      }
+     }
+    ],
+    "context_ids": [
+     "khang_chien_nguyen_tran-p1-b1",
+     "hiep_dinh_geneve-p16-b1",
+     "nha_trieu-p4-b1"
+    ],
+    "context_chars": 3705
+   },
+   {
+    "event": "search",
+    "query": "chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc 1979 kéo dài bao nhiêu ngày",
+    "filter": null,
+    "results": [
+     {
+      "id": "chien_dong_duong-p91-b1",
+      "score": 0.669491,
+      "source_id": "chien_dong_duong",
+      "page": 91,
+      "metadata": {
+       "title": "Chiến tranh Đông Dương",
+       "period": "1858_ve_sau"
+      }
+     },
+     {
+      "id": "khang_chien_nguyen_tran-p1-b1",
+      "score": 0.661976,
+      "source_id": "khang_chien_nguyen_tran",
+      "page": 1,
+      "metadata": {
+       "title": "Kháng chiến chống quân Nguyên Mông",
+       "period": "938_1427"
+      }
+     },
+     {
+      "id": "hiep_dinh_geneve-p16-b1",
+      "score": 0.66038,
+      "source_id": "hiep_dinh_geneve",
+      "page": 16,
+      "metadata": {
+       "title": "Hiệp định Genève",
+       "period": "1858_ve_sau"
+      }
+     }
+    ],
+    "context_ids": [
+     "khang_chien_nguyen_tran-p1-b1",
+     "hiep_dinh_geneve-p16-b1",
+     "nha_trieu-p4-b1"
+    ],
+    "context_chars": 3705
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "elapsed_ms": 32104.4,
+  "model": "openai/gpt-oss-120b",
+  "config": "agent-dense-top3",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "search_calls": 2,
+  "max_searches": 2,
+  "chat_tokens": {
+   "input_tokens": 4195,
+   "output_tokens": 338
+  },
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "decisions": [
+   {
+    "action": "search",
+    "query": "chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc bùng phát năm 1979 kéo dài bao nhiêu ngày"
+   },
+   {
+    "action": "search",
+    "query": "chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc 1979 kéo dài bao nhiêu ngày"
+   },
+   {
+    "action": "search",
+    "query": "chiến tranh biên giới phía Bắc Việt Nam với Trung Quốc 1979 kéo dài bao nhiêu ngày"
+   }
+  ]
+ }
+]

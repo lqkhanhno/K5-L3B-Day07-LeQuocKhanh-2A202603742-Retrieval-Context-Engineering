@@ -1,0 +1,9 @@
+# Day 7 dùng lại pipeline Day 6: Chroma thay PostgreSQL + pgvector vì máy làm bài không có Docker.
+chromadb>=1,<2
+python-dotenv>=1,<2
+requests>=2,<3
+
+# Embedding local (EMBEDDING_PROVIDER=local): torch bản CPU và Sentence Transformers.
+# Nếu dùng API embedding (EMBEDDING_PROVIDER=api) thì không cần hai gói dưới đây.
+torch; platform_system == "Windows"
+sentence-transformers>=2,<6

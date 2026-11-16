@@ -1,33 +1,91 @@
-# Day 7 — Agentic RAG
+# Day 7 · Agentic RAG
 
-**Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
+**Bài cá nhân** · **Python 3.11+** · **tiếp nối Day 6**
 
-Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+Bài này xây agent trả lời câu hỏi lịch sử Việt Nam trên kho tài liệu Day 6: agent tự gọi tool truy xuất, trả lời có trích dẫn trong câu và biết từ chối khi thiếu bằng chứng.
 
-> **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+## Cấu hình chính
 
-## Bài cần làm
+- Retrieval baseline: dense cosine trên Chroma `day7_dense`.
+- Retrieval lexical: TF-IDF (`TfidfIndex` của starter).
+- Retrieval hybrid: RRF (Reciprocal Rank Fusion, k=60).
+- Embedding: local `paraphrase-multilingual-MiniLM-L12-v2` (384 chiều), không cần API cho embedding.
+- Agent model: `openai/gpt-oss-120b` qua Groq.
+- Prompt/adapter: `starter/src/agent.py` và khung `starter/agentic.py`.
 
-![Agent tìm tài liệu trong kho Day 6 và trả lời có nguồn](assets/retrieval-pipeline.svg)
+## Chuẩn bị
 
-1. Kết nối dữ liệu, embedding và vector store Day 6.
-2. Xây agent dùng model thật và ít nhất một khả năng truy xuất dữ liệu. Agent có thể dùng nhiều tool và nhiều lượt gọi.
-3. Thử **ít nhất 3 phương pháp retrieval khác nhau**, trong đó có dense retrieval dùng vector store Day 6. Tự chọn các phương pháp còn lại; xem [gợi ý](GUIDE.md#2-thử-các-phương-pháp-retrieval).
-4. Thử nhiều cấu hình, benchmark, phân tích lỗi và chọn cấu hình tốt trên **dev**; sau đó đánh giá trên **test**.
+1. Mở thư mục gốc của repo.
+2. Đảm bảo `starter/.env` có key agent hợp lệ.
+3. Cài dependencies trong môi trường ảo của `starter`.
+4. Trên Windows, luôn bật UTF-8 khi chạy test:
 
-Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 câu thiếu bằng chứng; test gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Xem [benchmark](BENCHMARK.md) và [rubric](RUBRIC.md).
+```powershell
+$env:PYTHONUTF8 = "1"
+```
 
-## Thử thách nâng cao · +15 điểm
+## Lệnh chạy
 
-Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
+### 1) Kiểm chứng benchmark
 
-## Bắt đầu
+Từ thư mục gốc:
 
-1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).
-2. Tạo repo cá nhân theo [cách nộp bài](SUBMISSION.md), chuẩn bị đầu ra Day 6 và model hỗ trợ tool calling.
-3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
-4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
+```powershell
+$env:PYTHONUTF8 = "1"
+$env:PYTHONPATH = "starter"
+starter\.venv\Scripts\python.exe starter\scripts\verify_benchmark.py --chunks data\chunks.json --questions benchmark\questions.json
+```
 
-![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
+### 2) Nạp index dense
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+Từ thư mục `starter`:
+
+```powershell
+$env:PYTHONUTF8 = "1"
+.\.venv\Scripts\python.exe scripts\build_index.py
+```
+
+### 3) Chạy retrieval
+
+Từ thư mục gốc:
+
+```powershell
+$env:PYTHONUTF8 = "1"
+$env:PYTHONPATH = "starter"
+starter\.venv\Scripts\python.exe -m src.run_retrieval --config dense-top3 tfidf-top3 hybrid-top3 --split dev
+starter\.venv\Scripts\python.exe -m src.run_retrieval --config hybrid-top5 hybrid-top5-filter --split test
+```
+
+### 4) Chạy agent
+
+Từ thư mục gốc:
+
+```powershell
+$env:PYTHONUTF8 = "1"
+$env:PYTHONPATH = "starter"
+starter\.venv\Scripts\python.exe -m src.run_agent --config agent-tfidf-top3 --split dev
+starter\.venv\Scripts\python.exe -m src.run_agent --config agent-tfidf-top3 --split test
+starter\.venv\Scripts\python.exe -m src.run_agent --config agent-dense-top3 --split dev
+starter\.venv\Scripts\python.exe -m src.run_agent --config agent-dense-top3 --split test
+```
+
+## Chạy test
+
+```powershell
+$env:PYTHONUTF8 = "1"
+$env:PYTHONPATH = "starter"
+starter\.venv\Scripts\python.exe -m unittest discover -s tests -p "test_*.py"
+```
+
+## Kết quả đầu ra
+
+- Retrieval: `results/retrieval/<config>-<split>/summary.json` và `traces.json`
+- Agent: `results/agent/<config>-<split>/summary.json`, `agent_summary.json`, `traces.json`, `reviews.json`
+- Báo cáo cá nhân: `report/individual/2A202603742_LeQuocKhanh.md`
+- Thông tin học viên: `STUDENT.md`
+
+## Ghi chú
+
+- Đây là bài không dùng Docker.
+- Bộ test offline đã khóa các lỗi từng gặp trong quá trình làm bài.
+- `PYTHONPATH=starter` là cần thiết khi chạy `python -m src.*` từ thư mục gốc trên Windows.

@@ -1,0 +1,15 @@
+{
+  "config": "agent-tfidf-top3",
+  "split": "dev",
+  "n": 17,
+  "answered": 11,
+  "abstain": 6,
+  "errors": 0,
+  "search_calls_total": 24,
+  "median_ms": 18802.3,
+  "chat_input_tokens": 52317,
+  "chat_output_tokens": 6678,
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "model": "openai/gpt-oss-120b"
+}

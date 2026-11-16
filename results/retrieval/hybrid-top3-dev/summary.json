@@ -1,0 +1,15 @@
+{
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "use_filter": false,
+  "n": 15,
+  "hit1": "7/15",
+  "hit3": "8/15",
+  "context_evidence_rate": "8/15",
+  "median_ms": 54.7,
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0
+}

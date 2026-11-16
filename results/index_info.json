@@ -1,0 +1,11 @@
+{
+  "collection": "day7_dense",
+  "store_path": "C:\\Users\\admin\\Desktop\\K5-L3B-Day07-LeQuocKhanh-2A202603742-Retrieval-Context-Engineering\\starter\\vector_store",
+  "chunk_count": 1909,
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "metric": "cosine",
+  "index_seconds": 108.1,
+  "doc_embed_tokens": 0,
+  "doc_embed_cost_usd": 0.0
+}

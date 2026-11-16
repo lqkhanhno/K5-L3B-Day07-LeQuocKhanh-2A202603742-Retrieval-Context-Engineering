@@ -1,0 +1,15 @@
+{
+  "config": "dense-top3",
+  "method": "dense",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "use_filter": false,
+  "n": 15,
+  "hit1": "2/15",
+  "hit3": "5/15",
+  "context_evidence_rate": "5/15",
+  "median_ms": 42.0,
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0
+}

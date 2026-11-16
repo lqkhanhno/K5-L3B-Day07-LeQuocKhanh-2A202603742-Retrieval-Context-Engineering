@@ -1,0 +1,15 @@
+{
+  "config": "agent-dense-top3",
+  "split": "test",
+  "n": 7,
+  "answered": 1,
+  "abstain": 6,
+  "errors": 0,
+  "search_calls_total": 14,
+  "median_ms": 40821.4,
+  "chat_input_tokens": 28574,
+  "chat_output_tokens": 3140,
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0,
+  "model": "openai/gpt-oss-120b"
+}

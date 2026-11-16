@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng mưu kế cắm cọc nhọn dưới sông Bạch Đằng; chunk tran_bach_dang_938-p1-b1 nêu trực tiếp 'kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền'."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng Đinh Phế Đế nhường ngôi cho Lê Hoàn vào năm 980; chunk nha_tien_le-p1-b1 có nguyên câu này."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [true, true],
+    "reason": "Đúng mốc trưa 30-4-1975, khoảng 12h30; hai chunk chien_dich_hcm-p23-b2 và chien_dich_hcm-p21-b2 đều khớp sự kiện và thời điểm."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm: câu này có đáp án trong corpus, nhưng agent vẫn không lấy được bằng chứng đủ tốt nên phải chấm 0."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "Từ chối nhầm: truy vấn về Quốc công tiết chế không kéo được đúng chunk Trần Hưng Đạo."
+  },
+  {
+    "query_id": "q23",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng: corpus không có bằng chứng đủ rõ cho Chùa Thiên Mụ."
+  },
+  {
+    "query_id": "q24",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng: corpus không nêu số người con của Minh Mạng."
+  }
+]

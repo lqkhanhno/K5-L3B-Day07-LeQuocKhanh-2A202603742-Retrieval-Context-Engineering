@@ -1,0 +1,15 @@
+{
+  "config": "tfidf-top3",
+  "method": "tfidf",
+  "split": "test",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "use_filter": false,
+  "n": 5,
+  "hit1": "1/5",
+  "hit3": "1/5",
+  "context_evidence_rate": "1/5",
+  "median_ms": 22.8,
+  "query_embed_tokens": 0,
+  "cost_usd": 0.0
+}

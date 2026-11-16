@@ -1,0 +1,372 @@
+[
+ {
+  "query_id": "q16",
+  "split": "test",
+  "question": "Nhờ mưu kế gì mà quá nửa quân Nam Hán bị chết đuối trên sông Bạch Đằng năm 938?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "tran_bach_dang_938",
+    "page": 1,
+    "evidence": "người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền. Trước sự chiến đấu dũng mãnh của người Việt, quá nửa quân Nam Hán chết đuối"
+   }
+  ],
+  "results": [
+   {
+    "id": "tran_bach_dang_938-p2-b1",
+    "text": "Vào một ngày cuối đông năm 938, trên sông Bạch Đằng, binh thuyền do Hoằng Tháo chỉ huy vừa vượt biển tiến vào cửa ngõ Bạch Đằng. Quân Nam Hán thấy quân của Ngô Quyền chỉ có thuyền nhẹ, quân ít tưởng có thể ăn tươi, nuốt sống liền hùng hổ tiến vào. Ngô Quyền ra lệnh cho quân bỏ chạy lên thượng lưu. Đợi đến khi thủy triều xuống, ông mới hạ lệnh cho quân sĩ đổ ra đánh. Thuyền chiến lớn của Nam Hán bị mắc cạn và lần lượt bị cọc đâm thủng gần hết. Lúc đó Ngô Quyền mới tung quân ra tấn công dữ dội. Quân Nam Hán thua chạy, còn Lưu Hoằng Tháo bỏ mạng với hơn một nửa quân sĩ. Vua Nam Hán đang cầm quân tiếp ứng đóng ở biên giới mà không kịp trở tay đối phó. Nghe tin Hoằng Tháo tử trận, Lưu Cung kinh hoàng, đành \"thương khóc thu nhặt quân còn lại mà rút lui\" (Đại Việt sử ký toàn thư). Từ đó nhà Nam Hán bỏ hẳn mộng xâm lược Tĩnh Hải quân. Lưu Cung cũng than rằng cái tên \"Cung\" của ông là xấu. Năm 939, Ngô Quyền lên ngôi vua, xưng là Ngô Vương, lập ra nhà Ngô, đóng đô ở Cổ Loa (Đông Anh, Hà Nội ngày nay). Năm 1288, quân Đại Việt do Trần Thánh Tông, Trần Nhân Tông và Trần Hưng Đạo lãnh đạo giao chiến với quân Nguyên trên sông Bạch Đằng.",
+    "source_id": "tran_bach_dang_938",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938)",
+    "page": 2,
+    "metadata": {
+     "title": "Trận Bạch Đằng (938)",
+     "period": "938_1427",
+     "dense_rank": 3,
+     "tfidf_rank": 2
+    },
+    "score": 0.032002,
+    "hit": false
+   },
+   {
+    "id": "tran_bach_dang_1288-p1-b1",
+    "text": "Trận Bạch Đằng năm 1288 xảy ra trên sông Bạch Đằng thuộc đất Đại Việt, là một trận đánh quan trọng trong các cuộc kháng chiến chống Nguyên Mông trong lịch sử Việt Nam. Đây là chiến thắng vẻ vang, anh hùng của quân Đại Việt do Quốc công Tiết chế Trần Hưng Đạo cùng với Thái thượng hoàng Trần Thánh Tông và vua Trần Nhân Tông chỉ huy trước quân xâm lược Nguyên Mông. Quân Nguyên bị thiệt hại vô cùng nặng, khoảng hơn 4 vạn quân sĩ và hàng vạn phu thuyền bị giết hoặc bắt sống), nhiều tướng Nguyên trong đó có cả Ô Mã Nhi, Phạm Nhàn và Phàn Tiếp (樊楫) cũng bị bắt sống và dâng lên Thượng hoàng Thánh Tông. Ngoài ra, có tới 400 chiến thuyền của quân Nguyên rơi vào tay quân Trần. Đại thắng trên sông Bạch Đằng được xem là trận thủy chiến lớn nhất trong lịch sử Việt Nam, và là thắng lợi tiêu biểu nhất của Đại Việt trong ba cuộc kháng chiến chống quân xâm lược Nguyên-Mông. Đại thắng này là chiến quả của kế cắm cọc trên sông Bạch Đằng của Hưng Đạo Vương, mở đầu với việc quân sĩ của ông lừa được địch vào trận địa cọc khi triều rút.",
+    "source_id": "tran_bach_dang_1288",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(1288)",
+    "page": 1,
+    "metadata": {
+     "title": "Trận Bạch Đằng (1288)",
+     "period": "938_1427",
+     "dense_rank": 4,
+     "tfidf_rank": 5
+    },
+    "score": 0.03101,
+    "hit": false
+   },
+   {
+    "id": "le_loi-p9-b2",
+    "text": "Ngày 20 tháng 9 âm lịch năm 1424, Lê Lợi chia quân đánh úp thành Đa Căng, phá được thành này, quân Minh bị giết và chết đuối hơn 1000 người. Tham chính Lương Nhữ Hốt chạy thoát, nghĩa quân thu nhiều lương thực, khí giới. Sau đó tướng Nhà Minh là Hoa Ánh đến cứu, Lê Lợi xua quân đánh tràn, quân Minh thua to, chạy vào Tây Đô. Lê Lợi sai thả về tất cả vợ, con, gia quyến của quân Minh bị bắt, rồi tiến quân vào châu Trà Long. Lê Lợi dẫn quân qua núi Bồ Lạp thuộc Châu Quì, thì bị Chỉ huy đồng tri nhà Minh Sư Hựu, Tri phủ châu Trà Lân là Cầm Bành đem 5000 quân đón ở mặt trước, mặt sau bị Trần Trí, Lý An, Phương Chính, Thái Phúc uy hiếp. Nhân trời sắp tối, Lê Lợi sai phục binh trong rừng đón đánh Trần Trí, Lý An, Phương Chính, quân Minh tan vỡ, Đô ty Trần Trung bị chém, mất 2000 người, 100 con ngựa. Ngày sau, nghĩa quân đến Trang Trịnh Sơn, châu Trà Lân, đánh bại Sư Hựu, chém thiên hộ Trường Bản và hơn 1000 người. Lê Lợi dẫn quân đến sách Mộc, Trần Trí đuổi theo nhưng không dám tiến sâu, lui về giữ thành Nghệ An, đưa trả Lê Trăn cầu hòa.",
+    "source_id": "le_loi",
+    "source": "https://vi.wikipedia.org/wiki/Lê_Lợi",
+    "page": 9,
+    "metadata": {
+     "title": "Lê Lợi",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   }
+  ],
+  "context": "[tran_bach_dang_938-p2-b1 | https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(938) | page 2]\nVào một ngày cuối đông năm 938, trên sông Bạch Đằng, binh thuyền do Hoằng Tháo chỉ huy vừa vượt biển tiến vào cửa ngõ Bạch Đằng. Quân Nam Hán thấy quân của Ngô Quyền chỉ có thuyền nhẹ, quân ít tưởng có thể ăn tươi, nuốt sống liền hùng hổ tiến vào. Ngô Quyền ra lệnh cho quân bỏ chạy lên thượng lưu. Đợi đến khi thủy triều xuống, ông mới hạ lệnh cho quân sĩ đổ ra đánh. Thuyền chiến lớn của Nam Hán bị mắc cạn và lần lượt bị cọc đâm thủng gần hết. Lúc đó Ngô Quyền mới tung quân ra tấn công dữ dội. Quân Nam Hán thua chạy, còn Lưu Hoằng Tháo bỏ mạng với hơn một nửa quân sĩ. Vua Nam Hán đang cầm quân tiếp ứng đóng ở biên giới mà không kịp trở tay đối phó. Nghe tin Hoằng Tháo tử trận, Lưu Cung kinh hoàng, đành \"thương khóc thu nhặt quân còn lại mà rút lui\" (Đại Việt sử ký toàn thư). Từ đó nhà Nam Hán bỏ hẳn mộng xâm lược Tĩnh Hải quân. Lưu Cung cũng than rằng cái tên \"Cung\" của ông là xấu. Năm 939, Ngô Quyền lên ngôi vua, xưng là Ngô Vương, lập ra nhà Ngô, đóng đô ở Cổ Loa (Đông Anh, Hà Nội ngày nay). Năm 1288, quân Đại Việt do Trần Thánh Tông, Trần Nhân Tông và Trần Hưng Đạo lãnh đạo giao chiến với quân Nguyên trên sông Bạch Đằng.\n\n[tran_bach_dang_1288-p1-b1 | https://vi.wikipedia.org/wiki/Trận_Bạch_Đằng_(1288) | page 1]\nTrận Bạch Đằng năm 1288 xảy ra trên sông Bạch Đằng thuộc đất Đại Việt, là một trận đánh quan trọng trong các cuộc kháng chiến chống Nguyên Mông trong lịch sử Việt Nam. Đây là chiến thắng vẻ vang, anh hùng của quân Đại Việt do Quốc công Tiết chế Trần Hưng Đạo cùng với Thái thượng hoàng Trần Thánh Tông và vua Trần Nhân Tông chỉ huy trước quân xâm lược Nguyên Mông. Quân Nguyên bị thiệt hại vô cùng nặng, khoảng hơn 4 vạn quân sĩ và hàng vạn phu thuyền bị giết hoặc bắt sống), nhiều tướng Nguyên trong đó có cả Ô Mã Nhi, Phạm Nhàn và Phàn Tiếp (樊楫) cũng bị bắt sống và dâng lên Thượng hoàng Thánh Tông. Ngoài ra, có tới 400 chiến thuyền của quân Nguyên rơi vào tay quân Trần. Đại thắng trên sông Bạch Đằng được xem là trận thủy chiến lớn nhất trong lịch sử Việt Nam, và là thắng lợi tiêu biểu nhất của Đại Việt trong ba cuộc kháng chiến chống quân xâm lược Nguyên-Mông. Đại thắng này là chiến quả của kế cắm cọc trên sông Bạch Đằng của Hưng Đạo Vương, mở đầu với việc quân sĩ của ông lừa được địch vào trận địa cọc khi triều rút.\n\n[le_loi-p9-b2 | https://vi.wikipedia.org/wiki/Lê_Lợi | page 9]\nNgày 20 tháng 9 âm lịch năm 1424, Lê Lợi chia quân đánh úp thành Đa Căng, phá được thành này, quân Minh bị giết và chết đuối hơn 1000 người. Tham chính Lương Nhữ Hốt chạy thoát, nghĩa quân thu nhiều lương thực, khí giới. Sau đó tướng Nhà Minh là Hoa Ánh đến cứu, Lê Lợi xua quân đánh tràn, quân Minh thua to, chạy vào Tây Đô. Lê Lợi sai thả về tất cả vợ, con, gia quyến của quân Minh bị bắt, rồi tiến quân vào châu Trà Long. Lê Lợi dẫn quân qua núi Bồ Lạp thuộc Châu Quì, thì bị Chỉ huy đồng tri nhà Minh Sư Hựu, Tri phủ châu Trà Lân là Cầm Bành đem 5000 quân đón ở mặt trước, mặt sau bị Trần Trí, Lý An, Phương Chính, Thái Phúc uy hiếp. Nhân trời sắp tối, Lê Lợi sai phục binh trong rừng đón đánh Trần Trí, Lý An, Phương Chính, quân Minh tan vỡ, Đô ty Trần Trung bị chém, mất 2000 người, 100 con ngựa. Ngày sau, nghĩa quân đến Trang Trịnh Sơn, châu Trà Lân, đánh bại Sư Hựu, chém thiên hộ Trường Bản và hơn 1000 người. Lê Lợi dẫn quân đến sách Mộc, Trần Trí đuổi theo nhưng không dám tiến sâu, lui về giữ thành Nghệ An, đưa trả Lê Trăn cầu hòa.",
+  "context_ids": [
+   "tran_bach_dang_938-p2-b1",
+   "tran_bach_dang_1288-p1-b1",
+   "le_loi-p9-b2"
+  ],
+  "elapsed_ms": 73.3,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q17",
+  "split": "test",
+  "question": "Khi không giữ nổi ngôi vua, nhà Tiền Lê được hình thành khi vị vua nào nhường ngôi cho ai?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_tien_le",
+    "page": 1,
+    "evidence": "bắt đầu khi Đinh Phế Đế nhường ngôi cho Lê Hoàn vào năm 980, trải qua ba đời quân chủ"
+   }
+  ],
+  "results": [
+   {
+    "id": "ly_cong_uan-p3-b2",
+    "text": "Các sử liệu về niên hiệu Ứng Thiên này không chép gì về công trạng của Công Uẩn với vua Đại Hành. Năm 1005, Lê Đại Hành băng hà, các hoàng tử tranh đoạt ngôi vị, đánh nhau suốt cả 8 tháng. Đến cuối năm 1005, Lê Long Việt giành được ngôi vua, tức Lê Trung Tông, nhưng chỉ 3 ngày thì bị Lê Long Đĩnh giết để giành ngôi. Các quan sợ hãi bỏ chạy, chỉ có Công Uẩn ôm xác vua mà khóc. Lê Long Đĩnh không trị tội mà còn khen ông là người trung nghĩa, tiếp tục trọng dụng, cho làm Tứ sương quân Phó Chỉ huy sứ, rồi sau thăng đến chức Tả thân vệ Điện tiền Chỉ huy sứ. Đây cũng là lần đầu tiên mà chính sử nhắc đến Lý Công Uẩn. Trước đó, trong cuộc chiến tranh ngôi của các hoàng tử nhà Lê, chỉ có Đại Việt sử ký tiền biên chép rằng Lý Công Uẩn đứng về phe Long Việt còn các bộ sử khác đều không chép rõ Lý Công Uẩn đứng về phe nào, nhưng nhìn chung thì cũng có thể phỏng đoán rằng Công Uẩn đứng về phe Long Việt, thông qua việc Công Uẩn ôm xác vua mà khóc. Bối cảnh trong nước ở thời điểm đó cực kỳ rối ren, bởi triều đình đến tận 8 tháng không có vua. Phải đến khi Long Đĩnh lên ngôi và đánh dẹp hết các vương chống đối thì trong nước mới được yên, các vương và giặc cướp đều hàng phục.",
+    "source_id": "ly_cong_uan",
+    "source": "https://vi.wikipedia.org/wiki/Lý_Công_Uẩn",
+    "page": 3,
+    "metadata": {
+     "title": "Lý Công Uẩn",
+     "period": "938_1427",
+     "dense_rank": 10,
+     "tfidf_rank": 7
+    },
+    "score": 0.029211,
+    "hit": false
+   },
+   {
+    "id": "ngo_quyen-p8-b1",
+    "text": "* Thiên Sách Vương Ngô Xương Ngập: Là con trai trưởng của Ngô Quyền, được phỏng đoán sinh ra vào khoảng thập niên thứ hai của thế kỉ 10. Tiền Ngô Vương truyền ngôi cho Ngô Xương Ngập nhưng bị Dương Tam Kha cướp ngôi, Xương Ngập phải bỏ trốn. Năm 950, Dương Tam Kha bị lật đổ, ông được em là Nam Tấn Vương Ngô Xương Văn đón về, hai anh em cùng làm vua. Năm 954 ông mất. * Nam Tấn Vương Ngô Xương Văn: Là con trai thứ hai của Ngô Quyền, mẹ là Dương hậu. Ông đã làm đảo chính, phế truất Dương Bình Vương, trung hưng lại cơ nghiệp nhà Ngô. Trị vì cùng với anh là Thiên Sách Vương từ năm 950 đến năm 954, sau đó ông một mình trị nước từ năm 955 đến năm 965 thì mất. Nhà Ngô sụp đổ. * Ngô Nam Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. * Ngô Càn Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. (1998) Đại tướng Võ Nguyên Giáp tặng đền thờ Ngô Quyền ở Đường Lâm một đĩa sứ vẽ cảnh thủy chiến Bạch Đằng và dòng chữ: Tổ quốc và nhân dân ta đời đời ghi công lớn của vị anh hùng dân tộc Ngô Quyền đã đánh tan quân xâm lược dựng nên nền độc lập của nước ta. Hiện nay ở làng Đường Lâm (Sơn Tây, Hà Nội) có đền và lăng thờ Ngô Quyền.",
+    "source_id": "ngo_quyen",
+    "source": "https://vi.wikipedia.org/wiki/Ngô_Quyền",
+    "page": 8,
+    "metadata": {
+     "title": "Ngô Quyền",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_nguyen-p47-b1",
+    "text": "Theo Phan Huy Lê thì nguyên nhân mất nước của nhà Nguyễn là rất đa dạng, từ tư duy bảo thủ của vua quan, khoa học kỹ thuật lạc hậu cho tới việc không thu được lòng dân, không nên quy trách nhiệm cho duy nhất một nguyên nhân nào: Gia Long lên ngôi là nhờ chiến thắng sau cuộc nội chiến với nhà Tây Sơn chứ không phải bằng một chiến thắng chống giặc ngoại xâm lẫy lừng như các vương triều trước. Sự lên ngôi không đủ chính danh là một trở lực không nhỏ trong việc cai trị. Ở Bắc Hà, nhiều sĩ phu, quan lại vẫn xem nhà Lê là chính thống, coi nhà Nguyễn là kẻ cướp ngôi. Tư tưởng \"phò Lê\" đã được dùng để kích thích các cuộc nổi dậy chống lại triều đình nhà Nguyễn ở miền bắc Việt Nam mãi tới mấy chục năm sau, như lời nhận xét của một người nước ngoài: \"Cách xử sự của nhà vua mới (vua Gia Long) đối với triều đại nhà Lê đã bị truất ngôi mà ông ta hứa phục hồi làm cho người Đàng Ngoài ghét bỏ ông ta.",
+    "source_id": "nha_nguyen",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Nguyễn",
+    "page": 47,
+    "metadata": {
+     "title": "Nhà Nguyễn",
+     "period": "1428_1857",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   }
+  ],
+  "context": "[ly_cong_uan-p3-b2 | https://vi.wikipedia.org/wiki/Lý_Công_Uẩn | page 3]\nCác sử liệu về niên hiệu Ứng Thiên này không chép gì về công trạng của Công Uẩn với vua Đại Hành. Năm 1005, Lê Đại Hành băng hà, các hoàng tử tranh đoạt ngôi vị, đánh nhau suốt cả 8 tháng. Đến cuối năm 1005, Lê Long Việt giành được ngôi vua, tức Lê Trung Tông, nhưng chỉ 3 ngày thì bị Lê Long Đĩnh giết để giành ngôi. Các quan sợ hãi bỏ chạy, chỉ có Công Uẩn ôm xác vua mà khóc. Lê Long Đĩnh không trị tội mà còn khen ông là người trung nghĩa, tiếp tục trọng dụng, cho làm Tứ sương quân Phó Chỉ huy sứ, rồi sau thăng đến chức Tả thân vệ Điện tiền Chỉ huy sứ. Đây cũng là lần đầu tiên mà chính sử nhắc đến Lý Công Uẩn. Trước đó, trong cuộc chiến tranh ngôi của các hoàng tử nhà Lê, chỉ có Đại Việt sử ký tiền biên chép rằng Lý Công Uẩn đứng về phe Long Việt còn các bộ sử khác đều không chép rõ Lý Công Uẩn đứng về phe nào, nhưng nhìn chung thì cũng có thể phỏng đoán rằng Công Uẩn đứng về phe Long Việt, thông qua việc Công Uẩn ôm xác vua mà khóc. Bối cảnh trong nước ở thời điểm đó cực kỳ rối ren, bởi triều đình đến tận 8 tháng không có vua. Phải đến khi Long Đĩnh lên ngôi và đánh dẹp hết các vương chống đối thì trong nước mới được yên, các vương và giặc cướp đều hàng phục.\n\n[ngo_quyen-p8-b1 | https://vi.wikipedia.org/wiki/Ngô_Quyền | page 8]\n* Thiên Sách Vương Ngô Xương Ngập: Là con trai trưởng của Ngô Quyền, được phỏng đoán sinh ra vào khoảng thập niên thứ hai của thế kỉ 10. Tiền Ngô Vương truyền ngôi cho Ngô Xương Ngập nhưng bị Dương Tam Kha cướp ngôi, Xương Ngập phải bỏ trốn. Năm 950, Dương Tam Kha bị lật đổ, ông được em là Nam Tấn Vương Ngô Xương Văn đón về, hai anh em cùng làm vua. Năm 954 ông mất. * Nam Tấn Vương Ngô Xương Văn: Là con trai thứ hai của Ngô Quyền, mẹ là Dương hậu. Ông đã làm đảo chính, phế truất Dương Bình Vương, trung hưng lại cơ nghiệp nhà Ngô. Trị vì cùng với anh là Thiên Sách Vương từ năm 950 đến năm 954, sau đó ông một mình trị nước từ năm 955 đến năm 965 thì mất. Nhà Ngô sụp đổ. * Ngô Nam Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. * Ngô Càn Hưng: Là con trai của Ngô Quyền, mẹ là Dương hậu. Không được sử sách đề cập gì thêm. (1998) Đại tướng Võ Nguyên Giáp tặng đền thờ Ngô Quyền ở Đường Lâm một đĩa sứ vẽ cảnh thủy chiến Bạch Đằng và dòng chữ: Tổ quốc và nhân dân ta đời đời ghi công lớn của vị anh hùng dân tộc Ngô Quyền đã đánh tan quân xâm lược dựng nên nền độc lập của nước ta. Hiện nay ở làng Đường Lâm (Sơn Tây, Hà Nội) có đền và lăng thờ Ngô Quyền.\n\n[nha_nguyen-p47-b1 | https://vi.wikipedia.org/wiki/Nhà_Nguyễn | page 47]\nTheo Phan Huy Lê thì nguyên nhân mất nước của nhà Nguyễn là rất đa dạng, từ tư duy bảo thủ của vua quan, khoa học kỹ thuật lạc hậu cho tới việc không thu được lòng dân, không nên quy trách nhiệm cho duy nhất một nguyên nhân nào: Gia Long lên ngôi là nhờ chiến thắng sau cuộc nội chiến với nhà Tây Sơn chứ không phải bằng một chiến thắng chống giặc ngoại xâm lẫy lừng như các vương triều trước. Sự lên ngôi không đủ chính danh là một trở lực không nhỏ trong việc cai trị. Ở Bắc Hà, nhiều sĩ phu, quan lại vẫn xem nhà Lê là chính thống, coi nhà Nguyễn là kẻ cướp ngôi. Tư tưởng \"phò Lê\" đã được dùng để kích thích các cuộc nổi dậy chống lại triều đình nhà Nguyễn ở miền bắc Việt Nam mãi tới mấy chục năm sau, như lời nhận xét của một người nước ngoài: \"Cách xử sự của nhà vua mới (vua Gia Long) đối với triều đại nhà Lê đã bị truất ngôi mà ông ta hứa phục hồi làm cho người Đàng Ngoài ghét bỏ ông ta.",
+  "context_ids": [
+   "ly_cong_uan-p3-b2",
+   "ngo_quyen-p8-b1",
+   "nha_nguyen-p47-b1"
+  ],
+  "elapsed_ms": 51.5,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "question": "Chỉ xét tài liệu thuộc thời kỳ 1858 trở đi: quân đoàn 2 tiến vào Dinh Độc Lập vào thời điểm nào năm 1975?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "chien_dich_hcm",
+    "page": 23,
+    "evidence": "tiến vào Dinh Độc Lập trưa ngày 30 tháng 4 năm 1975"
+   }
+  ],
+  "results": [
+   {
+    "id": "chien_dong_duong-p67-b2",
+    "text": "Hội nghị Fontainebleau sau đó diễn ra kéo dài hơn 2 tháng, từ 6 tháng 7 đến 10 tháng 9 năm 1946 nhưng không đem lại kết quả cụ thể nào vì 2 bên đã bế tắc ở 2 điểm bất đồng then chốt: *Việc thống nhất Nam Kỳ vào nước Việt Nam Dân chủ Cộng hòa (bao gồm Bắc Kỳ và Trung Kỳ). *Độc lập chính trị của Việt Nam Dân chủ Cộng hòa. Quan điểm của Pháp bác bỏ độc lập mà chỉ xét tự trị hay độc lập trong khuôn khổ Liên hiệp Pháp. Hơn nữa họ đòi là phải tái lập trật tự trước tiên rồi sau đó sẽ mở cuộc trưng cầu dân ý ở Nam Kỳ về vấn đề thống nhất Nam Kỳ vào nước Việt Nam Dân chủ Cộng hòa. Điểm gây nhiều khó khăn nhất là việc chính phủ Pháp đã đơn phương cho phép thành lập Nam Kỳ quốc theo tinh thần Tuyên bố ngày 24 tháng 3 năm 1945 của tướng De Gaulle, tách rời khu vực này khỏi những phong trào độc lập ở 2 miền Bắc và Trung. Ngày 27 tháng 5, Cao ủy Đông Dương Georges D'Argenlieu tiếp tục thông qua việc thành lập Xứ Thượng Nam Đông Dương, chia cắt Việt Nam thành nhiều mảnh.",
+    "source_id": "chien_dong_duong",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương",
+    "page": 67,
+    "metadata": {
+     "title": "Chiến tranh Đông Dương",
+     "period": "1858_ve_sau",
+     "dense_rank": 3,
+     "tfidf_rank": 1
+    },
+    "score": 0.032266,
+    "hit": false
+   },
+   {
+    "id": "hiep_dinh_geneve-p22-b2",
+    "text": "Hai bên đã ký được Quyết định chung ngày 22-7-1954 về hạn chế hoạt động quân sự từ ngày 22-7-1954 đến ngày ngừng bắn thật sự ở các chiến trường. Hai bên cam kết không mở những cuộc hành quân quy mô, quân Pháp đình chỉ ném bom, bắn phá, dùng bom napalm. Hội nghị quân sự tại chỗ là hội nghị quân sự địa phương (tức là Hội nghị Trung Giã) có nhiệm vụ phối hợp chặt chẽ với các phái đoàn tại Hội nghị Genève. Trong hơn 3 tuần, từ 4/7 đến 27/7/1954, Hội nghị Trung Giã đã thảo luận các vấn đề tù binh, ngưng bắn, và thiết lập các tiểu ban hỗn hợp về tù binh, tiểu ban nghiên cứu thủ tục thi hành ngưng bắn và các tiểu ban hỗn hợp lãnh thổ. Cuối cùng có những thỏa hiệp được ký kết nhằm \"làm cho các đơn vị đối lập cách biệt nhau ra, trở về các căn cứ, hoặc tập trung ở những địa điểm trú quân tạm thời cốt để tránh mọi giao tiếp có thể gây ra xung đột giữa hai bên.\"",
+    "source_id": "hiep_dinh_geneve",
+    "source": "https://vi.wikipedia.org/wiki/Hiệp_định_Genève",
+    "page": 22,
+    "metadata": {
+     "title": "Hiệp định Genève",
+     "period": "1858_ve_sau",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "chien_dich_hcm-p20-b2",
+    "text": "Sư đoàn 320A tách Trung đoàn 28 sang phối hợp với Quân đoàn 1 đánh chiếm Bộ Tổng Tham mưu Quân lực Việt Nam Cộng hòa, điều Trung đoàn 64 có một Đại đội Xe tăng K-63 (PT-85) đi kèm tiến về phía sau Dinh Độc Lập qua đường Lê Văn Duyệt và đường Hồng Thập Tự còn Trung đoàn 24 và 2 tiểu đoàn thuộc Lữ đoàn Xe tăng 273 thì phối hợp với Trung đoàn 48 Sư đoàn 320B (Quân đoàn 1) đánh chiếm Bộ Tổng Tham mưu Việt Nam Cộng hòa. Khi các đơn vị này đến nơi thì các đơn vị phái đi trước của Lữ đoàn Xe tăng 203 và Trung đoàn 66 (Sư đoàn 304) đã có mặt tại Dinh Độc Lập trước đó 30 phút. Ngoài ra 2 Trung đoàn 316 và 320 thì tiếp tục truy quét Sư đoàn 25 Quân lực Việt Nam Cộng hòa, giải phóng Củ Chi, Hóc Môn và Tây Ninh.",
+    "source_id": "chien_dich_hcm",
+    "source": "https://vi.wikipedia.org/wiki/Chiến_dịch_Hồ_Chí_Minh",
+    "page": 20,
+    "metadata": {
+     "title": "Chiến dịch Hồ Chí Minh",
+     "period": "1858_ve_sau",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[chien_dong_duong-p67-b2 | https://vi.wikipedia.org/wiki/Chiến_tranh_Đông_Dương | page 67]\nHội nghị Fontainebleau sau đó diễn ra kéo dài hơn 2 tháng, từ 6 tháng 7 đến 10 tháng 9 năm 1946 nhưng không đem lại kết quả cụ thể nào vì 2 bên đã bế tắc ở 2 điểm bất đồng then chốt: *Việc thống nhất Nam Kỳ vào nước Việt Nam Dân chủ Cộng hòa (bao gồm Bắc Kỳ và Trung Kỳ). *Độc lập chính trị của Việt Nam Dân chủ Cộng hòa. Quan điểm của Pháp bác bỏ độc lập mà chỉ xét tự trị hay độc lập trong khuôn khổ Liên hiệp Pháp. Hơn nữa họ đòi là phải tái lập trật tự trước tiên rồi sau đó sẽ mở cuộc trưng cầu dân ý ở Nam Kỳ về vấn đề thống nhất Nam Kỳ vào nước Việt Nam Dân chủ Cộng hòa. Điểm gây nhiều khó khăn nhất là việc chính phủ Pháp đã đơn phương cho phép thành lập Nam Kỳ quốc theo tinh thần Tuyên bố ngày 24 tháng 3 năm 1945 của tướng De Gaulle, tách rời khu vực này khỏi những phong trào độc lập ở 2 miền Bắc và Trung. Ngày 27 tháng 5, Cao ủy Đông Dương Georges D'Argenlieu tiếp tục thông qua việc thành lập Xứ Thượng Nam Đông Dương, chia cắt Việt Nam thành nhiều mảnh.\n\n[hiep_dinh_geneve-p22-b2 | https://vi.wikipedia.org/wiki/Hiệp_định_Genève | page 22]\nHai bên đã ký được Quyết định chung ngày 22-7-1954 về hạn chế hoạt động quân sự từ ngày 22-7-1954 đến ngày ngừng bắn thật sự ở các chiến trường. Hai bên cam kết không mở những cuộc hành quân quy mô, quân Pháp đình chỉ ném bom, bắn phá, dùng bom napalm. Hội nghị quân sự tại chỗ là hội nghị quân sự địa phương (tức là Hội nghị Trung Giã) có nhiệm vụ phối hợp chặt chẽ với các phái đoàn tại Hội nghị Genève. Trong hơn 3 tuần, từ 4/7 đến 27/7/1954, Hội nghị Trung Giã đã thảo luận các vấn đề tù binh, ngưng bắn, và thiết lập các tiểu ban hỗn hợp về tù binh, tiểu ban nghiên cứu thủ tục thi hành ngưng bắn và các tiểu ban hỗn hợp lãnh thổ. Cuối cùng có những thỏa hiệp được ký kết nhằm \"làm cho các đơn vị đối lập cách biệt nhau ra, trở về các căn cứ, hoặc tập trung ở những địa điểm trú quân tạm thời cốt để tránh mọi giao tiếp có thể gây ra xung đột giữa hai bên.\"\n\n[chien_dich_hcm-p20-b2 | https://vi.wikipedia.org/wiki/Chiến_dịch_Hồ_Chí_Minh | page 20]\nSư đoàn 320A tách Trung đoàn 28 sang phối hợp với Quân đoàn 1 đánh chiếm Bộ Tổng Tham mưu Quân lực Việt Nam Cộng hòa, điều Trung đoàn 64 có một Đại đội Xe tăng K-63 (PT-85) đi kèm tiến về phía sau Dinh Độc Lập qua đường Lê Văn Duyệt và đường Hồng Thập Tự còn Trung đoàn 24 và 2 tiểu đoàn thuộc Lữ đoàn Xe tăng 273 thì phối hợp với Trung đoàn 48 Sư đoàn 320B (Quân đoàn 1) đánh chiếm Bộ Tổng Tham mưu Việt Nam Cộng hòa. Khi các đơn vị này đến nơi thì các đơn vị phái đi trước của Lữ đoàn Xe tăng 203 và Trung đoàn 66 (Sư đoàn 304) đã có mặt tại Dinh Độc Lập trước đó 30 phút. Ngoài ra 2 Trung đoàn 316 và 320 thì tiếp tục truy quét Sư đoàn 25 Quân lực Việt Nam Cộng hòa, giải phóng Củ Chi, Hóc Môn và Tây Ninh.",
+  "context_ids": [
+   "chien_dong_duong-p67-b2",
+   "hiep_dinh_geneve-p22-b2",
+   "chien_dich_hcm-p20-b2"
+  ],
+  "elapsed_ms": 59.6,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "question": "Sau khi đánh tan đồn Ngọc Hồi, Quang Trung đưa quân vào thành Thăng Long vào lúc nào?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nguyen_hue",
+    "page": 23,
+    "evidence": "Trưa mùng 5 Tết, Quang Trung tiến quân vào thành Thăng Long trong sự chào đón của nhân dân"
+   }
+  ],
+  "results": [
+   {
+    "id": "ngoc_hoi_dong_da-p11-b1",
+    "text": "Theo Đại Nam chính biên liệt truyện, quân Quang Trung thần tốc tiến lên bắt gọn đám quân Thanh do thám và tiêu diệt các đồn bắc sông Nguyệt Quyết và đồn Nhật Tảo (Duy Tiên). Do đạo quân Tây Sơn hành quân nhanh và các đám quân do thám bị bắt, quân Thanh từ đồn Hà Hồi tới Thăng Long không biết gì về nhất cử nhất động của quân Tây Sơn. Ngày mồng 3 tháng Giêng, quân Tây Sơn tiến đến Hà Hồi cách Thăng Long khoảng 20 km. Quang Trung cho quân vây chặt đồn rồi sai bắc loa kêu gọi quân Thanh đầu hàng. Quân Thanh bị bất ngờ trước sự áp sát quá nhanh của quân Tây Sơn, không kịp kháng cự, đều ra hàng. Ngày mồng 4 tháng Giêng, Quang Trung tiến đến đồn Ngọc Hồi. Hứa Thế Hanh ở đây nghe tin đồn Hà Hồi bị diệt vội báo về Thăng Long. Tôn Sĩ Nghị vội điều Thang Hùng Nghiệp mang quân ra tăng viện, lại đặc sai 20 kỵ binh phải thay nhau chạy đi chạy lại báo cáo tình hình. Nhưng khi tiến quân tới Ngọc Hồi, Quang Trung không đánh ngay. Quân Thanh bị động cũng không dám giao tranh trước nhưng cũng không biết bị đánh khi nào. Đến sáng sớm mùng 5, Quang Trung áp sát đồn Ngọc Hồi. Và đánh tan đồn Ngọc Hồi trong ngày.",
+    "source_id": "ngoc_hoi_dong_da",
+    "source": "https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa",
+    "page": 11,
+    "metadata": {
+     "title": "Trận Ngọc Hồi – Đống Đa",
+     "period": "1428_1857",
+     "dense_rank": 2,
+     "tfidf_rank": 1
+    },
+    "score": 0.032522,
+    "hit": false
+   },
+   {
+    "id": "nguyen_hue-p22-b2",
+    "text": "từ Thanh Hoá ra Ninh Bình chỉ mất có một ngày, không quản đường xa khó nhọc đã làm chết nhiều ngựa voi của ông, trong khi người khác phải mất ba bốn ngày\". Ngày 20 tháng 12 năm Mậu Thân (15 tháng 1 năm 1789), đại quân của Quang Trung đã ra đến Tam Điệp. Sau khi xem xét tình hình, Quang Trung hẹn ba quân ngày mồng 7 Tết sẽ quét sạch quân Thanh, vào ăn Tết ở Thăng Long. Quang Trung chia quân làm 5 đạo. Một cánh do đô đốc Long chỉ huy từ làng Nhân Mục tập kích đồn Khương Thượng và phía tây Thăng Long. Cánh đô đốc Bảo tiến đánh các đồn phía nam Thăng Long. Trung quân do đích thân Quang Trung chỉ huy, phối hợp với đô đốc Bảo đánh diệt các đồn phía nam Thăng Long. Cánh đô đốc Tuyết và đô đốc Lộc theo đường biển ra Bắc, chặn đường lui của địch ở phía bắc sông Nhị Hà và huyện Phượng Nhãn.",
+    "source_id": "nguyen_hue",
+    "source": "https://vi.wikipedia.org/wiki/Nguyễn_Huệ",
+    "page": 22,
+    "metadata": {
+     "title": "Nguyễn Huệ",
+     "period": "1428_1857",
+     "dense_rank": 1,
+     "tfidf_rank": 6
+    },
+    "score": 0.031545,
+    "hit": false
+   },
+   {
+    "id": "nguyen_hue-p23-b1",
+    "text": "Đêm 30 tháng Chạp âm lịch, quân Tây Sơn đánh diệt đồn Gián Khẩu của các tướng Lê Chiêu Thống. Sau đó Quang Trung đánh diệt các đồn Nguyệt Quyết, Nhật Tảo, dụ hàng được đồn Hà Hồi. Đêm mồng 4 Tết, Quang Trung tiến đến trước đồn lớn nhất của quân Thanh là Ngọc Hồi nhưng dừng lại chưa đánh khiến quân Thanh lo sợ, phần bị động không dám đánh trước nhưng cũng không biết bị đánh lúc nào. Trong khi đó cánh quân của đô đốc Long bất ngờ tập kích đồn Khương Thượng khiến quân Thanh không kịp trở tay, hàng vạn lính bỏ mạng. Chủ tướng Sầm Nghi Đống tự vẫn. Xác quân Thanh chết sau xếp thành 13 gò đống lớn, có đa mọc um tùm nên gọi là gò Đống Đa. Đô đốc Long tiến vào đánh phá quân địch phòng thủ ở Tây Long. Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi. Trước sức tấn công mãnh liệt của Tây Sơn, quân Thanh bị động thua chết hàng vạn, phần lớn các tướng bị giết. Trong khi Quang Trung chưa đánh Ngọc Hồi thì Tôn Sĩ Nghị nghe tin đô đốc Long đánh vào Thăng Long, cuống cuồng sợ hãi đã bỏ chạy trước. Đến sông Nhị Hà, sợ quân Tây sơn đuổi theo, Tôn Sĩ Nghị hạ lệnh cắt cầu khiến quân Thanh rơi xuống sông chết rất nhiều làm dòng sông bị nghẽn dòng chảy.",
+    "source_id": "nguyen_hue",
+    "source": "https://vi.wikipedia.org/wiki/Nguyễn_Huệ",
+    "page": 23,
+    "metadata": {
+     "title": "Nguyễn Huệ",
+     "period": "1428_1857",
+     "dense_rank": 5,
+     "tfidf_rank": 3
+    },
+    "score": 0.031258,
+    "hit": false
+   }
+  ],
+  "context": "[ngoc_hoi_dong_da-p11-b1 | https://vi.wikipedia.org/wiki/Trận_Ngọc_Hồi_–_Đống_Đa | page 11]\nTheo Đại Nam chính biên liệt truyện, quân Quang Trung thần tốc tiến lên bắt gọn đám quân Thanh do thám và tiêu diệt các đồn bắc sông Nguyệt Quyết và đồn Nhật Tảo (Duy Tiên). Do đạo quân Tây Sơn hành quân nhanh và các đám quân do thám bị bắt, quân Thanh từ đồn Hà Hồi tới Thăng Long không biết gì về nhất cử nhất động của quân Tây Sơn. Ngày mồng 3 tháng Giêng, quân Tây Sơn tiến đến Hà Hồi cách Thăng Long khoảng 20 km. Quang Trung cho quân vây chặt đồn rồi sai bắc loa kêu gọi quân Thanh đầu hàng. Quân Thanh bị bất ngờ trước sự áp sát quá nhanh của quân Tây Sơn, không kịp kháng cự, đều ra hàng. Ngày mồng 4 tháng Giêng, Quang Trung tiến đến đồn Ngọc Hồi. Hứa Thế Hanh ở đây nghe tin đồn Hà Hồi bị diệt vội báo về Thăng Long. Tôn Sĩ Nghị vội điều Thang Hùng Nghiệp mang quân ra tăng viện, lại đặc sai 20 kỵ binh phải thay nhau chạy đi chạy lại báo cáo tình hình. Nhưng khi tiến quân tới Ngọc Hồi, Quang Trung không đánh ngay. Quân Thanh bị động cũng không dám giao tranh trước nhưng cũng không biết bị đánh khi nào. Đến sáng sớm mùng 5, Quang Trung áp sát đồn Ngọc Hồi. Và đánh tan đồn Ngọc Hồi trong ngày.\n\n[nguyen_hue-p22-b2 | https://vi.wikipedia.org/wiki/Nguyễn_Huệ | page 22]\ntừ Thanh Hoá ra Ninh Bình chỉ mất có một ngày, không quản đường xa khó nhọc đã làm chết nhiều ngựa voi của ông, trong khi người khác phải mất ba bốn ngày\". Ngày 20 tháng 12 năm Mậu Thân (15 tháng 1 năm 1789), đại quân của Quang Trung đã ra đến Tam Điệp. Sau khi xem xét tình hình, Quang Trung hẹn ba quân ngày mồng 7 Tết sẽ quét sạch quân Thanh, vào ăn Tết ở Thăng Long. Quang Trung chia quân làm 5 đạo. Một cánh do đô đốc Long chỉ huy từ làng Nhân Mục tập kích đồn Khương Thượng và phía tây Thăng Long. Cánh đô đốc Bảo tiến đánh các đồn phía nam Thăng Long. Trung quân do đích thân Quang Trung chỉ huy, phối hợp với đô đốc Bảo đánh diệt các đồn phía nam Thăng Long. Cánh đô đốc Tuyết và đô đốc Lộc theo đường biển ra Bắc, chặn đường lui của địch ở phía bắc sông Nhị Hà và huyện Phượng Nhãn.\n\n[nguyen_hue-p23-b1 | https://vi.wikipedia.org/wiki/Nguyễn_Huệ | page 23]\nĐêm 30 tháng Chạp âm lịch, quân Tây Sơn đánh diệt đồn Gián Khẩu của các tướng Lê Chiêu Thống. Sau đó Quang Trung đánh diệt các đồn Nguyệt Quyết, Nhật Tảo, dụ hàng được đồn Hà Hồi. Đêm mồng 4 Tết, Quang Trung tiến đến trước đồn lớn nhất của quân Thanh là Ngọc Hồi nhưng dừng lại chưa đánh khiến quân Thanh lo sợ, phần bị động không dám đánh trước nhưng cũng không biết bị đánh lúc nào. Trong khi đó cánh quân của đô đốc Long bất ngờ tập kích đồn Khương Thượng khiến quân Thanh không kịp trở tay, hàng vạn lính bỏ mạng. Chủ tướng Sầm Nghi Đống tự vẫn. Xác quân Thanh chết sau xếp thành 13 gò đống lớn, có đa mọc um tùm nên gọi là gò Đống Đa. Đô đốc Long tiến vào đánh phá quân địch phòng thủ ở Tây Long. Sáng mồng 5, Quang Trung mới cùng đô đốc Bảo tổng tấn công vào đồn Ngọc Hồi. Trước sức tấn công mãnh liệt của Tây Sơn, quân Thanh bị động thua chết hàng vạn, phần lớn các tướng bị giết. Trong khi Quang Trung chưa đánh Ngọc Hồi thì Tôn Sĩ Nghị nghe tin đô đốc Long đánh vào Thăng Long, cuống cuồng sợ hãi đã bỏ chạy trước. Đến sông Nhị Hà, sợ quân Tây sơn đuổi theo, Tôn Sĩ Nghị hạ lệnh cắt cầu khiến quân Thanh rơi xuống sông chết rất nhiều làm dòng sông bị nghẽn dòng chảy.",
+  "context_ids": [
+   "ngoc_hoi_dong_da-p11-b1",
+   "nguyen_hue-p22-b2",
+   "nguyen_hue-p23-b1"
+  ],
+  "elapsed_ms": 54.3,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "question": "Trước cuộc kháng chiến chống quân Nguyên Mông lần thứ ba, ai được nhà Trần phong làm Quốc công tiết chế thống lĩnh quân đội toàn quốc?",
+  "config": "hybrid-top3",
+  "method": "hybrid",
+  "top_k": 3,
+  "budget_chars": 4500,
+  "filters": null,
+  "gold": [
+   {
+    "source_id": "nha_tran",
+    "page": 7,
+    "evidence": "Phong cho Hưng Đạo vương Trần Quốc Tuấn (興道王陳國峻) làm Quốc công tiết chế, thống lĩnh quân đội toàn quốc"
+   }
+  ],
+  "results": [
+   {
+    "id": "khang_chien_nguyen_tran-p6-b1",
+    "text": "Theo các nhà nghiên cứu, chiến thắng của nhà Trần có được nhờ vào sự sáng suốt của các tướng lĩnh trong chiến thuật, đứng đầu là Trần Hưng Đạo. Trong khi tác chiến, các tướng lĩnh nhà Trần chủ động tránh lực lượng hùng hậu người Mông Cổ mà đánh vào các đạo quân người Hán bị cưỡng bức theo quân Mông sang Đại Việt. Tâm lý của những người mất nước và phải chịu sự quản thúc của người Mông khiến các đạo quân này nhanh chóng tan rã, sức kháng cự thấp. Một cánh quân tan rã có tác động tâm lý lớn tới các đạo quân còn lại trên toàn mặt trận. Theo giáo sư Đào Duy Anh thì có 3 nhược điểm khiến quân Mông Nguyên thất bại ở Đại Việt: #Người Mông Cổ đi đánh xa, lương thực không được vận chuyển đầy đủ mà chỉ mong cướp bóc của dân bản địa để nuôi quân, nếu đối phương áp dụng chiến lược \"vườn không nhà trống thì quân Mông Cổ dễ bị khốn đốn vì thiếu lương do không cướp được của dân bản địa (Trong lần đánh Đại Việt thứ 3, quân Nguyên rút kinh nghiệm điều này và đã cho đoàn thuyền chở nhiều lương thực sang hỗ trợ, nhưng đoàn thuyền này lại bị Đại Việt phục kích tiêu diệt nên quân Nguyên lại tiếp tục thất bại). #Quân Mông Nguyên là người phương bắc, không hợp thuỷ thổ.",
+    "source_id": "khang_chien_nguyen_tran",
+    "source": "https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông",
+    "page": 6,
+    "metadata": {
+     "title": "Kháng chiến chống quân Nguyên Mông",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 1
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "nha_tran-p2-b1",
+    "text": "Dưới triều nhà Trần, lực lượng quân đội đặc biệt được chú trọng phát triển đủ sức đánh dẹp các cuộc nội loạn và đương đầu với quân đội các nước xung quanh. Lực lượng quân đội nhà Trần thiện chiến nhất là thủy binh, rồi kỵ binh, bộ binh, tượng binh... Chính sách chia thực ấp cho các thân tộc trong họ, mỗi thế lực trong dòng tộc đều có quân đội tinh nhuệ là nền tảng vững vàng khiến quân đội nhà Trần đánh bại được cuộc xâm phạm của quân đội Nhà Nguyên – Đế quốc Mông Cổ qua 3 lần vào năm 1258, 1285 và 1287. Nhiều tôn thất hoàng gia như Chiêu Minh Đại vương Trần Quang Khải, Chiêu Văn Đại vương Trần Nhật Duật, Hưng Đạo Đại vương Trần Quốc Tuấn và Nhân Huệ vương Trần Khánh Dư đều là những tướng cầm quân tài ba, có vai trò quan trọng trong chiến thắng vào năm 1285 và 1287. Tổ tiên nhà Trần vốn làm nghề chài lưới, có gốc là người Mân Việt (hiện nay thuộc tỉnh Phúc Kiến) di cư đến đất Đại Việt đầu tiên ở Yên Sinh, Đông Triều (nay là phường An Sinh, thành phố Quảng Ninh) sau di dời đến các vùng ven biển như Tức Mặc (phường Nam Định, tỉnh Ninh Bình) và Thái Đường (xã Long Hưng, tỉnh Hưng Yên).",
+    "source_id": "nha_tran",
+    "source": "https://vi.wikipedia.org/wiki/Nhà_Trần",
+    "page": 2,
+    "metadata": {
+     "title": "Nhà Trần",
+     "period": "938_1427",
+     "dense_rank": 1,
+     "tfidf_rank": null
+    },
+    "score": 0.016393,
+    "hit": false
+   },
+   {
+    "id": "khang_chien_nguyen_tran-p1-b1",
+    "text": "Chiến tranh Mông Nguyên- Đại Việt hay Kháng chiến chống quân xâm lược Mông Nguyên (tên gọi ở Việt Nam) là một cuộc chiến tranh bảo vệ tổ quốc của quân và dân Đại Việt đầu thời kỳ nhà Trần dưới thời các vua Trần Thái Tông, Trần Thánh Tông và Trần Nhân Tông trước sự tấn công của đế quốc Mông Cổ. Tuy thời gian của cuộc kháng chiến bắt đầu từ năm 1258 đến năm 1288, nhưng thời gian chiến sự chính thức chỉ tổng cộng bao gồm khoảng gần 9 tháng, chia làm 3 đợt. Trước, giữa và sau các đợt chiến sự là thời gian tiến hành tích cực các hoạt động ngoại giao. Kết quả, Đại Việt bảo vệ được nền độc lập của mình, nhưng trên danh nghĩa vẫn phải chịu làm một nước chư hầu của đế quốc Mông Cổ để tránh xung đột thêm nữa. Năm 1226, dưới sự sắp đặt của Trần Thủ Độ, nữ hoàng nhà Lý là Lý Chiêu Hoàng nhường ngôi cho chồng là Trần Cảnh, tức là vua Trần Thái Tông. Nhà Trần chính thức thay nhà Lý. Sau khi chính thức nắm quyền cai trị, nhà Trần ra sức củng cố nội chính và chấm dứt nạn cát cứ từ cuối thời Lý. Tới năm 1229, sau khi Nguyễn Nộn ốm chết, các lực lượng chống đối cơ bản bị dẹp. Trong khi đó ở phương bắc, Trung Quốc từ lâu đã bị chia cắt.",
+    "source_id": "khang_chien_nguyen_tran",
+    "source": "https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông",
+    "page": 1,
+    "metadata": {
+     "title": "Kháng chiến chống quân Nguyên Mông",
+     "period": "938_1427",
+     "dense_rank": null,
+     "tfidf_rank": 2
+    },
+    "score": 0.016129,
+    "hit": false
+   }
+  ],
+  "context": "[khang_chien_nguyen_tran-p6-b1 | https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông | page 6]\nTheo các nhà nghiên cứu, chiến thắng của nhà Trần có được nhờ vào sự sáng suốt của các tướng lĩnh trong chiến thuật, đứng đầu là Trần Hưng Đạo. Trong khi tác chiến, các tướng lĩnh nhà Trần chủ động tránh lực lượng hùng hậu người Mông Cổ mà đánh vào các đạo quân người Hán bị cưỡng bức theo quân Mông sang Đại Việt. Tâm lý của những người mất nước và phải chịu sự quản thúc của người Mông khiến các đạo quân này nhanh chóng tan rã, sức kháng cự thấp. Một cánh quân tan rã có tác động tâm lý lớn tới các đạo quân còn lại trên toàn mặt trận. Theo giáo sư Đào Duy Anh thì có 3 nhược điểm khiến quân Mông Nguyên thất bại ở Đại Việt: #Người Mông Cổ đi đánh xa, lương thực không được vận chuyển đầy đủ mà chỉ mong cướp bóc của dân bản địa để nuôi quân, nếu đối phương áp dụng chiến lược \"vườn không nhà trống thì quân Mông Cổ dễ bị khốn đốn vì thiếu lương do không cướp được của dân bản địa (Trong lần đánh Đại Việt thứ 3, quân Nguyên rút kinh nghiệm điều này và đã cho đoàn thuyền chở nhiều lương thực sang hỗ trợ, nhưng đoàn thuyền này lại bị Đại Việt phục kích tiêu diệt nên quân Nguyên lại tiếp tục thất bại). #Quân Mông Nguyên là người phương bắc, không hợp thuỷ thổ.\n\n[nha_tran-p2-b1 | https://vi.wikipedia.org/wiki/Nhà_Trần | page 2]\nDưới triều nhà Trần, lực lượng quân đội đặc biệt được chú trọng phát triển đủ sức đánh dẹp các cuộc nội loạn và đương đầu với quân đội các nước xung quanh. Lực lượng quân đội nhà Trần thiện chiến nhất là thủy binh, rồi kỵ binh, bộ binh, tượng binh... Chính sách chia thực ấp cho các thân tộc trong họ, mỗi thế lực trong dòng tộc đều có quân đội tinh nhuệ là nền tảng vững vàng khiến quân đội nhà Trần đánh bại được cuộc xâm phạm của quân đội Nhà Nguyên – Đế quốc Mông Cổ qua 3 lần vào năm 1258, 1285 và 1287. Nhiều tôn thất hoàng gia như Chiêu Minh Đại vương Trần Quang Khải, Chiêu Văn Đại vương Trần Nhật Duật, Hưng Đạo Đại vương Trần Quốc Tuấn và Nhân Huệ vương Trần Khánh Dư đều là những tướng cầm quân tài ba, có vai trò quan trọng trong chiến thắng vào năm 1285 và 1287. Tổ tiên nhà Trần vốn làm nghề chài lưới, có gốc là người Mân Việt (hiện nay thuộc tỉnh Phúc Kiến) di cư đến đất Đại Việt đầu tiên ở Yên Sinh, Đông Triều (nay là phường An Sinh, thành phố Quảng Ninh) sau di dời đến các vùng ven biển như Tức Mặc (phường Nam Định, tỉnh Ninh Bình) và Thái Đường (xã Long Hưng, tỉnh Hưng Yên).\n\n[khang_chien_nguyen_tran-p1-b1 | https://vi.wikipedia.org/wiki/Kháng_chiến_chống_quân_Nguyên_Mông | page 1]\nChiến tranh Mông Nguyên- Đại Việt hay Kháng chiến chống quân xâm lược Mông Nguyên (tên gọi ở Việt Nam) là một cuộc chiến tranh bảo vệ tổ quốc của quân và dân Đại Việt đầu thời kỳ nhà Trần dưới thời các vua Trần Thái Tông, Trần Thánh Tông và Trần Nhân Tông trước sự tấn công của đế quốc Mông Cổ. Tuy thời gian của cuộc kháng chiến bắt đầu từ năm 1258 đến năm 1288, nhưng thời gian chiến sự chính thức chỉ tổng cộng bao gồm khoảng gần 9 tháng, chia làm 3 đợt. Trước, giữa và sau các đợt chiến sự là thời gian tiến hành tích cực các hoạt động ngoại giao. Kết quả, Đại Việt bảo vệ được nền độc lập của mình, nhưng trên danh nghĩa vẫn phải chịu làm một nước chư hầu của đế quốc Mông Cổ để tránh xung đột thêm nữa. Năm 1226, dưới sự sắp đặt của Trần Thủ Độ, nữ hoàng nhà Lý là Lý Chiêu Hoàng nhường ngôi cho chồng là Trần Cảnh, tức là vua Trần Thái Tông. Nhà Trần chính thức thay nhà Lý. Sau khi chính thức nắm quyền cai trị, nhà Trần ra sức củng cố nội chính và chấm dứt nạn cát cứ từ cuối thời Lý. Tới năm 1229, sau khi Nguyễn Nộn ốm chết, các lực lượng chống đối cơ bản bị dẹp. Trong khi đó ở phương bắc, Trung Quốc từ lâu đã bị chia cắt.",
+  "context_ids": [
+   "khang_chien_nguyen_tran-p6-b1",
+   "nha_tran-p2-b1",
+   "khang_chien_nguyen_tran-p1-b1"
+  ],
+  "elapsed_ms": 63.5,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false
+ }
+]
